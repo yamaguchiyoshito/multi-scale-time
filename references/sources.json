@@ -270,5 +270,21 @@
     "url": "https://doi.org/10.5040/9781350342002",
     "note": "Bloomsbury。『物質と記憶』を現代の諸科学と接続して読み直す英語論集。英語で本連載の背景を追う読者向け。",
     "checked": "2026年10月29日に CrossRef の書誌（編者・年・出版社・DOI）を確認し、DOI が Bloomsbury のページへ解決すること（HTTP 200）を確認。原文は再取得していない。"
+  },
+  "grothe-2010": {
+    "author": "Benedikt Grothe, Michael Pecka, David McAlpine",
+    "year": 2010,
+    "title": "Mechanisms of Sound Localization in Mammals",
+    "url": "https://doi.org/10.1152/physrev.00026.2009",
+    "note": "Physiological Reviews 90(3), 983–1012。哺乳類の音源定位の神経機構の総説。両耳間時間差（ITD）は数十マイクロ秒の精度で検出され、人間が利用する範囲は最大でも約700マイクロ秒である。第2回の表の「音の方向の検出」の尺度の根拠。",
+    "checked": "2026年10月29日に CrossRef の書誌（著者・年・誌名・巻号・頁）と Europe PMC の記録（PMID 20664077）を照合し、DOI が American Physiological Society のページへ解決すること（HTTP 202）を確認。原文は再取得していない。"
+  },
+  "bolanowski-1988": {
+    "author": "S. J. Bolanowski, G. A. Gescheider, R. T. Verrillo, C. M. Checkosky",
+    "year": 1988,
+    "title": "Four channels mediate the mechanical aspects of touch",
+    "url": "https://doi.org/10.1121/1.397184",
+    "note": "The Journal of the Acoustical Society of America 84(5), 1680–1694。触覚の振動感覚が四つのチャネルで媒介され、パチニ小体系は数百Hz（周期で数ミリ秒）の振動まで感じることを示した。第2回の表の「触覚：振動の検出」の尺度の根拠。",
+    "checked": "2026年10月29日に CrossRef の書誌（著者・年・誌名・巻号・頁）と Europe PMC の記録（PMID 3209773）を照合。DOI は Acoustical Society of America のページへ解決する（機械的な取得では403だが自動アクセス対策によるもの）。原文は再取得していない。"
   }
 }

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
 <title id="title">記憶は時系列だけで整理されていない</title>
 <desc id="desc">「海」を中心に、異なる時代・場所の記憶が類似性・近接性・感情で結ばれる</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker><radialGradient id="g05c-1"><stop offset="0" stop-color="#2b5f9e" stop-opacity="0.5"/><stop offset="0.55" stop-color="#2b5f9e" stop-opacity="0.23"/><stop offset="1" stop-color="#2b5f9e" stop-opacity="0"/></radialGradient></defs>
+<defs><radialGradient id="g05c-1"><stop offset="0" stop-color="#2b5f9e" stop-opacity="0.5"/><stop offset="0.55" stop-color="#2b5f9e" stop-opacity="0.23"/><stop offset="1" stop-color="#2b5f9e" stop-opacity="0"/></radialGradient><marker id="arrow-5d6873" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker></defs>
 <rect width="1200" height="720" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     05     図5-3</text>
@@ -10,33 +10,33 @@
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
 <circle cx="600.0" cy="380.0" r="70" fill="url(#g05c-1)"/>
 <text x="600.0" y="388.0" fill="#2b5f9e" font-size="28" text-anchor="middle" font-weight="700">海</text>
-<line x1="600.0" y1="380.0" x2="330.0" y2="280.0" stroke="#5d6873" stroke-width="1.8"/>
+<line x1="600.0" y1="380.0" x2="330.0" y2="280.0" stroke="#5d6873" stroke-width="2.4"/>
 <rect x="240.0" y="260.0" width="180.0" height="40.0" rx="20" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
 <text x="330.0" y="286.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">海水浴（子どもの頃）</text>
-<line x1="600.0" y1="380.0" x2="870.0" y2="270.0" stroke="#5d6873" stroke-width="1.8"/>
+<line x1="600.0" y1="380.0" x2="870.0" y2="270.0" stroke="#5d6873" stroke-width="2.4"/>
 <rect x="780.0" y="250.0" width="180.0" height="40.0" rx="20" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
 <text x="870.0" y="276.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">旅行先の夕日</text>
-<line x1="600.0" y1="380.0" x2="300.0" y2="450.0" stroke="#5d6873" stroke-width="1.8" stroke-dasharray="8 7"/>
+<line x1="600.0" y1="380.0" x2="300.0" y2="450.0" stroke="#5d6873" stroke-width="2.4" stroke-dasharray="8 7"/>
 <rect x="210.0" y="430.0" width="180.0" height="40.0" rx="20" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
 <text x="300.0" y="456.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">波の音</text>
-<line x1="600.0" y1="380.0" x2="900.0" y2="440.0" stroke="#5d6873" stroke-width="1.8" stroke-dasharray="8 7"/>
+<line x1="600.0" y1="380.0" x2="900.0" y2="440.0" stroke="#5d6873" stroke-width="2.4" stroke-dasharray="8 7"/>
 <rect x="810.0" y="420.0" width="180.0" height="40.0" rx="20" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
 <text x="900.0" y="446.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">潮の香り</text>
-<line x1="600.0" y1="380.0" x2="470.0" y2="540.0" stroke="#5d6873" stroke-width="1.8" stroke-dasharray="2 6" stroke-linecap="round"/>
+<line x1="600.0" y1="380.0" x2="470.0" y2="540.0" stroke="#5d6873" stroke-width="2.4" stroke-dasharray="2 9" stroke-linecap="round"/>
 <rect x="380.0" y="520.0" width="180.0" height="40.0" rx="20" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
 <text x="470.0" y="546.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">海の映画</text>
-<line x1="600.0" y1="380.0" x2="760.0" y2="545.0" stroke="#5d6873" stroke-width="1.8" stroke-dasharray="2 6" stroke-linecap="round"/>
+<line x1="600.0" y1="380.0" x2="760.0" y2="545.0" stroke="#5d6873" stroke-width="2.4" stroke-dasharray="2 9" stroke-linecap="round"/>
 <rect x="670.0" y="525.0" width="180.0" height="40.0" rx="20" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
 <text x="760.0" y="551.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">そこで出会った人</text>
-<line x1="330.0" y1="300.0" x2="300.0" y2="430.0" stroke="#5d6873" stroke-width="1.2" stroke-dasharray="2 6" stroke-linecap="round"/>
+<line x1="330.0" y1="300.0" x2="300.0" y2="430.0" stroke="#5d6873" stroke-width="1.2" stroke-dasharray="2 9" stroke-linecap="round"/>
 <line x1="870.0" y1="290.0" x2="900.0" y2="420.0" stroke="#5d6873" stroke-width="1.2" stroke-dasharray="8 7"/>
 <text x="1000.0" y="214.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">実線：類似性</text>
 <line x1="1130.0" y1="209.0" x2="1160.0" y2="209.0" stroke="#5d6873" stroke-width="1.8"/>
 <text x="1000.0" y="238.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">破線：近接性</text>
 <line x1="1130.0" y1="233.0" x2="1160.0" y2="233.0" stroke="#5d6873" stroke-width="1.8" stroke-dasharray="8 7"/>
 <text x="1000.0" y="262.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">点線：感情</text>
-<line x1="1130.0" y1="257.0" x2="1160.0" y2="257.0" stroke="#5d6873" stroke-width="1.8" stroke-dasharray="2 6" stroke-linecap="round"/>
-<line x1="150.0" y1="620.0" x2="1050.0" y2="620.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1130.0" y1="257.0" x2="1160.0" y2="257.0" stroke="#5d6873" stroke-width="1.8" stroke-dasharray="2 9" stroke-linecap="round"/>
+<line x1="150.0" y1="620.0" x2="1050.0" y2="620.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow-5d6873)"/>
 <text x="150.0" y="648.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">子どもの頃</text>
 <text x="1050.0" y="648.0" fill="#5d6873" font-size="14" text-anchor="end" font-weight="400">現在</text>
 <circle cx="200.0" cy="620.0" r="5" fill="#c7792b"/>

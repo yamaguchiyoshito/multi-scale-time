@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc">
 <title id="title">同じ身体の変化、異なる感情</title>
 <desc id="desc">心拍の増加は、文脈の解釈によって恐怖にも期待にも疲労にもなる</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<defs><marker id="arrow-c7792b" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-2f8f83" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker><marker id="arrow-8a4f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#8a4f9e" stroke-width="1.4"/></marker></defs>
 <rect width="1200" height="580" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     07     図7-4</text>
@@ -10,23 +10,23 @@
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
 <text x="600.0" y="372.0" fill="#c23b3b" font-size="46" text-anchor="middle" font-weight="400">♥</text>
 <text x="600.0" y="416.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">心拍が上がる</text>
-<text x="600.0" y="438.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">同じ身体の変化</text>
+<text x="600.0" y="438.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">同じ身体の変化</text>
 <rect x="90.0" y="270.0" width="300.0" height="54.0" rx="10" fill="#ffffff" stroke="#c7792b" stroke-width="2"/>
 <text x="240.0" y="304.0" fill="#c7792b" font-size="16" text-anchor="middle" font-weight="700">危険な状況</text>
-<path d="M 395 297 C 460 297 480 370 540 370" fill="none" stroke="#c7792b" stroke-width="1.6" marker-end="url(#arrow-amber)"/>
-<path d="M 660 370 C 720 370 740 297 810 297" fill="none" stroke="#c7792b" stroke-width="1.6" marker-end="url(#arrow-amber)"/>
+<path d="M 395 297 C 460 297 480 370 540 370" fill="none" stroke="#c7792b" stroke-width="1.6" marker-end="url(#arrow-c7792b)"/>
+<path d="M 660 370 C 720 370 740 297 810 297" fill="none" stroke="#c7792b" stroke-width="1.6" marker-end="url(#arrow-c7792b)"/>
 <rect x="815.0" y="270.0" width="280.0" height="54.0" rx="10" fill="#ffffff" stroke="#c7792b" stroke-width="2"/>
 <text x="955.0" y="304.0" fill="#c7792b" font-size="18" text-anchor="middle" font-weight="700">恐怖</text>
 <rect x="90.0" y="370.0" width="300.0" height="54.0" rx="10" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
 <text x="240.0" y="404.0" fill="#2f8f83" font-size="16" text-anchor="middle" font-weight="700">好きな人と会う直前</text>
-<path d="M 395 397 C 460 397 480 370 540 370" fill="none" stroke="#2f8f83" stroke-width="1.6" marker-end="url(#arrow-teal)"/>
-<path d="M 660 370 C 720 370 740 397 810 397" fill="none" stroke="#2f8f83" stroke-width="1.6" marker-end="url(#arrow-teal)"/>
+<path d="M 395 397 C 460 397 480 370 540 370" fill="none" stroke="#2f8f83" stroke-width="1.6" marker-end="url(#arrow-2f8f83)"/>
+<path d="M 660 370 C 720 370 740 397 810 397" fill="none" stroke="#2f8f83" stroke-width="1.6" marker-end="url(#arrow-2f8f83)"/>
 <rect x="815.0" y="370.0" width="280.0" height="54.0" rx="10" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
 <text x="955.0" y="404.0" fill="#2f8f83" font-size="18" text-anchor="middle" font-weight="700">期待・緊張</text>
 <rect x="90.0" y="470.0" width="300.0" height="54.0" rx="10" fill="#ffffff" stroke="#8a4f9e" stroke-width="2"/>
 <text x="240.0" y="504.0" fill="#8a4f9e" font-size="16" text-anchor="middle" font-weight="700">激しい運動の直後</text>
-<path d="M 395 497 C 460 497 480 370 540 370" fill="none" stroke="#8a4f9e" stroke-width="1.6" marker-end="url(#arrow)"/>
-<path d="M 660 370 C 720 370 740 497 810 497" fill="none" stroke="#8a4f9e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 395 497 C 460 497 480 370 540 370" fill="none" stroke="#8a4f9e" stroke-width="1.6" marker-end="url(#arrow-8a4f9e)"/>
+<path d="M 660 370 C 720 370 740 497 810 497" fill="none" stroke="#8a4f9e" stroke-width="1.6" marker-end="url(#arrow-8a4f9e)"/>
 <rect x="815.0" y="470.0" width="280.0" height="54.0" rx="10" fill="#ffffff" stroke="#8a4f9e" stroke-width="2"/>
 <text x="955.0" y="504.0" fill="#8a4f9e" font-size="18" text-anchor="middle" font-weight="700">疲労</text>
 <text x="240.0" y="244.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">文脈</text>

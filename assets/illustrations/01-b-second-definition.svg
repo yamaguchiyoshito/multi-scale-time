@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc">
 <title id="title">1秒は、繰り返す変化を数えて決められている</title>
 <desc id="desc">地球の自転からセシウム原子へ。基準は変わっても、周期を数えて他の出来事を比べる装置である点は同じ</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<defs><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker></defs>
 <rect width="1200" height="580" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     01     図1-2</text>
@@ -11,7 +11,7 @@
 <rect x="70.0" y="200.0" width="500.0" height="300.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
 <text x="320.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">地球の自転</text>
 <circle cx="220.0" cy="350.0" r="70" fill="none" stroke="#2b5f9e" stroke-width="3"/>
-<path d="M 220 280 A 70 70 0 1 1 150 350" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
+<path d="M 220 280 A 70 70 0 1 1 150 350" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-2b5f9e)"/>
 <line x1="220.0" y1="290.0" x2="220.0" y2="410.0" stroke="#d8d4c8" stroke-width="1.5" stroke-dasharray="8 7"/>
 <text x="220.0" y="358.0" fill="#2b5f9e" font-size="22" text-anchor="middle" font-weight="700">1日</text>
 <text x="330.0" y="320.0" fill="#232a33" font-size="18" text-anchor="start" font-weight="400">1日 ÷ 24 ÷ 60 ÷ 60</text>

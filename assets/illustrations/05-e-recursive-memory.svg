@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="582" viewBox="0 0 1200 582" role="img" aria-labelledby="title desc">
 <title id="title">記憶の自己回帰</title>
 <desc id="desc">想起→照合→新しい認識→蓄積の輪を回るごとに、記憶は重層化する</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
-<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<defs><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-c7792b" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="582" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     05     図5-5</text>
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">記憶の自己回帰</text>
 <text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">想起→照合→新しい認識→蓄積の輪を回るごとに、記憶は重層化する</text>
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
-<path d="M 449.1 269.6 A 130 130 0 0 1 520.4 340.9" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
-<path d="M 520.4 439.1 A 130 130 0 0 1 449.1 510.4" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
-<path d="M 350.9 510.4 A 130 130 0 0 1 279.6 439.1" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
-<path d="M 279.6 340.9 A 130 130 0 0 1 350.9 269.6" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
+<path d="M 449.1 269.6 A 130 130 0 0 1 520.4 340.9" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-2b5f9e)"/>
+<path d="M 520.4 439.1 A 130 130 0 0 1 449.1 510.4" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-2b5f9e)"/>
+<path d="M 350.9 510.4 A 130 130 0 0 1 279.6 439.1" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-2b5f9e)"/>
+<path d="M 279.6 340.9 A 130 130 0 0 1 350.9 269.6" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-2b5f9e)"/>
 <rect x="305.0" y="228.0" width="190.0" height="64.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
 <text x="400.0" y="256.0" fill="#2b5f9e" font-size="18" text-anchor="middle" font-weight="700">想起</text>
 <text x="400.0" y="286.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">過去の記憶を取り出す</text>
@@ -24,7 +24,7 @@
 <rect x="175.0" y="358.0" width="190.0" height="64.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
 <text x="270.0" y="386.0" fill="#2b5f9e" font-size="18" text-anchor="middle" font-weight="700">蓄積</text>
 <text x="270.0" y="416.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">再び記憶になる</text>
-<path d="M 500 460 C 640 500 700 470 790 460" fill="none" stroke="#c7792b" stroke-width="2.2" marker-end="url(#arrow-amber)" stroke-dasharray="8 7"/>
+<path d="M 500 460 C 640 500 700 470 790 460" fill="none" stroke="#c7792b" stroke-width="2.2" marker-end="url(#arrow-c7792b)" stroke-dasharray="8 7"/>
 <text x="650.0" y="522.0" fill="#c7792b" font-size="14" text-anchor="middle" font-weight="400">一周ごとに</text>
 <rect x="880.0" y="500.0" width="240.0" height="34.0" rx="8" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.25"/>
 <rect x="885.0" y="458.0" width="230.0" height="34.0" rx="8" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.35"/>

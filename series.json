@@ -5,7 +5,7 @@
   "title": "時間はどのように生まれるのか",
   "subtitle": "マルチ時間スケールから考える時間・意識・心、全8回",
   "language": "ja",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "tagline": "私たちの中には、複数の時間が流れている。",
   "parts": [
     {
@@ -65,7 +65,9 @@
         "poppel-1997",
         "bergson-essai",
         "hirai-2022",
-        "taniguchi-hirai-2021"
+        "taniguchi-hirai-2021",
+        "grothe-2010",
+        "bolanowski-1988"
       ],
       "figures": [
         "assets/illustrations/02-a-too-fast-too-slow.svg",

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc">
 <title id="title">予測誤差が、推定を修正する</title>
 <desc id="desc">遠くの赤いものを「バラ」と予測し、近づいて入力が変わると「造花」へ改める</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker><radialGradient id="g03d-1"><stop offset="0" stop-color="#c23b3b" stop-opacity="0.9"/><stop offset="0.55" stop-color="#c23b3b" stop-opacity="0.41"/><stop offset="1" stop-color="#c23b3b" stop-opacity="0"/></radialGradient><radialGradient id="g03d-2"><stop offset="0" stop-color="#c23b3b" stop-opacity="0.9"/><stop offset="0.55" stop-color="#c23b3b" stop-opacity="0.41"/><stop offset="1" stop-color="#c23b3b" stop-opacity="0"/></radialGradient><radialGradient id="g03d-3"><stop offset="0" stop-color="#c23b3b" stop-opacity="0.9"/><stop offset="0.55" stop-color="#c23b3b" stop-opacity="0.41"/><stop offset="1" stop-color="#c23b3b" stop-opacity="0"/></radialGradient></defs>
+<defs><radialGradient id="g03d-1"><stop offset="0" stop-color="#c23b3b" stop-opacity="0.9"/><stop offset="0.55" stop-color="#c23b3b" stop-opacity="0.41"/><stop offset="1" stop-color="#c23b3b" stop-opacity="0"/></radialGradient><radialGradient id="g03d-2"><stop offset="0" stop-color="#c23b3b" stop-opacity="0.9"/><stop offset="0.55" stop-color="#c23b3b" stop-opacity="0.41"/><stop offset="1" stop-color="#c23b3b" stop-opacity="0"/></radialGradient><radialGradient id="g03d-3"><stop offset="0" stop-color="#c23b3b" stop-opacity="0.9"/><stop offset="0.55" stop-color="#c23b3b" stop-opacity="0.41"/><stop offset="1" stop-color="#c23b3b" stop-opacity="0"/></radialGradient><marker id="arrow-5d6873" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker></defs>
 <rect width="1200" height="580" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     03     図3-4</text>
@@ -32,8 +32,8 @@
 <rect x="850.0" y="400.0" width="210.0" height="56.0" rx="14" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
 <text x="955.0" y="436.0" fill="#2f8f83" font-size="18" text-anchor="middle" font-weight="700">推定：造花</text>
 <text x="955.0" y="480.0" fill="#2f8f83" font-size="14" text-anchor="middle" font-weight="400">誤差で内部モデルを更新</text>
-<line x1="405.0" y1="428.0" x2="440.0" y2="428.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
-<line x1="765.0" y1="428.0" x2="800.0" y2="428.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="405.0" y1="428.0" x2="440.0" y2="428.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow-5d6873)"/>
+<line x1="765.0" y1="428.0" x2="800.0" y2="428.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow-5d6873)"/>
 <text x="50.0" y="552.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">誤差は認識の失敗ではなく、モデルを更新するための情報である。</text>
 </g>
 </svg>

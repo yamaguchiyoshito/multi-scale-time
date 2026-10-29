@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc">
 <title id="title">一つの出来事に、三つの時間スケールが応答する</title>
 <desc id="desc">反射、経験による修正、将来を見越した計画は、同じ身体の中で並行して成立する</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<defs><marker id="arrow-5d6873" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker></defs>
 <rect width="1200" height="580" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     04     図4-5</text>
@@ -21,7 +21,7 @@
 <rect x="200.0" y="462.0" width="820.0" height="28.0" rx="14" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.8"/>
 <text x="1026.0" y="482.0" fill="#2b5f9e" font-size="15" text-anchor="start" font-weight="700">数日〜数週間</text>
 <text x="206.0" y="452.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="400">計画：配置と手順を見直す</text>
-<line x1="200.0" y1="500.0" x2="1080.0" y2="500.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="200.0" y1="500.0" x2="1080.0" y2="500.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow-5d6873)"/>
 <line x1="200.0" y1="494.0" x2="200.0" y2="506.0" stroke="#5d6873" stroke-width="1.5"/>
 <text x="200.0" y="528.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">0</text>
 <line x1="320.0" y1="494.0" x2="320.0" y2="506.0" stroke="#5d6873" stroke-width="1.5"/>

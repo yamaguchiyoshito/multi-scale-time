@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc">
 <title id="title">動く基準</title>
 <desc id="desc">調節の設定値は固定ではなく、状況と将来の要求に応じて変わる</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<defs><marker id="arrow-5d6873" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-2f8f83" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
 <rect width="1200" height="580" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     07     図7-5</text>
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">動く基準</text>
 <text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">調節の設定値は固定ではなく、状況と将来の要求に応じて変わる</text>
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
-<line x1="150.0" y1="460.0" x2="1080.0" y2="460.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
-<line x1="150.0" y1="460.0" x2="150.0" y2="230.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="140.0" y="222.0" fill="#5d6873" font-size="14" text-anchor="end" font-weight="400">体温の設定値</text>
+<line x1="150.0" y1="460.0" x2="1080.0" y2="460.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow-5d6873)"/>
+<line x1="150.0" y1="460.0" x2="150.0" y2="230.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow-5d6873)"/>
+<text x="140.0" y="222.0" fill="#5d6873" font-size="14" text-anchor="end" font-weight="400">調節の目標（体温など）</text>
 <text x="240.0" y="488.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">睡眠</text>
 <line x1="330.0" y1="455.0" x2="330.0" y2="465.0" stroke="#5d6873" stroke-width="1"/>
 <text x="420.0" y="488.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">覚醒</text>
@@ -22,14 +22,14 @@
 <text x="980.0" y="488.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">回復</text>
 <line x1="1060.0" y1="455.0" x2="1060.0" y2="465.0" stroke="#5d6873" stroke-width="1"/>
 <line x1="150.0" y1="370.0" x2="1060.0" y2="370.0" stroke="#d8d4c8" stroke-width="1.5" stroke-dasharray="8 7"/>
-<text x="1066.0" y="374.0" fill="#5d6873" font-size="13" text-anchor="start" font-weight="400">固定の基準？</text>
+<text x="1066.0" y="374.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">固定の基準？</text>
 <path d="M 150 390 L 330 390 L 345 360 L 510 360 L 530 320 L 690 325 L 710 270 L 900 270 L 930 370 L 1060 370" fill="none" stroke="#c7792b" stroke-width="3"/>
-<text x="240.0" y="412.0" fill="#c7792b" font-size="13" text-anchor="middle" font-weight="400">低い</text>
-<text x="600.0" y="300.0" fill="#c7792b" font-size="13" text-anchor="middle" font-weight="400">運動に先立って上がる</text>
-<text x="800.0" y="252.0" fill="#c7792b" font-size="13" text-anchor="middle" font-weight="400">免疫反応で設定値が上がる</text>
-<path d="M 470 300 C 480 270 500 260 515 262" fill="none" stroke="#2f8f83" stroke-width="2" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
-<text x="440.0" y="262.0" fill="#2f8f83" font-size="13" text-anchor="middle" font-weight="700">先回りの調節</text>
-<text x="440.0" y="280.0" fill="#2f8f83" font-size="12" text-anchor="middle" font-weight="400">（アロスタシス）</text>
+<text x="240.0" y="412.0" fill="#c7792b" font-size="14" text-anchor="middle" font-weight="400">低い</text>
+<text x="600.0" y="300.0" fill="#c7792b" font-size="14" text-anchor="middle" font-weight="400">活動に先立つ調節（予測的）</text>
+<text x="800.0" y="252.0" fill="#c7792b" font-size="14" text-anchor="middle" font-weight="400">免疫反応で設定値が上がる</text>
+<path d="M 470 300 C 480 270 500 260 515 262" fill="none" stroke="#2f8f83" stroke-width="2" marker-end="url(#arrow-2f8f83)" stroke-dasharray="8 7"/>
+<text x="440.0" y="262.0" fill="#2f8f83" font-size="14" text-anchor="middle" font-weight="700">先回りの調節</text>
+<text x="440.0" y="280.0" fill="#2f8f83" font-size="14" text-anchor="middle" font-weight="400">（アロスタシス）</text>
 <text x="50.0" y="552.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">現在の身体状態は、過去の変化の結果であり、未来の要求へ向けた調節の途中にある。</text>
 </g>
 </svg>

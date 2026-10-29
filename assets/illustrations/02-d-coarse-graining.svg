@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc">
 <title id="title">時間的粗視化</title>
 <desc id="desc">細かな差異は失われ、代わりに大きな時間単位の性質が現れる</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<defs><marker id="arrow-5d6873" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker></defs>
 <rect width="1200" height="580" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     02     図2-4</text>
@@ -12,7 +12,7 @@
 <text x="80.0" y="284.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">周期 10ms</text>
 <polyline points="260.0,296.0 260.0,244.0 275.0,244.0 275.0,296.0 290.0,296.0 290.0,244.0 305.0,244.0 305.0,296.0 320.0,296.0 320.0,244.0 335.0,244.0 335.0,296.0 350.0,296.0 350.0,244.0 365.0,244.0 365.0,296.0 380.0,296.0 380.0,244.0 395.0,244.0 395.0,296.0 410.0,296.0 410.0,244.0 425.0,244.0 425.0,296.0 440.0,296.0 440.0,244.0 455.0,244.0 455.0,296.0 470.0,296.0 470.0,244.0 485.0,244.0 485.0,296.0 500.0,296.0 500.0,244.0 515.0,244.0 515.0,296.0 530.0,296.0 530.0,244.0 545.0,244.0 545.0,296.0 560.0,296.0 560.0,244.0 575.0,244.0 575.0,296.0 590.0,296.0 590.0,244.0 605.0,244.0 605.0,296.0 620.0,296.0 620.0,244.0 635.0,244.0 635.0,296.0 650.0,296.0 650.0,244.0 665.0,244.0 665.0,296.0 680.0,296.0 680.0,244.0 695.0,244.0 695.0,296.0 710.0,296.0 710.0,244.0 725.0,244.0 725.0,296.0 740.0,296.0 740.0,244.0 755.0,244.0 755.0,296.0 770.0,296.0 770.0,244.0 785.0,244.0 785.0,296.0 800.0,296.0 800.0,244.0 815.0,244.0 815.0,296.0 830.0,296.0 830.0,244.0 845.0,244.0 845.0,296.0 860.0,296.0" fill="none" stroke="#c7792b" stroke-width="2"/>
 <line x1="260.0" y1="310.0" x2="860.0" y2="310.0" stroke="#d8d4c8" stroke-width="1"/>
-<line x1="560.0" y1="320.0" x2="560.0" y2="380.0" stroke="#5d6873" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="560.0" y1="320.0" x2="560.0" y2="380.0" stroke="#5d6873" stroke-width="2.5" marker-end="url(#arrow-5d6873)"/>
 <text x="590.0" y="356.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="700">時間的粗視化</text>
 <text x="80.0" y="442.0" fill="#232a33" font-size="17" text-anchor="start" font-weight="700">経験される</text>
 <text x="80.0" y="464.0" fill="#232a33" font-size="17" text-anchor="start" font-weight="700">明るさ</text>

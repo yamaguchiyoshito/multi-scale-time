@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
 <title id="title">主観的時間の三つの働き</title>
 <desc id="desc">時間知覚、時間展望、時間概念。関係しているが同一ではない</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
-<rect width="1200" height="540" rx="20" fill="#f7f5ef"/>
+<defs><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-5d6873" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-2f8f83" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker><marker id="arrow-c7792b" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="520" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     01     図1-4</text>
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">主観的時間の三つの働き</text>
@@ -14,29 +14,29 @@
 <text x="595.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">時間展望</text>
 <rect x="790.0" y="200.0" width="330.0" height="290.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
 <text x="955.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">時間概念</text>
-<path d="M 110 420 C 180 300 270 300 360 330" fill="none" stroke="#2b5f9e" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
+<path d="M 110 420 C 180 300 270 300 360 330" fill="none" stroke="#2b5f9e" stroke-width="2.5" marker-end="url(#arrow-2b5f9e)"/>
 <circle cx="110.0" cy="420.0" r="5" fill="#2b5f9e" opacity="0.35"/>
 <circle cx="160.0" cy="394.4" r="5" fill="#2b5f9e" opacity="0.47"/>
 <circle cx="210.0" cy="377.6" r="5" fill="#2b5f9e" opacity="0.59"/>
 <circle cx="260.0" cy="369.6" r="5" fill="#2b5f9e" opacity="0.71"/>
 <circle cx="310.0" cy="370.4" r="5" fill="#2b5f9e" opacity="0.83"/>
 <text x="235.0" y="470.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">進行中の変化を一続きに経験する</text>
-<line x1="470.0" y1="400.0" x2="740.0" y2="400.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="470.0" y1="400.0" x2="740.0" y2="400.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow-5d6873)"/>
 <text x="470.0" y="428.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">過去</text>
 <text x="740.0" y="428.0" fill="#5d6873" font-size="15" text-anchor="end" font-weight="400">未来</text>
 <circle cx="605.0" cy="400.0" r="8" fill="#2f8f83"/>
 <text x="605.0" y="452.0" fill="#2f8f83" font-size="15" text-anchor="middle" font-weight="700">現在</text>
-<path d="M 600 390 C 560 300 500 300 490 388" fill="none" stroke="#2f8f83" stroke-width="2" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
-<path d="M 612 390 C 650 300 710 300 720 388" fill="none" stroke="#2f8f83" stroke-width="2" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
+<path d="M 600 390 C 560 300 500 300 490 388" fill="none" stroke="#2f8f83" stroke-width="2" marker-end="url(#arrow-2f8f83)" stroke-dasharray="8 7"/>
+<path d="M 612 390 C 650 300 710 300 720 388" fill="none" stroke="#2f8f83" stroke-width="2" marker-end="url(#arrow-2f8f83)" stroke-dasharray="8 7"/>
 <text x="500.0" y="300.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">一年前の旅行</text>
 <text x="712.0" y="300.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">来年の予定</text>
 <text x="595.0" y="470.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">目の前にない過去と未来を扱う</text>
 <rect x="820.0" y="300.0" width="90.0" height="54.0" rx="14" fill="#ffffff" stroke="#c7792b" stroke-width="2"/>
 <text x="865.0" y="335.0" fill="#c7792b" font-size="18" text-anchor="middle" font-weight="700">昨日</text>
-<line x1="912.0" y1="327.0" x2="928.0" y2="327.0" stroke="#c7792b" stroke-width="2" marker-end="url(#arrow-amber)"/>
+<line x1="912.0" y1="327.0" x2="928.0" y2="327.0" stroke="#c7792b" stroke-width="2" marker-end="url(#arrow-c7792b)"/>
 <rect x="930.0" y="300.0" width="90.0" height="54.0" rx="14" fill="#ffffff" stroke="#c7792b" stroke-width="2"/>
 <text x="975.0" y="335.0" fill="#c7792b" font-size="18" text-anchor="middle" font-weight="700">今日</text>
-<line x1="1022.0" y1="327.0" x2="1038.0" y2="327.0" stroke="#c7792b" stroke-width="2" marker-end="url(#arrow-amber)"/>
+<line x1="1022.0" y1="327.0" x2="1038.0" y2="327.0" stroke="#c7792b" stroke-width="2" marker-end="url(#arrow-c7792b)"/>
 <rect x="1040.0" y="300.0" width="90.0" height="54.0" rx="14" fill="#ffffff" stroke="#c7792b" stroke-width="2"/>
 <text x="1085.0" y="335.0" fill="#c7792b" font-size="18" text-anchor="middle" font-weight="700">明日</text>
 <path d="M 820.0 370.0 Q 820.0 380.0 832.0 380.0 L 963.0 380.0 Q 975.0 380.0 975.0 390.0 Q 975.0 380.0 987.0 380.0 L 1118.0 380.0 Q 1130.0 380.0 1130.0 370.0" fill="none" stroke="#5d6873" stroke-width="1.6"/>

@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="568" viewBox="0 0 1200 568" role="img" aria-labelledby="title desc">
 <title id="title">時刻としての現在と、心理的現在</title>
 <desc id="desc">一点としての現在と、保持と予感を含んで未来へ開いた厚みのある現在</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
-<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<defs><marker id="arrow-5d6873" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="568" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     06     図6-8</text>
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">時刻としての現在と、心理的現在</text>
 <text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">一点としての現在と、保持と予感を含んで未来へ開いた厚みのある現在</text>
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
 <text x="80.0" y="258.0" fill="#232a33" font-size="18" text-anchor="start" font-weight="700">時刻としての現在</text>
-<line x1="330.0" y1="270.0" x2="1080.0" y2="270.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="330.0" y1="270.0" x2="1080.0" y2="270.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow-5d6873)"/>
 <circle cx="700.0" cy="270.0" r="8" fill="#c7792b"/>
 <text x="700.0" y="304.0" fill="#c7792b" font-size="14" text-anchor="middle" font-weight="400">12時00分00.000秒</text>
 <text x="700.0" y="240.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">長さのない一点</text>
 <text x="80.0" y="440.0" fill="#232a33" font-size="18" text-anchor="start" font-weight="700">心理的現在</text>
-<line x1="330.0" y1="450.0" x2="1080.0" y2="450.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="330.0" y1="450.0" x2="1080.0" y2="450.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow-5d6873)"/>
 <rect x="520.0" y="412.0" width="180.0" height="76.0" rx="10" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.35"/>
 <rect x="700.0" y="412.0" width="70.0" height="76.0" rx="10" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.75"/>
 <rect x="770.0" y="412.0" width="150.0" height="76.0" rx="10" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.35"/>
@@ -23,8 +23,8 @@
 <text x="735.0" y="396.0" fill="#2f8f83" font-size="16" text-anchor="middle" font-weight="700">原初印象</text>
 <text x="845.0" y="396.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">予感</text>
 <text x="1000.0" y="396.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">未完了</text>
-<text x="1000.0" y="520.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">生じつつあるが、</text>
-<text x="1000.0" y="538.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">まだ出来上がっていない</text>
+<text x="1000.0" y="520.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">生じつつあるが、</text>
+<text x="1000.0" y="538.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">まだ出来上がっていない</text>
 <path d="M 520.0 490.0 Q 520.0 500.0 532.0 500.0 L 708.0 500.0 Q 720.0 500.0 720.0 510.0 Q 720.0 500.0 732.0 500.0 L 908.0 500.0 Q 920.0 500.0 920.0 490.0" fill="none" stroke="#5d6873" stroke-width="1.6"/>
 <text x="720.0" y="536.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="400">幅のある現在（代表値 約0.5〜3秒。課題や注意で変わる）</text>
 </g>

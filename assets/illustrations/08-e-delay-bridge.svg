@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
 <title id="title">遅延は、時間スケールを接続する構造である</title>
 <desc id="desc">短い尺度の入力と長い尺度の記憶を、保持という橋が同じ処理の中へ運ぶ</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<defs><marker id="arrow-5d6873" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker></defs>
 <rect width="1200" height="560" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     08     図8-5</text>
@@ -10,17 +10,17 @@
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
 <rect x="90.0" y="300.0" width="330.0" height="90.0" rx="14" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.8"/>
 <text x="255.0" y="338.0" fill="#ffffff" font-size="18" text-anchor="middle" font-weight="700">感覚入力</text>
-<text x="255.0" y="364.0" fill="#ffffff" font-size="13" text-anchor="middle" font-weight="400">短い時間スケール（ミリ秒〜秒）</text>
+<text x="255.0" y="364.0" fill="#ffffff" font-size="14" text-anchor="middle" font-weight="400">短い時間スケール（ミリ秒〜秒）</text>
 <rect x="780.0" y="300.0" width="330.0" height="90.0" rx="14" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.8"/>
 <text x="945.0" y="338.0" fill="#ffffff" font-size="18" text-anchor="middle" font-weight="700">記憶・行動計画</text>
-<text x="945.0" y="364.0" fill="#ffffff" font-size="13" text-anchor="middle" font-weight="400">長い時間スケール（分〜年）</text>
-<path d="M 420 345 C 500 260 700 260 780 345" fill="none" stroke="#c7792b" stroke-width="4"/>
-<path d="M 420 345 C 500 430 700 430 780 345" fill="none" stroke="#c7792b" stroke-width="4"/>
+<text x="945.0" y="364.0" fill="#ffffff" font-size="14" text-anchor="middle" font-weight="400">長い時間スケール（分〜年）</text>
+<path d="M 420 345 C 500 260 700 260 780 345" fill="none" stroke="#c7792b" stroke-width="3"/>
+<path d="M 420 345 C 500 430 700 430 780 345" fill="none" stroke="#c7792b" stroke-width="3"/>
 <text x="600.0" y="352.0" fill="#c7792b" font-size="18" text-anchor="middle" font-weight="700">保持 ・ 照合</text>
-<text x="600.0" y="376.0" fill="#232a33" font-size="13" text-anchor="middle" font-weight="400">直前の情報を保持し、長期の記憶を呼び出す</text>
+<text x="600.0" y="376.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">直前の情報を保持し、長期の記憶を呼び出す</text>
 <path d="M 430.0 440.0 Q 430.0 450.0 442.0 450.0 L 588.0 450.0 Q 600.0 450.0 600.0 460.0 Q 600.0 450.0 612.0 450.0 L 758.0 450.0 Q 770.0 450.0 770.0 440.0" fill="none" stroke="#5d6873" stroke-width="1.6"/>
 <text x="600.0" y="486.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">この橋の幅が「遅延」として現れる</text>
-<line x1="600.0" y1="300.0" x2="600.0" y2="240.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="600.0" y1="300.0" x2="600.0" y2="240.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow-5d6873)"/>
 <text x="600.0" y="226.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">行動の選択へ</text>
 <text x="50.0" y="532.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">遅延は応答時間の増加ではなく、異なる尺度の情報を同じ処理で扱うための構造である。</text>
 </g>

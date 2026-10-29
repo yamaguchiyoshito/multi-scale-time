@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570" role="img" aria-labelledby="title desc">
 <title id="title">持続は、瞬間の足し算ではない</title>
 <desc id="desc">時計の単位は均質で独立。会話の流れでは、前の経験が次に浸透して意味が変わる</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker><radialGradient id="g06b-1"><stop offset="0" stop-color="#c7792b" stop-opacity="0.4"/><stop offset="0.55" stop-color="#c7792b" stop-opacity="0.18"/><stop offset="1" stop-color="#c7792b" stop-opacity="0"/></radialGradient><radialGradient id="g06b-2"><stop offset="0" stop-color="#2f8f83" stop-opacity="0.4"/><stop offset="0.55" stop-color="#2f8f83" stop-opacity="0.18"/><stop offset="1" stop-color="#2f8f83" stop-opacity="0"/></radialGradient><radialGradient id="g06b-3"><stop offset="0" stop-color="#2b5f9e" stop-opacity="0.4"/><stop offset="0.55" stop-color="#2b5f9e" stop-opacity="0.18"/><stop offset="1" stop-color="#2b5f9e" stop-opacity="0"/></radialGradient></defs>
-<rect width="1200" height="580" rx="20" fill="#f7f5ef"/>
+<defs><radialGradient id="g06b-1"><stop offset="0" stop-color="#c7792b" stop-opacity="0.28"/><stop offset="0.55" stop-color="#c7792b" stop-opacity="0.13"/><stop offset="1" stop-color="#c7792b" stop-opacity="0"/></radialGradient><radialGradient id="g06b-2"><stop offset="0" stop-color="#2f8f83" stop-opacity="0.28"/><stop offset="0.55" stop-color="#2f8f83" stop-opacity="0.13"/><stop offset="1" stop-color="#2f8f83" stop-opacity="0"/></radialGradient><radialGradient id="g06b-3"><stop offset="0" stop-color="#2b5f9e" stop-opacity="0.28"/><stop offset="0.55" stop-color="#2b5f9e" stop-opacity="0.13"/><stop offset="1" stop-color="#2b5f9e" stop-opacity="0"/></radialGradient><marker id="arrow-5d6873" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-c7792b" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="570" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     06     図6-2</text>
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">持続は、瞬間の足し算ではない</text>
@@ -25,12 +25,15 @@
 <circle cx="400.0" cy="440.0" r="150" fill="url(#g06b-1)"/>
 <circle cx="690.0" cy="440.0" r="170" fill="url(#g06b-2)"/>
 <circle cx="980.0" cy="440.0" r="150" fill="url(#g06b-3)"/>
-<text x="400.0" y="436.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">ぎこちない会話</text>
-<text x="690.0" y="436.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">昔の話で懐かしさ</text>
-<text x="980.0" y="436.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">関係が新しい意味を持つ</text>
-<path d="M 470 400 C 540 360 600 360 640 398" fill="none" stroke="#5d6873" stroke-width="1.6" marker-end="url(#arrow)"/>
-<path d="M 770 400 C 840 360 900 360 930 398" fill="none" stroke="#5d6873" stroke-width="1.6" marker-end="url(#arrow)"/>
-<path d="M 900 486 C 800 530 600 530 450 486" fill="none" stroke="#c7792b" stroke-width="1.6" marker-end="url(#arrow-amber)" stroke-dasharray="8 7"/>
+<rect x="325.0" y="420.0" width="150.0" height="28.0" rx="8" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.8"/>
+<rect x="605.0" y="420.0" width="170.0" height="28.0" rx="8" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.8"/>
+<rect x="865.0" y="420.0" width="230.0" height="28.0" rx="8" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="400.0" y="440.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">ぎこちない会話</text>
+<text x="690.0" y="440.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">昔の話で懐かしさ</text>
+<text x="980.0" y="440.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">関係が新しい意味を持つ</text>
+<path d="M 470 400 C 540 360 600 360 640 398" fill="none" stroke="#5d6873" stroke-width="1.6" marker-end="url(#arrow-5d6873)"/>
+<path d="M 770 400 C 840 360 900 360 930 398" fill="none" stroke="#5d6873" stroke-width="1.6" marker-end="url(#arrow-5d6873)"/>
+<path d="M 900 486 C 800 530 600 530 450 486" fill="none" stroke="#c7792b" stroke-width="1.6" marker-end="url(#arrow-c7792b)" stroke-dasharray="8 7"/>
 <text x="690.0" y="540.0" fill="#c7792b" font-size="14" text-anchor="middle" font-weight="400">後の経験が、先ほどの言葉の意味を変える</text>
 </g>
 </svg>

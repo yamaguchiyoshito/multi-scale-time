@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
 <title id="title">時制とアスペクト</title>
 <desc id="desc">「咲いた」は完了したものとして、「咲きつつある」はまだ出来上がっていないものとして表す</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<defs><marker id="arrow-5d6873" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker></defs>
 <rect width="1200" height="620" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     06     図6-7</text>
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">時制とアスペクト</text>
 <text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">「咲いた」は完了したものとして、「咲きつつある」はまだ出来上がっていないものとして表す</text>
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
-<line x1="150.0" y1="500.0" x2="1050.0" y2="500.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="150.0" y1="500.0" x2="1050.0" y2="500.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow-5d6873)"/>
 <line x1="250.0" y1="494.0" x2="250.0" y2="506.0" stroke="#5d6873" stroke-width="1.5"/>
 <text x="250.0" y="530.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">過去</text>
 <line x1="600.0" y1="494.0" x2="600.0" y2="506.0" stroke="#5d6873" stroke-width="1.5"/>
@@ -32,7 +32,7 @@
 <text x="820.0" y="300.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">未完了相：生じてはいるが、まだ出来上がっていない</text>
 <ellipse cx="760" cy="385" rx="12" ry="22" fill="#2f8f83" opacity="0.8"/>
 <line x1="760.0" y1="405.0" x2="760.0" y2="430.0" stroke="#2f8f83" stroke-width="2"/>
-<line x1="800.0" y1="385.0" x2="840.0" y2="385.0" stroke="#5d6873" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="800.0" y1="385.0" x2="840.0" y2="385.0" stroke="#5d6873" stroke-width="1.5" marker-end="url(#arrow-5d6873)"/>
 <ellipse cx="885.8" cy="373.2" rx="13" ry="8" fill="#2f8f83" opacity="0.6"/>
 <ellipse cx="900.0" cy="368.0" rx="13" ry="8" fill="#2f8f83" opacity="0.6"/>
 <ellipse cx="914.2" cy="373.2" rx="13" ry="8" fill="#2f8f83" opacity="0.6"/>

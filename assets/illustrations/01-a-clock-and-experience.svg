@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
 <title id="title">時計が測る30分と、経験される30分</title>
 <desc id="desc">目盛りは同じでも、経験される長さは場面によって伸び縮みする</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<defs></defs>
 <rect width="1200" height="560" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     01     図1-1</text>
@@ -33,6 +33,10 @@
 <line x1="300.0" y1="300.0" x2="300.0" y2="500.0" stroke="#d8d4c8" stroke-width="1" stroke-dasharray="8 7"/>
 <line x1="1060.0" y1="300.0" x2="1060.0" y2="500.0" stroke="#d8d4c8" stroke-width="1" stroke-dasharray="8 7"/>
 <text x="1060.0" y="520.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">時計の上では同じ終点</text>
+<path d="M 300.0 388.0 Q 300.0 398.0 312.0 398.0 L 708.0 398.0 Q 720.0 398.0 720.0 408.0 Q 720.0 398.0 732.0 398.0 L 1128.0 398.0 Q 1140.0 398.0 1140.0 388.0" fill="none" stroke="#5d6873" stroke-width="1.6"/>
+<text x="720.0" y="424.0" fill="#c7792b" font-size="14" text-anchor="middle" font-weight="400">経験された長さ</text>
+<path d="M 300.0 478.0 Q 300.0 488.0 312.0 488.0 L 438.0 488.0 Q 450.0 488.0 450.0 498.0 Q 450.0 488.0 462.0 488.0 L 588.0 488.0 Q 600.0 488.0 600.0 478.0" fill="none" stroke="#5d6873" stroke-width="1.6"/>
+<text x="450.0" y="514.0" fill="#2f8f83" font-size="14" text-anchor="middle" font-weight="400">経験された長さ</text>
 <text x="50.0" y="532.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">時計が間違っているのでも、感覚が不正確なのでもない。測っているものが異なる。</text>
 </g>
 </svg>

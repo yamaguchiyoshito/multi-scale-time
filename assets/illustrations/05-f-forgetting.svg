@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
 <title id="title">記憶の二つの層と、三つの働き</title>
 <desc id="desc">保持するだけでなく、更新し、必要に応じて忘れることで環境に適応する</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<defs><marker id="arrow-5d6873" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker></defs>
 <rect width="1200" height="540" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     05     図5-6</text>
@@ -10,17 +10,17 @@
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
 <rect x="120.0" y="400.0" width="960.0" height="70.0" rx="14" fill="#ece9e0" stroke="#5d6873" stroke-width="1.5"/>
 <text x="600.0" y="433.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">生得的な情報 ── 進化が形成した神経系の構造や行動傾向</text>
-<text x="600.0" y="456.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">生まれた時点で備えている</text>
+<text x="600.0" y="456.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">生まれた時点で備えている</text>
 <rect x="120.0" y="220.0" width="960.0" height="160.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
 <text x="600.0" y="252.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">獲得的な記憶 ── 経験によって形成される（可塑性）</text>
 <rect x="170.0" y="280.0" width="260.0" height="76.0" rx="14" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
 <text x="300.0" y="314.0" fill="#2f8f83" font-size="18" text-anchor="middle" font-weight="700">保持</text>
 <text x="300.0" y="344.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">情報を残す</text>
-<line x1="434.0" y1="318.0" x2="466.0" y2="318.0" stroke="#5d6873" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="434.0" y1="318.0" x2="466.0" y2="318.0" stroke="#5d6873" stroke-width="1.5" marker-end="url(#arrow-5d6873)"/>
 <rect x="470.0" y="280.0" width="260.0" height="76.0" rx="14" fill="#ffffff" stroke="#c7792b" stroke-width="2"/>
 <text x="600.0" y="314.0" fill="#c7792b" font-size="18" text-anchor="middle" font-weight="700">更新</text>
 <text x="600.0" y="344.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">新しい経験で意味を変える</text>
-<line x1="734.0" y1="318.0" x2="766.0" y2="318.0" stroke="#5d6873" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="734.0" y1="318.0" x2="766.0" y2="318.0" stroke="#5d6873" stroke-width="1.5" marker-end="url(#arrow-5d6873)"/>
 <rect x="770.0" y="280.0" width="260.0" height="76.0" rx="14" fill="#ffffff" stroke="#8a4f9e" stroke-width="2"/>
 <text x="900.0" y="314.0" fill="#8a4f9e" font-size="18" text-anchor="middle" font-weight="700">忘却</text>
 <text x="900.0" y="344.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">役に立たない情報を手放す</text>

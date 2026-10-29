@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570" role="img" aria-labelledby="title desc">
 <title id="title">共通の時間があるから、出来事を比べ、順序づけ、同期できる</title>
-<desc id="desc">客観的時間の役割は、社会の調整と同期の基盤にある</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<desc id="desc">一本の時間軸の上に、列車・取引・記録・期限を並べて見る</desc>
+<defs><marker id="arrow-232a33" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.4"/></marker></defs>
 <rect width="1200" height="570" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     01     図1-3</text>
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">共通の時間があるから、出来事を比べ、順序づけ、同期できる</text>
-<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">客観的時間の役割は、社会の調整と同期の基盤にある</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">一本の時間軸の上に、列車・取引・記録・期限を並べて見る</text>
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
-<line x1="120.0" y1="400.0" x2="1080.0" y2="400.0" stroke="#232a33" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="120.0" y1="400.0" x2="1080.0" y2="400.0" stroke="#232a33" stroke-width="2.5" marker-end="url(#arrow-232a33)"/>
 <line x1="150.0" y1="392.0" x2="150.0" y2="408.0" stroke="#232a33" stroke-width="1.5"/>
 <text x="150.0" y="432.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">10:00</text>
 <line x1="290.0" y1="392.0" x2="290.0" y2="408.0" stroke="#232a33" stroke-width="1.5"/>

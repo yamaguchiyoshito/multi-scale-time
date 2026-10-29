@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
 <title id="title">運動の知覚には、直前の位置が要る</title>
 <desc id="desc">一つの時刻の位置だけでは、方向も速さも決まらない</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<defs><marker id="arrow-c7792b" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker></defs>
 <rect width="1200" height="540" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     06     図6-1</text>
@@ -19,9 +19,9 @@
 <line x1="670.0" y1="420.0" x2="1090.0" y2="420.0" stroke="#d8d4c8" stroke-width="2"/>
 <g opacity="0.3"><rect x="740" y="382" width="100" height="30" rx="8" fill="#2b5f9e"/><rect x="762" y="362" width="52" height="24" rx="6" fill="#2b5f9e"/><circle cx="762" cy="414" r="9" fill="#232a33"/><circle cx="818" cy="414" r="9" fill="#232a33"/></g>
 <g opacity="1.0"><rect x="910" y="382" width="100" height="30" rx="8" fill="#2b5f9e"/><rect x="932" y="362" width="52" height="24" rx="6" fill="#2b5f9e"/><circle cx="932" cy="414" r="9" fill="#232a33"/><circle cx="988" cy="414" r="9" fill="#232a33"/></g>
-<text x="790.0" y="450.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">直前</text>
-<text x="960.0" y="450.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">いま</text>
-<line x1="840.0" y1="340.0" x2="920.0" y2="340.0" stroke="#c7792b" stroke-width="3" marker-end="url(#arrow-amber)"/>
+<text x="790.0" y="450.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">直前</text>
+<text x="960.0" y="450.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">いま</text>
+<line x1="840.0" y1="340.0" x2="920.0" y2="340.0" stroke="#c7792b" stroke-width="3" marker-end="url(#arrow-c7792b)"/>
 <text x="880.0" y="320.0" fill="#c7792b" font-size="16" text-anchor="middle" font-weight="700">方向と速さ</text>
 <text x="50.0" y="512.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">運動を知覚している現在には、何らかの形で直前の過去が含まれている。</text>
 </g>
