@@ -450,7 +450,7 @@
 
 ## 参考文献・注記
 
-[^bartlett-1932]: Frederic C. Bartlett（1932）. [Remembering: A Study in Experimental and Social Psychology](https://en.wikipedia.org/wiki/Frederic_Bartlett)。記憶を再生ではなく再構成として捉え、想起が現在の文脈や既存の枠組みに依存することを示した。リンク先は百科事典の項目。
+[^bartlett-1932]: Frederic C. Bartlett（1932）. [Remembering: A Study in Experimental and Social Psychology](https://doi.org/10.1017/CBO9780511759185)。Cambridge University Press。記憶を再生ではなく再構成として捉え、想起が現在の文脈や既存の枠組みに依存することを示した。リンク先は1995年再刊の出版社ページ。
 [^bergson-mm]: アンリ・ベルクソン（1896）. [Matière et mémoire（『物質と記憶』）](https://plato.stanford.edu/entries/bergson/)。知覚が記憶イメージによって補われるという議論。「記憶イメージの投射」は本連載による構成論的な読み替えである。リンク先はスタンフォード哲学百科事典の項目。
 
 <!-- NAV:BOTTOM -->

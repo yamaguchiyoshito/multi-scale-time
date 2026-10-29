@@ -413,7 +413,7 @@
 
 一つの答えとして、心理的現在には数秒程度の統合時間があるという研究や理論が存在する。[^poppel-1997]
 
-元資料でも、意図的に思い出さなくても保持できる時間幅として、約0.5～3秒という尺度を取り上げている。
+本連載でも、意図的に思い出さなくても保持できる時間幅として、約0.5～3秒という尺度を採用する。
 
 ただし、心理的現在の長さが常に一定であるわけではない。
 
@@ -457,7 +457,7 @@
 
 そのため、外界への注意を減らし、内部の情報処理へ資源を配分することがある。
 
-元資料では、これを異なる時間階層の切り替えとして考えている。
+本連載では、これを異なる時間階層の切り替えとして考える。
 
 現在の感覚―運動ループは、外界との連続的な相互作用によって維持される。
 
@@ -548,7 +548,7 @@
 ## 参考文献・注記
 
 [^bergson-essai]: アンリ・ベルクソン（1889）. [Essai sur les données immédiates de la conscience（『時間と自由』）](https://plato.stanford.edu/entries/bergson/)。持続を、均質な単位の集まりではなく、過去を含みながら質的に変化する経験として捉えた。リンク先はスタンフォード哲学百科事典の項目。
-[^husserl-zeit]: エトムント・フッサール（1928）. [Vorlesungen zur Phänomenologie des inneren Zeitbewusstseins（『内的時間意識の現象学』）](https://plato.stanford.edu/entries/consciousness-temporal/)。原初印象・保持・予感による現在の構成。訳語は本連載の採用で、過去把持・未来予持などの訳もある。リンク先はスタンフォード哲学百科事典「Temporal Consciousness」の項目。
+[^husserl-zeit]: エトムント・フッサール（1928）. [Zur Phänomenologie des inneren Zeitbewusstseins（『内的時間意識の現象学』、Husserliana X）](https://doi.org/10.1007/978-94-015-3945-6)。1928年にハイデガーの編集で発表された時間意識講義。原初印象・保持・予感による現在の構成。訳語は本連載の採用で、過去把持・未来予持などの訳もある。リンク先は Husserliana X の出版社ページ。
 [^comrie-1976]: Bernard Comrie（1976）. [Aspect: An Introduction to the Study of Verbal Aspect and Related Problems](https://en.wikipedia.org/wiki/Grammatical_aspect)。時制と区別される文法範疇としてのアスペクトの入門書。未完了相を時間経験へ転用する読み方は本連載の解釈である。リンク先は百科事典の項目。
 [^poppel-1997]: Ernst Pöppel（1997）. [A hierarchical model of temporal perception](https://doi.org/10.1016/S1364-6613(97)01008-5)。Trends in Cognitive Sciences 1(2)。約3秒の時間窓を心理的現在の統合単位とする階層モデル。本文の「約0.5〜3秒」という尺度はこの系統の研究に対応する。
 
