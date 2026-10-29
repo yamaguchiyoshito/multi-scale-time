@@ -5,7 +5,7 @@
   "title": "時間はどのように生まれるのか",
   "subtitle": "マルチ時間スケールから考える時間・意識・心、全8回",
   "language": "ja",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "tagline": "私たちの中には、複数の時間が流れている。",
   "parts": [
     {
@@ -69,11 +69,13 @@
       ],
       "figures": [
         "assets/illustrations/02-a-too-fast-too-slow.svg",
-        "assets/illustrations/02-b-resolution-by-sense.svg",
-        "assets/illustrations/02-c-coarse-graining.svg",
-        "assets/illustrations/02-d-star-trails.svg",
-        "assets/illustrations/02-e-moment-and-duration.svg",
-        "assets/illustrations/02-f-scale-relativity.svg"
+        "assets/illustrations/02-b-frame-sequence.svg",
+        "assets/illustrations/02-c-resolution-by-sense.svg",
+        "assets/illustrations/02-d-coarse-graining.svg",
+        "assets/illustrations/02-e-star-trails.svg",
+        "assets/illustrations/02-f-moment-and-duration.svg",
+        "assets/illustrations/02-g-scale-relativity.svg",
+        "assets/illustrations/02-h-two-operations.svg"
       ]
     },
     {
@@ -91,12 +93,13 @@
         "hirai-2019"
       ],
       "figures": [
-        "assets/illustrations/03-a-generative-model-loop.svg",
-        "assets/illustrations/03-b-eye-movement.svg",
-        "assets/illustrations/03-c-prediction-error-rose.svg",
-        "assets/illustrations/03-d-cup-tradeoff.svg",
-        "assets/illustrations/03-e-qualia-process.svg",
-        "assets/illustrations/03-f-scale-gap-to-color.svg"
+        "assets/illustrations/03-a-familiar-room.svg",
+        "assets/illustrations/03-b-generative-model-loop.svg",
+        "assets/illustrations/03-c-eye-movement.svg",
+        "assets/illustrations/03-d-prediction-error-rose.svg",
+        "assets/illustrations/03-e-cup-tradeoff.svg",
+        "assets/illustrations/03-f-qualia-process.svg",
+        "assets/illustrations/03-g-scale-gap-to-color.svg"
       ]
     },
     {
@@ -117,11 +120,12 @@
         "assets/illustrations/04-a-reflex-vs-deliberation.svg",
         "assets/illustrations/04-b-paramecium.svg",
         "assets/illustrations/04-c-same-stimulus.svg",
-        "assets/illustrations/04-d-three-timescales.svg",
-        "assets/illustrations/04-e-budget-horizon.svg",
-        "assets/illustrations/04-f-language-time-range.svg",
-        "assets/illustrations/04-g-delay-not-sufficient.svg",
-        "assets/illustrations/04-h-catching-ball.svg"
+        "assets/illustrations/04-d-loosened-chain.svg",
+        "assets/illustrations/04-e-three-timescales.svg",
+        "assets/illustrations/04-f-budget-horizon.svg",
+        "assets/illustrations/04-g-language-time-range.svg",
+        "assets/illustrations/04-h-delay-not-sufficient.svg",
+        "assets/illustrations/04-i-catching-ball.svg"
       ]
     },
     {
@@ -168,10 +172,11 @@
         "assets/illustrations/06-b-reunion-duration.svg",
         "assets/illustrations/06-c-retention-vs-recollection.svg",
         "assets/illustrations/06-d-melody-retention.svg",
-        "assets/illustrations/06-e-melody-ending.svg",
-        "assets/illustrations/06-f-aspect-imperfective.svg",
-        "assets/illustrations/06-g-thick-present.svg",
-        "assets/illustrations/06-h-layer-switching.svg"
+        "assets/illustrations/06-e-anticipation-branches.svg",
+        "assets/illustrations/06-f-melody-ending.svg",
+        "assets/illustrations/06-g-aspect-imperfective.svg",
+        "assets/illustrations/06-h-thick-present.svg",
+        "assets/illustrations/06-i-layer-switching.svg"
       ]
     },
     {
@@ -202,7 +207,10 @@
         "assets/illustrations/07-e-allostasis.svg",
         "assets/illustrations/07-f-gut-brain.svg",
         "assets/illustrations/07-g-salience-threshold.svg",
-        "assets/illustrations/07-h-active-inference-loop.svg"
+        "assets/illustrations/07-h-three-signaling-layers.svg",
+        "assets/illustrations/07-i-active-inference-loop.svg",
+        "assets/illustrations/07-j-self-reference-loop.svg",
+        "assets/illustrations/07-k-cross-scale-examples.svg"
       ]
     },
     {
@@ -229,14 +237,16 @@
       "figures": [
         "assets/illustrations/08-a-two-scales.svg",
         "assets/illustrations/08-b-many-clocks.svg",
-        "assets/illustrations/08-c-condensation-hierarchy.svg",
-        "assets/illustrations/08-d-delay-bridge.svg",
-        "assets/illustrations/08-e-extended-memory.svg",
-        "assets/illustrations/08-f-present-composed.svg",
-        "assets/illustrations/08-g-prospective-retrospective.svg",
-        "assets/illustrations/08-h-distributed-time.svg",
-        "assets/illustrations/08-i-terminology-map.svg",
-        "assets/illustrations/08-j-series-summary.svg"
+        "assets/illustrations/08-c-sequence-vs-melody.svg",
+        "assets/illustrations/08-d-condensation-hierarchy.svg",
+        "assets/illustrations/08-e-delay-bridge.svg",
+        "assets/illustrations/08-f-extended-memory.svg",
+        "assets/illustrations/08-g-present-composed.svg",
+        "assets/illustrations/08-h-prospective-retrospective.svg",
+        "assets/illustrations/08-i-distributed-time.svg",
+        "assets/illustrations/08-j-terminology-map.svg",
+        "assets/illustrations/08-k-three-disciplines.svg",
+        "assets/illustrations/08-l-series-summary.svg"
       ]
     }
   ]

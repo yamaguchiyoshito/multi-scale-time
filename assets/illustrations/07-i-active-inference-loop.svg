@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">世界へ働きかける循環と、その中にいる観察者</title>
+<desc id="desc">能動的推論の輪と、観察者自身を輪の中に置く二次サイバネティクス</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="640" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     07     図7-9</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">世界へ働きかける循環と、その中にいる観察者</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">能動的推論の輪と、観察者自身を輪の中に置く二次サイバネティクス</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="70.0" y="196.0" width="520.0" height="400.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="330.0" y="230.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">能動的推論</text>
+<path d="M 374.0 300.5 A 118 118 0 0 1 439.5 366.0" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
+<path d="M 439.5 454.0 A 118 118 0 0 1 374.0 519.5" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
+<path d="M 286.0 519.5 A 118 118 0 0 1 220.5 454.0" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
+<path d="M 220.5 366.0 A 118 118 0 0 1 286.0 300.5" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
+<rect x="245.0" y="264.0" width="170.0" height="56.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="330.0" y="300.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">感覚入力</text>
+<rect x="363.0" y="382.0" width="170.0" height="56.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="448.0" y="406.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">行動</text>
+<text x="448.0" y="436.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">世界へ働きかける</text>
+<rect x="245.0" y="500.0" width="170.0" height="56.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="330.0" y="524.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">環境の変化</text>
+<text x="330.0" y="554.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">次の入力になる</text>
+<rect x="127.0" y="382.0" width="170.0" height="56.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="212.0" y="418.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">内部モデルの更新</text>
+<text x="330.0" y="578.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">知覚と行動は循環している</text>
+<rect x="640.0" y="196.0" width="490.0" height="400.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="885.0" y="230.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">二次サイバネティクス</text>
+<rect x="680.0" y="260.0" width="410.0" height="300.0" rx="22" fill="none" stroke="#8a4f9e" stroke-width="2"/>
+<text x="885.0" y="288.0" fill="#8a4f9e" font-size="16" text-anchor="middle" font-weight="700">観察者 ＝ システムの一部</text>
+<path d="M 881.2 352.0 A 84 84 0 0 1 928.0 398.8" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
+<path d="M 928.0 461.2 A 84 84 0 0 1 881.2 508.0" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
+<path d="M 818.8 508.0 A 84 84 0 0 1 772.0 461.2" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
+<path d="M 772.0 398.8 A 84 84 0 0 1 818.8 352.0" fill="none" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
+<rect x="790.0" y="325.0" width="120.0" height="42.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="850.0" y="354.0" fill="#2b5f9e" font-size="13" text-anchor="middle" font-weight="700">感覚入力</text>
+<rect x="874.0" y="409.0" width="120.0" height="42.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="934.0" y="438.0" fill="#2b5f9e" font-size="13" text-anchor="middle" font-weight="700">行動</text>
+<rect x="790.0" y="493.0" width="120.0" height="42.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="850.0" y="522.0" fill="#2b5f9e" font-size="13" text-anchor="middle" font-weight="700">環境</text>
+<rect x="706.0" y="409.0" width="120.0" height="42.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="766.0" y="438.0" fill="#2b5f9e" font-size="13" text-anchor="middle" font-weight="700">内部モデル</text>
+<rect x="960.0" y="460.0" width="120.0" height="56.0" rx="14" fill="#ffffff" stroke="#c7792b" stroke-width="2"/>
+<text x="1020.0" y="484.0" fill="#c7792b" font-size="14" text-anchor="middle" font-weight="700">身体の状態</text>
+<text x="1020.0" y="514.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">心拍・注意</text>
+<path d="M 996 456 C 986 448 966 444 944 440" fill="none" stroke="#c7792b" stroke-width="1.8" marker-end="url(#arrow-amber)" stroke-dasharray="8 7"/>
+<text x="885.0" y="580.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="700">経験する主体自身が、経験の成立過程に組み込まれている</text>
+</g>
+</svg>

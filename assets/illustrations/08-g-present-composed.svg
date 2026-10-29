@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">現在の経験を構成する、由来の異なる情報</title>
+<desc id="desc">感覚入力、直前の保持、遠い過去の記憶、未来への予測が「いま」で重なる</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker><radialGradient id="g08g-1"><stop offset="0" stop-color="#2f8f83" stop-opacity="0.35"/><stop offset="0.55" stop-color="#2f8f83" stop-opacity="0.16"/><stop offset="1" stop-color="#2f8f83" stop-opacity="0"/></radialGradient><radialGradient id="g08g-2"><stop offset="0" stop-color="#2b5f9e" stop-opacity="0.35"/><stop offset="0.55" stop-color="#2b5f9e" stop-opacity="0.16"/><stop offset="1" stop-color="#2b5f9e" stop-opacity="0"/></radialGradient><radialGradient id="g08g-3"><stop offset="0" stop-color="#8a4f9e" stop-opacity="0.3"/><stop offset="0.55" stop-color="#8a4f9e" stop-opacity="0.14"/><stop offset="1" stop-color="#8a4f9e" stop-opacity="0"/></radialGradient><radialGradient id="g08g-4"><stop offset="0" stop-color="#c7792b" stop-opacity="0.35"/><stop offset="0.55" stop-color="#c7792b" stop-opacity="0.16"/><stop offset="1" stop-color="#c7792b" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="620" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     08     図8-7</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">現在の経験を構成する、由来の異なる情報</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">感覚入力、直前の保持、遠い過去の記憶、未来への予測が「いま」で重なる</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<circle cx="480.0" cy="330.0" r="120" fill="url(#g08g-1)"/>
+<circle cx="720.0" cy="330.0" r="120" fill="url(#g08g-2)"/>
+<circle cx="480.0" cy="430.0" r="120" fill="url(#g08g-3)"/>
+<circle cx="720.0" cy="430.0" r="120" fill="url(#g08g-4)"/>
+<circle cx="600.0" cy="380.0" r="30" fill="none" stroke="#232a33" stroke-width="2.5"/>
+<text x="600.0" y="388.0" fill="#232a33" font-size="20" text-anchor="middle" font-weight="700">いま</text>
+<text x="420.0" y="310.0" fill="#2f8f83" font-size="17" text-anchor="middle" font-weight="700">現在の感覚入力</text>
+<text x="420.0" y="332.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">音を聴く</text>
+<text x="780.0" y="310.0" fill="#2b5f9e" font-size="17" text-anchor="middle" font-weight="700">直前の保持</text>
+<text x="780.0" y="332.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">前の音</text>
+<text x="420.0" y="460.0" fill="#8a4f9e" font-size="17" text-anchor="middle" font-weight="700">遠い過去の記憶</text>
+<text x="420.0" y="482.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">メロディーの構造</text>
+<text x="780.0" y="460.0" fill="#c7792b" font-size="17" text-anchor="middle" font-weight="700">未来への予測</text>
+<text x="780.0" y="482.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">次の音</text>
+<line x1="150.0" y1="560.0" x2="1050.0" y2="560.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<circle cx="220.0" cy="560.0" r="7" fill="#8a4f9e"/>
+<text x="220.0" y="590.0" fill="#8a4f9e" font-size="14" text-anchor="middle" font-weight="700">遠い過去</text>
+<circle cx="560.0" cy="560.0" r="7" fill="#2b5f9e"/>
+<text x="560.0" y="590.0" fill="#2b5f9e" font-size="14" text-anchor="middle" font-weight="700">直前</text>
+<circle cx="640.0" cy="560.0" r="7" fill="#2f8f83"/>
+<text x="640.0" y="590.0" fill="#2f8f83" font-size="14" text-anchor="middle" font-weight="700">いま</text>
+<circle cx="760.0" cy="560.0" r="7" fill="#c7792b"/>
+<text x="760.0" y="590.0" fill="#c7792b" font-size="14" text-anchor="middle" font-weight="700">次</text>
+<text x="1056.0" y="566.0" fill="#5d6873" font-size="13" text-anchor="start" font-weight="400">時間</text>
+</g>
+</svg>

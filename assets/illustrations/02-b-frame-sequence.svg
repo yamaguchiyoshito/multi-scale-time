@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">静止画の列が、動きになる</title>
+<desc id="desc">60FPSの6コマ。間隔が識別の限界より短いと、独立した静止画ではなく連続した運動として経験される</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     02     図2-2</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">静止画の列が、動きになる</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">60FPSの6コマ。間隔が識別の限界より短いと、独立した静止画ではなく連続した運動として経験される</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="90.0" y="210.0" width="150.0" height="100.0" rx="8" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<circle cx="110.0" cy="290.0" r="9" fill="#c7792b"/>
+<text x="165.0" y="334.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">0ms</text>
+<rect x="262.0" y="210.0" width="150.0" height="100.0" rx="8" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<circle cx="304.0" cy="254.7" r="9" fill="#c7792b"/>
+<text x="337.0" y="334.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">16.7ms</text>
+<rect x="434.0" y="210.0" width="150.0" height="100.0" rx="8" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<circle cx="498.0" cy="232.9" r="9" fill="#c7792b"/>
+<text x="509.0" y="334.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">33.4ms</text>
+<rect x="606.0" y="210.0" width="150.0" height="100.0" rx="8" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<circle cx="692.0" cy="232.9" r="9" fill="#c7792b"/>
+<text x="681.0" y="334.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">50.1ms</text>
+<rect x="778.0" y="210.0" width="150.0" height="100.0" rx="8" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<circle cx="886.0" cy="254.7" r="9" fill="#c7792b"/>
+<text x="853.0" y="334.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">66.8ms</text>
+<rect x="950.0" y="210.0" width="150.0" height="100.0" rx="8" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<circle cx="1080.0" cy="290.0" r="9" fill="#c7792b"/>
+<text x="1025.0" y="334.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">83.5ms</text>
+<line x1="600.0" y1="350.0" x2="600.0" y2="390.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="620.0" y="376.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">間隔が識別の限界より短い</text>
+<rect x="90.0" y="400.0" width="1020.0" height="110.0" rx="10" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<path d="M 130 490 C 400 330 800 330 1070 490" fill="none" stroke="#2f8f83" stroke-width="2.5" stroke-dasharray="8 7"/>
+<circle cx="271.0" cy="459.4" r="8" fill="#c7792b" opacity="0.40499999999999997"/>
+<circle cx="506.0" cy="432.4" r="8" fill="#c7792b" opacity="0.58"/>
+<circle cx="741.0" cy="435.4" r="8" fill="#c7792b" opacity="0.7549999999999999"/>
+<circle cx="976.0" cy="468.4" r="8" fill="#c7792b" opacity="0.9299999999999999"/>
+<text x="600.0" y="540.0" fill="#2f8f83" font-size="15" text-anchor="middle" font-weight="700">経験される滑らかな運動</text>
+<text x="50.0" y="572.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">16.7ミリ秒が視覚の分解能そのものというわけではない。点滅・順序・運動の識別はそれぞれ異なる。</text>
+</g>
+</svg>

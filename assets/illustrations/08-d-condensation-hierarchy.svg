@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+<title id="title">時間的な凝縮の階層</title>
+<desc id="desc">下位の多数の変化が、上位で少数のまとまりへ凝縮され、表現形式が変わる</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="680" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     08     図8-4</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">時間的な凝縮の階層</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">下位の多数の変化が、上位で少数のまとまりへ凝縮され、表現形式が変わる</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<text x="80.0" y="570.0" fill="#232a33" font-size="18" text-anchor="start" font-weight="700">階層0</text>
+<text x="80.0" y="594.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">物質的な変化</text>
+<rect x="362.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="372.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="383.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="394.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="404.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="415.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="426.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="436.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="447.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="458.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="468.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="479.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="490.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="500.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="511.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="522.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="532.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="543.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="554.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="564.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="575.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="586.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="596.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="607.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="618.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="628.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="639.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="650.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="660.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="671.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="682.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="692.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="703.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="714.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="724.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="735.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="746.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="756.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="767.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="778.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="788.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="799.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="810.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="820.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="831.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="842.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="852.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="863.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="874.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="884.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="895.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="906.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="916.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="927.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="938.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="948.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="959.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="970.0" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="980.7" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="991.3" y="578.0" width="6.7" height="4.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<line x1="680.0" y1="546.0" x2="680.0" y2="516.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="700.0" y="534.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">凝縮</text>
+<text x="80.0" y="470.0" fill="#232a33" font-size="18" text-anchor="start" font-weight="700">階層1</text>
+<text x="80.0" y="494.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">感覚・神経処理（約2ミリ秒）</text>
+<rect x="362.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="402.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="442.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="482.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="522.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="562.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="602.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="642.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="682.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="722.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="762.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="802.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="842.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="882.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="922.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="962.0" y="475.0" width="36.0" height="10.0" rx="3" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.7"/>
+<line x1="680.0" y1="446.0" x2="680.0" y2="416.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="700.0" y="434.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">凝縮</text>
+<text x="80.0" y="370.0" fill="#232a33" font-size="18" text-anchor="start" font-weight="700">階層2</text>
+<text x="80.0" y="394.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">知覚統合（約0.5〜3秒）</text>
+<rect x="362.0" y="368.0" width="156.0" height="24.0" rx="3" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="522.0" y="368.0" width="156.0" height="24.0" rx="3" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="682.0" y="368.0" width="156.0" height="24.0" rx="3" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="842.0" y="368.0" width="156.0" height="24.0" rx="3" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.7"/>
+<line x1="680.0" y1="346.0" x2="680.0" y2="316.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="700.0" y="334.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">凝縮</text>
+<text x="80.0" y="270.0" fill="#232a33" font-size="18" text-anchor="start" font-weight="700">階層3</text>
+<text x="80.0" y="294.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">長期記憶</text>
+<rect x="360.0" y="258.0" width="640.0" height="44.0" rx="10" fill="#c7792b" stroke="none" stroke-width="0" opacity="0.75"/>
+<text x="1030.0" y="300.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">失われる情報と、</text>
+<text x="1030.0" y="320.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">新たに成立する</text>
+<text x="1030.0" y="340.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">特徴の両方がある</text>
+<text x="600.0" y="212.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">四つの層は実在する処理層ではなく、考えるためのモデルである</text>
+</g>
+</svg>
