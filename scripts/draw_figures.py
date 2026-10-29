@@ -54,8 +54,8 @@ class Figure:
     def _marker(self, color):
         return {BLUE: 'arrow-blue', AMBER: 'arrow-amber', TEAL: 'arrow-teal'}.get(color, 'arrow')
 
-    def line(self, x1, y1, x2, y2, color=MUTED, width=2, arrow=False, dash=False, dots=False):
-        extra = (f' marker-end="url(#{self._marker(color)})"' if arrow else '') + (' stroke-dasharray="8 7"' if dash else '') + (' stroke-dasharray="2 6" stroke-linecap="round"' if dots else '')
+    def line(self, x1, y1, x2, y2, color=MUTED, width=2, arrow=False, dash=False, dots=False, opacity=1.0):
+        extra = (f' marker-end="url(#{self._marker(color)})"' if arrow else '') + (' stroke-dasharray="8 7"' if dash else '') + (' stroke-dasharray="2 6" stroke-linecap="round"' if dots else '') + (f' opacity="{opacity}"' if opacity < 1 else '')
         self.body.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="{color}" stroke-width="{width}"{extra}/>')
 
     def path(self, d, color=MUTED, width=2, arrow=False, dash=False, fill='none', opacity=1.0):
@@ -224,8 +224,8 @@ def main() -> None:
     f.footer('時計が間違っているのでも、感覚が不正確なのでもない。測っているものが異なる。')
     made.add(f.save('01-a-clock-and-experience.svg'))
 
-    # ------------------------------------------------------------------ 01-b
-    f = Figure(1, '主観的時間の三つの働き', '時間知覚、時間展望、時間概念。関係しているが同一ではない', 540, 'b')
+    # ------------------------------------------------------------------ 01-d
+    f = Figure(1, '主観的時間の三つの働き', '時間知覚、時間展望、時間概念。関係しているが同一ではない', 540, 'd')
     for i, lab in enumerate(['時間知覚', '時間展望', '時間概念']):
         f.panel(70 + i * 360, 200, 330, 290, lab)
     # perception: bird path
@@ -256,7 +256,7 @@ def main() -> None:
     f.text(975, 412, '順序・期間・関係', 15, INK, anchor='middle')
     f.text(955, 470, '出来事を整合的な時間構造に組む', 15, MUTED, anchor='middle')
     f.footer('')
-    made.add(f.save('01-b-three-aspects.svg'))
+    made.add(f.save('01-d-three-aspects.svg'))
 
     # ------------------------------------------------------------------ 02-a
     f = Figure(2, '速すぎる変化と、遅すぎる変化', '変化として経験できるのは、両端のあいだの限られた範囲である', 560, 'a')
@@ -293,8 +293,8 @@ def main() -> None:
     f.footer('同一の測定方法による比較値ではなく、感覚・課題ごとの代表例である。')
     made.add(f.save('02-b-resolution-by-sense.svg'))
 
-    # ------------------------------------------------------------------ 02-c
-    f = Figure(2, '瞬間と持続', '瞬間は弁別できる最小の幅、持続は複数の出来事を一つの流れとして経験すること', 560, 'c')
+    # ------------------------------------------------------------------ 02-e
+    f = Figure(2, '瞬間と持続', '瞬間は弁別できる最小の幅、持続は複数の出来事を一つの流れとして経験すること', 560, 'e')
     f.panel(70, 200, 500, 300, '瞬間')
     f.text(110, 268, '間隔が長い', 15, MUTED)
     f.circ(300, 262, 12, AMBER)
@@ -320,7 +320,7 @@ def main() -> None:
     f.text(880, 440, '前の音が次の音へ残り、意味を変え合う', 15, INK, anchor='middle', weight=700)
     f.text(880, 470, '音の集合ではなく、一つのメロディーとして経験される', 15, MUTED, anchor='middle')
     f.footer('')
-    made.add(f.save('02-c-moment-and-duration.svg'))
+    made.add(f.save('02-e-moment-and-duration.svg'))
 
     # ------------------------------------------------------------------ 03-a
     f = Figure(3, '知覚は、予測と修正の往復で成立する', '感覚入力と生成モデルの予測が照合され、その差が内部モデルを更新する', 580, 'a')
@@ -366,8 +366,8 @@ def main() -> None:
     f.footer('安定しているのは網膜像ではなく、推定された世界である。')
     made.add(f.save('03-b-eye-movement.svg'))
 
-    # ------------------------------------------------------------------ 03-c
-    f = Figure(3, '時間スケールギャップを越えて、色が成立する', '光の振動から色の経験まで、時間尺度が上がるごとに情報の表現形式が変わる', 640, 'c')
+    # ------------------------------------------------------------------ 03-f
+    f = Figure(3, '時間スケールギャップを越えて、色が成立する', '光の振動から色の経験まで、時間尺度が上がるごとに情報の表現形式が変わる', 640, 'f')
     steps = [('光の振動', '数百兆Hz', BLUE), ('視細胞の応答', 'ミリ秒', BLUE), ('神経回路の統合', '数十ミリ秒', TEAL), ('内部モデルの推定', '数百ミリ秒〜秒', AMBER), ('「赤いバラ」の経験', '色を持った対象', PLUM)]
     for i, (lab, sub, color) in enumerate(steps):
         x = 90 + i * 212
@@ -383,7 +383,7 @@ def main() -> None:
     f.text(1130, 624, '時間尺度 →', 15, MUTED, anchor='end')
     f.text(600, 212, '失われる情報がある一方で、上位の尺度で安定した特徴が成立する', 17, INK, anchor='middle')
     f.footer('')
-    made.add(f.save('03-c-scale-gap-to-color.svg'))
+    made.add(f.save('03-f-scale-gap-to-color.svg'))
 
     # ------------------------------------------------------------------ 04-a
     f = Figure(4, '直結する反応と、余白のある反応', '刺激と反応の間に、記憶・予測・複数の候補が介在するかどうか', 600, 'a')
@@ -406,8 +406,8 @@ def main() -> None:
     f.footer('問題は時計で測った応答時間ではなく、入力と出力の間にどれだけの処理が介在するかである。')
     made.add(f.save('04-a-reflex-vs-deliberation.svg'))
 
-    # ------------------------------------------------------------------ 04-b
-    f = Figure(4, '一つの出来事に、三つの時間尺度が応答する', '反射、経験による修正、将来を見越した計画は、同じ身体の中で並行して成立する', 580, 'b')
+    # ------------------------------------------------------------------ 04-d
+    f = Figure(4, '一つの出来事に、三つの時間尺度が応答する', '反射、経験による修正、将来を見越した計画は、同じ身体の中で並行して成立する', 580, 'd')
     f.circ(150, 386, 16, AMBER)
     f.text(150, 428, '熱い鍋に', 15, INK, anchor='middle', weight=700)
     f.text(150, 448, '触れる', 15, INK, anchor='middle', weight=700)
@@ -424,10 +424,10 @@ def main() -> None:
         f.text(x, 528, t, 15, MUTED, anchor='middle')
     f.text(80, 236, '同じ身体の中で並行して応答する', 16, INK, weight=700)
     f.footer('進化が拡張したのは反応の遅さではなく、異なる時間尺度で情報を扱い行動を選ぶ能力である。')
-    made.add(f.save('04-b-three-timescales.svg'))
+    made.add(f.save('04-d-three-timescales.svg'))
 
-    # ------------------------------------------------------------------ 04-c
-    f = Figure(4, '意思決定が扱う時間幅が、実現できる行動を変える', '総予算は同じ。毎日使い切るか、三か月分をまとめて扱うかの違いだけである', 640, 'c')
+    # ------------------------------------------------------------------ 04-e
+    f = Figure(4, '意思決定が扱う時間幅が、実現できる行動を変える', '総予算は同じ。毎日使い切るか、三か月分をまとめて扱うかの違いだけである', 640, 'e')
     def panel_budget(y0, title, tall_day=None):
         f.text(80, y0 + 10, title, 18, INK, weight=700)
         base = y0 + 150
@@ -452,7 +452,7 @@ def main() -> None:
     f.text(560, 510, '支出のタイミングを選べる → 5万円の商品が買える', 15, TEAL, anchor='middle', weight=700)
     f.text(600, 624, '総予算は同じ。変わったのは、意思決定が扱う時間の幅だけである。', 17, INK, anchor='middle')
     f.footer('')
-    made.add(f.save('04-c-budget-horizon.svg'))
+    made.add(f.save('04-e-budget-horizon.svg'))
 
     # ------------------------------------------------------------------ 05-a
     f = Figure(5, '倉庫としての記憶と、現在を構成する記憶', '保存して取り出す比喩から、過去の蓄積を素材に現在を組み上げる見方へ', 600, 'a')
@@ -479,8 +479,8 @@ def main() -> None:
     f.footer('')
     made.add(f.save('05-a-warehouse-vs-construction.svg'))
 
-    # ------------------------------------------------------------------ 05-b
-    f = Figure(5, '記憶は時系列だけで整理されていない', '「海」を中心に、異なる時代・場所の記憶が類似性・近接性・感情で結ばれる', 720, 'b')
+    # ------------------------------------------------------------------ 05-c
+    f = Figure(5, '記憶は時系列だけで整理されていない', '「海」を中心に、異なる時代・場所の記憶が類似性・近接性・感情で結ばれる', 720, 'c')
     cx, cy = 600, 380
     f.blob(cx, cy, 70, BLUE, 0.5)
     f.text(cx, cy + 8, '海', 28, BLUE, anchor='middle', weight=700)
@@ -504,10 +504,10 @@ def main() -> None:
         f.circ(x, 620, 5, AMBER)
     f.text(600, 600, '出来事が起きた順序（時系列）', 14, MUTED, anchor='middle')
     f.footer('同じ記憶でも、どの線をたどるかで別の記憶へつながる。')
-    made.add(f.save('05-b-sea-network.svg'))
+    made.add(f.save('05-c-sea-network.svg'))
 
-    # ------------------------------------------------------------------ 05-c
-    f = Figure(5, '記憶の自己回帰', '想起→照合→新しい認識→蓄積の輪を回るごとに、記憶は重層化する', 600, 'c')
+    # ------------------------------------------------------------------ 05-e
+    f = Figure(5, '記憶の自己回帰', '想起→照合→新しい認識→蓄積の輪を回るごとに、記憶は重層化する', 600, 'e')
     loop_nodes(f, 400, 390, 130, [('想起', '過去の記憶を取り出す'), ('照合', '現在の情報と比べる'), ('新しい認識', '意味が変わる'), ('蓄積', '再び記憶になる')], BLUE, 190, 64, 18)
     f.path('M 500 460 C 640 500 700 470 790 460', color=AMBER, width=2.2, arrow=True, dash=True)
     f.text(650, 522, '一周ごとに', 14, AMBER, anchor='middle')
@@ -518,10 +518,10 @@ def main() -> None:
     f.text(1000, 548, '記憶の層が一枚増える', 15, INK, anchor='middle', weight=700)
     f.text(1000, 232, '量が増えるだけでなく、内部の関係を変えながら成長する', 14, MUTED, anchor='middle')
     f.footer('')
-    made.add(f.save('05-c-recursive-memory.svg'))
+    made.add(f.save('05-e-recursive-memory.svg'))
 
-    # ------------------------------------------------------------------ 06-a
-    f = Figure(6, '「ミ」が鳴っている現在', '原初印象、保持、予感は並んでいるのではなく、一つの現在の中で結びついている', 560, 'a')
+    # ------------------------------------------------------------------ 06-c
+    f = Figure(6, '「ミ」が鳴っている現在', '原初印象、保持、予感は並んでいるのではなく、一つの現在の中で結びついている', 560, 'c')
     f.line(150, 360, 1080, 360, color=MUTED, width=2, arrow=True)
     f.text(1086, 388, '時間', 14, MUTED)
     notes = [('ド', 330, '保持', '鳴り終わっても現在に残る', 0.45, False), ('ミ', 600, '原初印象', 'いま直接経験している', 1.0, False), ('ソ', 870, '予感', 'まだ鳴っていないが先取りされる', 1.0, True)]
@@ -540,10 +540,10 @@ def main() -> None:
     f.brace(250, 950, 450, down=True)
     f.text(600, 486, '一つの現在', 20, TEAL, anchor='middle', weight=700)
     f.footer('だから三つの音は、独立した刺激ではなくメロディーとして経験される。')
-    made.add(f.save('06-a-melody-retention.svg'))
+    made.add(f.save('06-c-melody-retention.svg'))
 
-    # ------------------------------------------------------------------ 06-b
-    f = Figure(6, '時刻としての現在と、心理的現在', '一点としての現在と、保持と予感を含んで未来へ開いた厚みのある現在', 600, 'b')
+    # ------------------------------------------------------------------ 06-f
+    f = Figure(6, '時刻としての現在と、心理的現在', '一点としての現在と、保持と予感を含んで未来へ開いた厚みのある現在', 600, 'f')
     f.text(80, 258, '時刻としての現在', 18, INK, weight=700)
     f.line(330, 270, 1080, 270, color=MUTED, width=2, arrow=True)
     f.circ(700, 270, 8, AMBER)
@@ -564,10 +564,10 @@ def main() -> None:
     f.brace(520, 920, 500, down=True)
     f.text(720, 536, '幅のある現在（代表値 約0.5〜3秒。課題や注意で変わる）', 15, INK, anchor='middle')
     f.footer('')
-    made.add(f.save('06-b-thick-present.svg'))
+    made.add(f.save('06-f-thick-present.svg'))
 
-    # ------------------------------------------------------------------ 07-a
-    f = Figure(7, '身体の中の、いくつもの時間尺度', '神経系から成長・発達まで、一つの身体の中で異なる速さの過程が同時に進む', 660, 'a')
+    # ------------------------------------------------------------------ 07-b
+    f = Figure(7, '身体の中の、いくつもの時間尺度', '神経系から成長・発達まで、一つの身体の中で異なる速さの過程が同時に進む', 660, 'b')
     year = 365.25 * 86400
     X = log_axis(f, 330, 1080, 556, 1e-3, 10 * year, [(1e-3, '1ms'), (1, '1秒'), (60, '1分'), (3600, '1時間'), (86400, '1日'), (year, '1年'), (10 * year, '10年')], '')
     items = [('神経系', 1e-3, 1, BLUE, '情報伝達・感覚・運動'), ('内分泌系', 1, 3 * 86400, AMBER, 'ホルモンによる調節'), ('免疫系', 60, year, PLUM, '防御・炎症・免疫記憶'), ('代謝系', 1e-3, 86400, TEAL, 'エネルギーの生成と利用'), ('成長・発達', 86400, 10 * year, MUTED, '身体構造と機能の変化')]
@@ -577,10 +577,10 @@ def main() -> None:
         f.text(X(lo) + 12, y + 20, sub, 13, '#ffffff' if color != MUTED else INK)
     f.line(330, 200, 330, 546, color=LINE, width=1)
     f.footer('帯は重なり合い、同じ身体の中で同時に進行している。範囲は単純化した代表例。')
-    made.add(f.save('07-a-body-timescales.svg'))
+    made.add(f.save('07-b-body-timescales.svg'))
 
-    # ------------------------------------------------------------------ 07-b
-    f = Figure(7, '身体は、脳に何を伝えているのか', '坂道を走る場面。外受容・自己受容・内受容の三つの流れが脳へ集まり、行動の調整として返される', 640, 'b')
+    # ------------------------------------------------------------------ 07-c
+    f = Figure(7, '身体は、脳に何を伝えているのか', '坂道を走る場面。外受容・自己受容・内受容の三つの流れが脳へ集まり、行動の調整として返される', 640, 'c')
     f.path('M 120 560 L 720 400', color=MUTED, width=3)
     f.path('M 120 560 L 720 560 L 720 400 Z', color='none', width=0, fill=SOFT)
     person(f, 470, 430, INK, 1.4, 0.4)
@@ -602,10 +602,10 @@ def main() -> None:
     f.text(1010, 440, '走る速さの調整', 16, BLUE, anchor='middle', weight=700)
     f.text(1010, 462, '行動として身体へ返す', 13, MUTED, anchor='middle')
     f.footer('身体の状態は付随情報ではなく、注意・判断・行動を変える入力である。')
-    made.add(f.save('07-b-three-senses.svg'))
+    made.add(f.save('07-c-three-senses.svg'))
 
-    # ------------------------------------------------------------------ 07-c
-    f = Figure(7, '世界へ働きかける循環と、その中にいる観察者', '能動的推論の輪と、観察者自身を輪の中に置く二次サイバネティクス', 640, 'c')
+    # ------------------------------------------------------------------ 07-h
+    f = Figure(7, '世界へ働きかける循環と、その中にいる観察者', '能動的推論の輪と、観察者自身を輪の中に置く二次サイバネティクス', 640, 'h')
     f.panel(70, 196, 520, 400, '能動的推論')
     loop_nodes(f, 330, 410, 118, [('感覚入力', ''), ('行動', '世界へ働きかける'), ('環境の変化', '次の入力になる'), ('内部モデルの更新', '')], BLUE, 170, 56, 16)
     f.text(330, 578, '知覚と行動は循環している', 15, INK, anchor='middle', weight=700)
@@ -617,10 +617,10 @@ def main() -> None:
     f.path('M 996 456 C 986 448 966 444 944 440', color=AMBER, width=1.8, arrow=True, dash=True)
     f.text(885, 580, '経験する主体自身が、経験の成立過程に組み込まれている', 14, INK, anchor='middle', weight=700)
     f.footer('')
-    made.add(f.save('07-c-active-inference-loop.svg'))
+    made.add(f.save('07-h-active-inference-loop.svg'))
 
-    # ------------------------------------------------------------------ 08-a
-    f = Figure(8, '一つの身体の中の複数の時計', '脳波から成長・加齢まで、尺度の異なる周期が互いに影響し合っている', 640, 'a')
+    # ------------------------------------------------------------------ 08-b
+    f = Figure(8, '一つの身体の中の複数の時計', '脳波から成長・加齢まで、尺度の異なる周期が互いに影響し合っている', 640, 'b')
     f.rect(70, 196, 1060, 380, fill='none', stroke=LINE, width=2, rx=60)
     f.text(600, 226, 'ひとつの身体', 18, MUTED, anchor='middle')
     clocks = [('脳波', 'ミリ秒', 40, BLUE), ('心拍・呼吸', '秒', 12, TEAL), ('概日リズム', '約24時間', 4, AMBER), ('免疫記憶・学習', '日〜年', 1.5, PLUM), ('成長・加齢', '数十年', 0.5, MUTED)]
@@ -637,10 +637,10 @@ def main() -> None:
     f.path('M 190 540 C 400 566 800 566 1010 540', color=BLUE, width=2, arrow=True)
     f.text(600, 548, '短い尺度の反復が、長い尺度の変化を生む', 14, BLUE, anchor='middle', weight=700)
     f.footer('時計とは時刻を測る装置ではなく、固有の尺度で状態を変える過程のことである。')
-    made.add(f.save('08-a-many-clocks.svg'))
+    made.add(f.save('08-b-many-clocks.svg'))
 
-    # ------------------------------------------------------------------ 08-b
-    f = Figure(8, '時間的な凝縮の階層', '下位の多数の変化が、上位で少数のまとまりへ凝縮され、表現形式が変わる', 680, 'b')
+    # ------------------------------------------------------------------ 08-c
+    f = Figure(8, '時間的な凝縮の階層', '下位の多数の変化が、上位で少数のまとまりへ凝縮され、表現形式が変わる', 680, 'c')
     layers = [('階層0', '物質的な変化', 60, 4, BLUE), ('階層1', '感覚・神経処理（約2ミリ秒）', 16, 10, BLUE), ('階層2', '知覚統合（約0.5〜3秒）', 4, 24, TEAL), ('階層3', '長期記憶', 1, 44, AMBER)]
     for i, (name, desc, count, size, color) in enumerate(layers):
         y = 580 - i * 100
@@ -659,10 +659,10 @@ def main() -> None:
     f.lines(1030, 300, ['失われる情報と、', '新たに成立する', '特徴の両方がある'], 14, INK, gap=20)
     f.text(600, 212, '四つの層は実在する処理層ではなく、考えるためのモデルである', 15, MUTED, anchor='middle')
     f.footer('')
-    made.add(f.save('08-b-condensation-hierarchy.svg'))
+    made.add(f.save('08-c-condensation-hierarchy.svg'))
 
-    # ------------------------------------------------------------------ 08-c
-    f = Figure(8, '現在の経験を構成する、由来の異なる情報', '感覚入力、直前の保持、遠い過去の記憶、未来への予測が「いま」で重なる', 620, 'c')
+    # ------------------------------------------------------------------ 08-f
+    f = Figure(8, '現在の経験を構成する、由来の異なる情報', '感覚入力、直前の保持、遠い過去の記憶、未来への予測が「いま」で重なる', 620, 'f')
     cx, cy = 600, 370
     f.blob(cx - 120, cy - 40, 120, TEAL, 0.35)
     f.blob(cx + 120, cy - 40, 120, BLUE, 0.35)
@@ -684,10 +684,10 @@ def main() -> None:
         f.text(x, 590, t, 14, color, anchor='middle', weight=700)
     f.text(1056, 566, '時間', 13, MUTED)
     f.footer('')
-    made.add(f.save('08-c-present-composed.svg'))
+    made.add(f.save('08-f-present-composed.svg'))
 
-    # ------------------------------------------------------------------ 08-d
-    f = Figure(8, '全8回の論理の到達点', '時間知覚の制約から、マルチ時間スケールによる時間経験の成立へ', 680, 'd')
+    # ------------------------------------------------------------------ 08-i
+    f = Figure(8, '全8回の論理の到達点', '時間知覚の制約から、マルチ時間スケールによる時間経験の成立へ', 680, 'i')
     rows = [('時間知覚の制約', '個体ごとに識別可能な時間スケールが異なる', '第1・2回', BLUE), ('情報の粗視化と再構成', '物理的変化が知覚可能な情報へ変換される', '第2・3回', BLUE), ('意識の時間的内部', '遅延が記憶の参照と行動選択を可能にする', '第4回', TEAL), ('記憶と予測による現在の構成', '過去の保持・現在の知覚・未来の予感が統合される', '第5・6回', TEAL), ('身体と環境の相互作用', '異なる時間尺度の生体システムが相互に影響する', '第7回', AMBER), ('マルチ時間スケールによる時間経験の成立', '複数の時間的過程が統合され、一つの「現在」が経験される', '第8回', PLUM)]
     for i, (title, desc, ch, color) in enumerate(rows):
         y = 572 - i * 66
@@ -698,7 +698,609 @@ def main() -> None:
         if i < 5:
             f.line(520, y - 2, 520, y - 12, color=MUTED, width=2, arrow=True)
     f.footer('時間の流れは単に知覚されるのではなく、生物の情報処理によって経験として構成される。')
-    made.add(f.save('08-d-series-summary.svg'))
+    made.add(f.save('08-i-series-summary.svg'))
+
+    # ================================================================== 追加の30点（2026-10-29 増補）
+
+    # ------------------------------------------------------------------ 01-b second-definition
+    f = Figure(1, '1秒は、繰り返す変化を数えて決められている', '地球の自転からセシウム原子へ。基準は変わっても、周期を数えて他の出来事を比べる装置である点は同じ', 580, 'b')
+    f.panel(70, 200, 500, 300, '地球の自転')
+    f.circ(220, 350, 70, BLUE, fill=False, width=3)
+    f.path('M 220 280 A 70 70 0 1 1 150 350', color=BLUE, width=2.2, arrow=True)
+    f.line(220, 290, 220, 410, color=LINE, width=1.5, dash=True)
+    f.text(220, 358, '1日', 22, BLUE, anchor='middle', weight=700)
+    f.lines(330, 320, ['1日 ÷ 24 ÷ 60 ÷ 60', '= 1日の 86,400 分の 1', '＝ かつての 1秒'], 18, INK, gap=30)
+    f.text(320, 470, '自転は完全には一定ではない', 14, MUTED, anchor='middle')
+    f.panel(630, 200, 500, 300, 'セシウム133原子')
+    f.circ(780, 350, 10, AMBER)
+    for r in (28, 46, 64):
+        f.circ(780, 350, r, AMBER, fill=False, width=1.5)
+    f.wave(860, 1100, 350, 14, 12, AMBER, 2)
+    f.text(980, 392, '遷移に対応する放射', 14, MUTED, anchor='middle')
+    f.lines(880, 300, ['9,192,631,770 回の振動', '＝ 現在の 1秒（SI）'], 18, INK, gap=30)
+    f.text(880, 470, '原子の性質は安定した基準になる', 14, MUTED, anchor='middle')
+    f.text(600, 540, '時間そのものを取り出すのではなく、周期的な変化を数えて、他の出来事を比べる。それが時計である。', 17, INK, anchor='middle')
+    made.add(f.save('01-b-second-definition.svg'))
+
+    # ------------------------------------------------------------------ 01-c common-time
+    f = Figure(1, '共通の時間があるから、出来事を比べ、順序づけ、同期できる', '客観的時間の役割は、社会の調整と同期の基盤にある', 570, 'c')
+    f.line(120, 400, 1080, 400, color=INK, width=2.5, arrow=True)
+    for k in range(7):
+        x = 150 + k * 140
+        f.line(x, 392, x, 408, color=INK, width=1.5)
+        f.text(x, 432, f'10:{k*5:02d}', 14, MUTED, anchor='middle')
+    f.text(1086, 405, '共通の時刻', 14, MUTED)
+    f.rect(150, 300, 420, 32, fill=BLUE, stroke='none', width=0, rx=16, opacity=0.8)
+    f.text(360, 322, '列車：10:00 発 → 10:30 着', 15, '#ffffff', anchor='middle', weight=700)
+    f.line(150, 332, 150, 392, color=BLUE, width=1, dash=True)
+    f.line(570, 332, 570, 392, color=BLUE, width=1, dash=True)
+    f.circ(486, 250, 9, AMBER)
+    f.text(486, 232, '売買成立 10:12:05', 14, AMBER, anchor='middle', weight=700)
+    f.line(486, 259, 486, 392, color=AMBER, width=1, dash=True)
+    f.circ(780, 250, 9, TEAL)
+    f.text(780, 232, 'ログの記録 10:22:30', 14, TEAL, anchor='middle', weight=700)
+    f.line(780, 259, 780, 392, color=TEAL, width=1, dash=True)
+    f.rect(900, 300, 170, 32, fill=PLUM, stroke='none', width=0, rx=16, opacity=0.8)
+    f.text(985, 322, '契約の期限 10:30', 14, '#ffffff', anchor='middle', weight=700)
+    f.line(1010, 332, 1010, 392, color=PLUM, width=1, dash=True)
+    f.text(600, 488, '比較 ・ 順序づけ ・ 同期', 20, INK, anchor='middle', weight=700)
+    f.footer('時計で測れることと、時間がどのような存在かは別の問題である。')
+    made.add(f.save('01-c-common-time.svg'))
+
+    # ------------------------------------------------------------------ 02-c coarse-graining
+    f = Figure(2, '時間的粗視化', '細かな差異は失われ、代わりに大きな時間単位の性質が現れる', 580, 'c')
+    f.text(80, 262, '光の強さ', 17, INK, weight=700)
+    f.text(80, 284, '周期 10ms', 14, MUTED)
+    f.square_wave(260, 860, 270, 26, 20, AMBER, 2)
+    f.line(260, 310, 860, 310, color=LINE, width=1)
+    f.line(560, 320, 560, 380, color=MUTED, width=2.5, arrow=True)
+    f.text(590, 356, '時間的粗視化', 16, INK, weight=700)
+    f.text(80, 442, '経験される', 17, INK, weight=700)
+    f.text(80, 464, '明るさ', 17, INK, weight=700)
+    f.line(260, 450, 860, 450, color=TEAL, width=4)
+    f.rect(260, 424, 600, 52, fill=TEAL, stroke='none', width=0, rx=8, opacity=0.12)
+    f.lines(900, 262, ['失われる差異', '個々の点滅、周期'], 15, AMBER, gap=22, weight=700)
+    f.text(900, 306, '', 15)
+    f.lines(900, 442, ['現れる性質', '平均的な明るさ'], 15, TEAL, gap=22, weight=700)
+    f.footer('知覚の失敗ではなく、限られた処理能力で世界を捉えるための仕組みである。')
+    made.add(f.save('02-c-coarse-graining.svg'))
+
+    # ------------------------------------------------------------------ 02-d star-trails
+    f = Figure(2, '観測する時間の幅を変えると、静止が運動になる', '同じ星の見かけの移動。数秒では点、長時間の撮影では弧', 600, 'd')
+    f.panel(70, 200, 500, 340, '数秒の観察')
+    f.rect(110, 250, 420, 200, fill='#1d2433', stroke='none', width=0, rx=12)
+    for (x, y, r) in [(180, 300, 3), (250, 360, 2.5), (330, 290, 3.5), (420, 330, 2.5), (470, 400, 3), (300, 420, 2)]:
+        f.circ(x, y, r, '#ffffff')
+    f.text(320, 490, '変化量が小さく、静止して見える', 15, INK, anchor='middle', weight=700)
+    f.panel(630, 200, 500, 340, '長時間の撮影')
+    f.rect(670, 250, 420, 200, fill='#1d2433', stroke='none', width=0, rx=12)
+    for r in (60, 95, 130, 165):
+        f.path(f'M {880 - r:.0f} 450 A {r} {r} 0 0 1 {880 + r * 0.3:.0f} {450 - r * 0.95:.0f}', color='#ffffff', width=1.6, opacity=0.9)
+    f.text(880, 490, '弧を描く運動として捉えられる', 15, INK, anchor='middle', weight=700)
+    f.rect(300, 506, 40, 10, fill=AMBER, stroke='none', width=0, rx=5)
+    f.text(320, 532, '観測時間：数秒', 13, MUTED, anchor='middle')
+    f.rect(690, 506, 380, 10, fill=AMBER, stroke='none', width=0, rx=5)
+    f.text(880, 532, '観測時間：数時間', 13, MUTED, anchor='middle')
+    f.footer('物理現象は同じ。変えたのは、変化を観測し統合する時間の幅である。')
+    made.add(f.save('02-d-star-trails.svg'))
+
+    # ------------------------------------------------------------------ 02-f scale-relativity
+    f = Figure(2, 'スケール相対性', '同じ点滅が、観測する個体の時間分解能によって点滅にも連続光にもなる', 620, 'f')
+    f.text(80, 236, '物理的な点滅', 16, INK, weight=700)
+    f.square_wave(330, 1000, 232, 14, 24, AMBER, 1.8)
+    f.line(330, 268, 1000, 268, color=LINE, width=1)
+    rows = [('時間分解能の高い個体', '点滅として識別', 'sq', BLUE), ('人間', '連続した光', 'flat', TEAL), ('時間分解能の低い個体', 'より一様な光', 'flat2', PLUM)]
+    for i, (lab, seen, kind, color) in enumerate(rows):
+        y = 330 + i * 86
+        f.text(80, y + 6, lab, 16, INK, weight=700)
+        if kind == 'sq':
+            f.square_wave(330, 1000, y, 14, 24, color, 1.8)
+        elif kind == 'flat':
+            f.wave(330, 1000, y, 3, 24, color, 1.8)
+        else:
+            f.line(330, y, 1000, y, color=color, width=2.5)
+        f.text(1020, y + 6, seen, 15, color, weight=700)
+    f.footer('一瞬か変化かは、世界の側だけでは決まらず、個体の知覚構造との関係で決まる。')
+    made.add(f.save('02-f-scale-relativity.svg'))
+
+    # ------------------------------------------------------------------ 03-c prediction-error-rose
+    f = Figure(3, '予測誤差が、推定を修正する', '遠くの赤いものを「バラ」と予測し、近づいて入力が変わると「造花」へ改める', 580, 'c')
+    for i, lab in enumerate(['遠くで', '近づく', '推定の修正']):
+        f.panel(70 + i * 360, 200, 330, 300, lab)
+    f.blob(235, 330, 26, '#c23b3b', 0.9)
+    f.box(130, 400, 210, 56, '予測：バラ', '', BLUE, 18)
+    f.text(235, 480, '入力は小さく曖昧', 14, MUTED, anchor='middle')
+    f.blob(595, 320, 60, '#c23b3b', 0.9)
+    for k in range(5):
+        f.line(560 + k * 18, 300, 568 + k * 18, 345, color='#ffffff', width=1.2)
+    f.text(595, 384, '入力：布の質感', 15, AMBER, anchor='middle', weight=700)
+    f.box(490, 400, 210, 56, '予測：バラ', '', BLUE, 18)
+    f.text(595, 480, '予測と入力に差 ＝ 予測誤差', 14, AMBER, anchor='middle', weight=700)
+    f.blob(955, 320, 60, '#c23b3b', 0.9)
+    f.box(850, 400, 210, 56, '推定：造花', '', TEAL, 18)
+    f.text(955, 480, '誤差で内部モデルを更新', 14, TEAL, anchor='middle')
+    f.line(405, 428, 440, 428, color=MUTED, width=2, arrow=True)
+    f.line(765, 428, 800, 428, color=MUTED, width=2, arrow=True)
+    f.footer('誤差は認識の失敗ではなく、モデルを更新するための情報である。')
+    made.add(f.save('03-c-prediction-error-rose.svg'))
+
+    # ------------------------------------------------------------------ 03-d cup-tradeoff
+    f = Figure(3, '行動に要る情報と、要らない情報', 'コップを持ち上げるのに、表面の傷や反射をすべて解析する必要はない', 600, 'd')
+    f.path('M 520 260 L 540 440 Q 600 460 660 440 L 680 260 Z', color=INK, width=2.5, fill='#ffffff')
+    f.path('M 680 300 Q 740 320 680 390', color=INK, width=2.5)
+    f.lines(140, 290, ['要る情報', '位置', '大きさ', '持ちやすさ'], 17, TEAL, gap=30, weight=700)
+    for y in (316, 346, 376):
+        f.line(260, y - 6, 510, 300 + (y - 316) * 1.5, color=TEAL, width=1.5, arrow=True)
+    f.lines(840, 290, ['要らない情報', '微細な傷', '光の反射のすべて'], 17, MUTED, gap=30, weight=700)
+    f.line(830, 340, 600, 330, color=MUTED, width=1.5, dash=True, arrow=True)
+    f.line(830, 370, 640, 400, color=MUTED, width=1.5, dash=True, arrow=True)
+    f.line(200, 520, 1000, 520, color=MUTED, width=2, arrow=True)
+    f.text(200, 548, '速く行動する', 15, INK)
+    f.text(1000, 548, '精度を上げる（時間とエネルギーが要る）', 15, INK, anchor='end')
+    f.circ(430, 520, 9, TEAL)
+    f.text(430, 500, '行動に必要な精度', 14, TEAL, anchor='middle', weight=700)
+    f.footer('')
+    made.add(f.save('03-d-cup-tradeoff.svg'))
+
+    # ------------------------------------------------------------------ 03-e qualia-process
+    f = Figure(3, 'クオリアを、静的な属性ではなく動的な過程として捉える', '左は層として積む見方、右は予測と修正の循環に質が伴うという本連載の仮説', 620, 'e')
+    f.panel(70, 200, 480, 380, '静的な見方')
+    for i, (lab, color) in enumerate([('「赤さ」（感覚の質）', PLUM), ('神経活動', TEAL), ('光の物理量（波長・強度）', BLUE)]):
+        y = 270 + i * 86
+        f.rect(130, y, 360, 60, fill='#ffffff', stroke=color, width=2, rx=10)
+        f.text(310, y + 37, lab, 16, color, anchor='middle', weight=700)
+    f.text(310, 540, '測定値を記述しても「どのような感じか」は説明されない', 13, MUTED, anchor='middle')
+    f.panel(630, 200, 500, 380, '本連載の仮説')
+    loop_nodes(f, 820, 410, 96, ['感覚入力', '照合（予測誤差）', '内部モデルの更新', '予測'], BLUE, 150, 42, 13)
+    f.blob(1050, 330, 70, '#c23b3b', 0.45)
+    f.text(1050, 336, '「赤さ」', 18, '#8a2a2a', anchor='middle', weight=700)
+    f.path('M 930 390 C 980 380 1000 360 1010 345', color='#8a2a2a', width=1.8, arrow=True, dash=True)
+    f.text(1050, 372, '過程に伴う質', 13, MUTED, anchor='middle')
+    f.text(880, 556, '再構成し続ける過程に、質が伴うという仮説', 14, INK, anchor='middle', weight=700)
+    f.footer('予測誤差そのものをクオリアと同一視はしない。遅延のあるシステムすべてに経験があるとも言えない。')
+    made.add(f.save('03-e-qualia-process.svg'))
+
+    # ------------------------------------------------------------------ 04-b paramecium
+    f = Figure(4, 'ゾウリムシの回避反応', '接触から後退までを、概念的な理解を仮定せずに電気生理学的な連鎖で説明できる', 560, 'b')
+    f.body.append(f'<ellipse cx="260" cy="270" rx="90" ry="34" fill="#ffffff" stroke="{TEAL}" stroke-width="2.5"/>')
+    for k in range(14):
+        a = k * 2 * math.pi / 14
+        f.line(260 + 90 * math.cos(a), 270 + 34 * math.sin(a), 260 + 104 * math.cos(a), 270 + 44 * math.sin(a), color=TEAL, width=1.2)
+    f.rect(380, 230, 24, 80, fill=SOFT, stroke=MUTED, width=1.5, rx=4)
+    f.text(392, 330, '障害物', 13, MUTED, anchor='middle')
+    f.line(340, 270, 372, 270, color=AMBER, width=2, arrow=True)
+    f.text(260, 232, 'ゾウリムシ', 14, MUTED, anchor='middle')
+    steps = [('接触刺激', '障害物に触れる', MUTED), ('イオンチャネル', '膜のチャネルが働く', BLUE), ('膜電位の変化', 'Ca²⁺ などの移動', BLUE), ('繊毛の切り替え', '打つ向きが反転', TEAL), ('後退', '進行方向を変える', TEAL)]
+    for i, (lab, sub, color) in enumerate(steps):
+        x = 80 + i * 216
+        f.box(x, 390, 196, 70, lab, sub, color, 17)
+        if i < 4:
+            f.line(x + 200, 425, x + 212, 425, color=MUTED, width=2, arrow=True)
+    f.footer('脳も神経系もない。それでも刺激を検出し、行動を変える。主観的経験があるかは、この反応だけからは判断できない。')
+    made.add(f.save('04-b-paramecium.svg'))
+
+    # ------------------------------------------------------------------ 04-c same-stimulus
+    f = Figure(4, '同じ刺激、異なる行動', '内部状態と過去の経験が、刺激と反応の間に入る', 610, 'c')
+    f.box(480, 350, 240, 80, '目の前の食べ物', '同じ感覚刺激', MUTED, 20)
+    states = [('空腹である', TEAL), ('以前に食べて体調を崩した', AMBER), ('周囲に捕食者がいる', PLUM)]
+    acts = [('近づく', TEAL), ('避ける', AMBER), ('逃げる', PLUM)]
+    for i, ((s, c1), (a, c2)) in enumerate(zip(states, acts)):
+        y = 270 + i * 100
+        f.rect(90, y, 300, 56, fill='#ffffff', stroke=c1, width=2, rx=10)
+        f.text(240, y + 34, s, 16, c1, anchor='middle', weight=700)
+        f.path(f'M 395 {y+28} C 440 {y+28} 440 390 475 390', color=c1, width=1.8, arrow=True)
+        f.rect(820, y, 280, 56, fill='#ffffff', stroke=c2, width=2, rx=10)
+        f.text(960, y + 34, a, 18, c2, anchor='middle', weight=700)
+        f.path(f'M 725 390 C 760 390 760 {y+28} 815 {y+28}', color=c2, width=1.8, arrow=True)
+    f.text(240, 240, '内部状態・過去の経験', 15, INK, anchor='middle', weight=700)
+    f.text(960, 240, '行動', 15, INK, anchor='middle', weight=700)
+    f.footer('刺激と反応は一対一ではない。複数の可能性を評価する仕組みに、時間的な内部が要る。')
+    made.add(f.save('04-c-same-stimulus.svg'))
+
+    # ------------------------------------------------------------------ 04-f delay-not-sufficient
+    f = Figure(4, '遅延は意識の十分条件ではない', '保持・照合・選択に伴う遅延は、意識のないシステムにもある', 540, 'f')
+    f.rect(90, 210, 1020, 250, fill='none', stroke=MUTED, width=2, rx=20, dash=True)
+    f.text(600, 244, '処理に遅延がある（情報を保持し、照合し、候補から選ぶ）', 17, INK, anchor='middle', weight=700)
+    items = [('コンピュータの処理', '主観的経験は結論できない', MUTED), ('意識に上らない神経処理', '人間の中にも多数ある', MUTED), ('意識的な認知', '遅延を伴うが、それだけではない', BLUE)]
+    for i, (lab, sub, color) in enumerate(items):
+        x = 130 + i * 330
+        f.box(x, 290, 300, 110, lab, sub, color, 17)
+    f.text(600, 500, '遅延だけでは三つを区別できない。遅延は意識そのものではなく、意識が成立する時間的な条件を考えるための概念である。', 15, INK, anchor='middle')
+    f.footer('')
+    made.add(f.save('04-f-delay-not-sufficient.svg'))
+
+    # ------------------------------------------------------------------ 04-g catching-ball
+    f = Figure(4, '異なる時間尺度の情報が、一つの行動へ統合される', '飛んでくるボールを捕る。視覚、運動指令、自己受容感覚は更新の速さが違う', 580, 'g')
+    rows = [('視覚系', 'ボールの位置と運動', 12, TEAL), ('運動系', '身体を動かす指令', 20, AMBER), ('自己受容感覚', '姿勢と関節の状態', 8, PLUM)]
+    for i, (lab, sub, n, color) in enumerate(rows):
+        y = 270 + i * 90
+        f.text(80, y + 4, lab, 16, INK, weight=700)
+        f.text(80, y + 26, sub, 13, MUTED)
+        f.line(300, y, 780, y, color=color, width=2)
+        for k in range(n + 1):
+            x = 300 + 480 * k / n
+            f.line(x, y - 9, x, y + 9, color=color, width=2)
+        f.path(f'M 785 {y} C 840 {y} 840 360 880 360', color=color, width=2, arrow=True)
+    f.text(540, 236, '更新の間隔（尺度）が異なる', 14, MUTED, anchor='middle')
+    f.box(885, 320, 230, 80, 'ボールを捕る', '一つのまとまった行動', BLUE, 20)
+    f.text(1000, 440, '調整には保持と統合の時間が要る', 14, MUTED, anchor='middle')
+    f.footer('処理は完全には同期していない。ずれや待ち時間を含んで、統合された結果が形成される。')
+    made.add(f.save('04-g-catching-ball.svg'))
+
+    # ------------------------------------------------------------------ 05-b wood-grain-face
+    f = Figure(5, '記憶イメージの投射', '木目模様に顔が見えるのは、過去に見た顔の特徴を曖昧な入力に重ねているから', 580, 'b')
+    def grain(x0, y0, w, h, color):
+        for k in range(7):
+            y = y0 + 20 + k * (h - 40) / 6
+            f.path(f'M {x0+10} {y} C {x0+w*0.3} {y-14+6*(k%3)} {x0+w*0.6} {y+12-6*(k%2)} {x0+w-10} {y}', color=color, width=1.6)
+    for i, lab in enumerate(['木目模様（入力）', '顔の特徴（記憶）', '顔が見える']):
+        f.panel(70 + i * 360, 200, 330, 300, lab)
+    f.rect(110, 250, 250, 200, fill='#f3e8d6', stroke=LINE, width=1.5, rx=10)
+    grain(110, 250, 250, 200, '#b08a5a')
+    f.circ(540, 320, 9, INK); f.circ(620, 320, 9, INK)
+    f.line(580, 345, 580, 375, color=INK, width=2.5)
+    f.path('M 545 405 Q 580 430 615 405', color=INK, width=2.5)
+    f.text(580, 470, '目・鼻・口の配置', 14, MUTED, anchor='middle')
+    f.rect(830, 250, 250, 200, fill='#f3e8d6', stroke=LINE, width=1.5, rx=10)
+    grain(830, 250, 250, 200, '#b08a5a')
+    f.circ(915, 320, 9, INK, opacity=0.75); f.circ(995, 320, 9, INK, opacity=0.75)
+    f.line(955, 345, 955, 375, color=INK, width=2.5, dots=False)
+    f.path('M 920 405 Q 955 430 990 405', color=INK, width=2.5)
+    f.text(420, 352, '＋', 30, MUTED, anchor='middle', weight=700)
+    f.text(780, 352, '＝', 30, MUTED, anchor='middle', weight=700)
+    f.footer('入力だけでは対象は一意に決まらない。過去の経験が、対象を積極的に描き出している。')
+    made.add(f.save('05-b-wood-grain-face.svg'))
+
+    # ------------------------------------------------------------------ 05-d same-memory-three-meanings
+    f = Figure(5, '同じ出来事、異なる意味', '一つの過去が、現在の文脈によって別の意味を持つ', 600, 'd')
+    f.blob(260, 370, 90, BLUE, 0.4)
+    f.text(260, 362, '学生時代の', 17, INK, anchor='middle', weight=700)
+    f.text(260, 386, '失敗', 17, INK, anchor='middle', weight=700)
+    rows = [('当時', '恥ずかしい経験', AMBER), ('社会人になって同じ状況で', '判断の手掛かり', TEAL), ('誰かに語る場面で', '教訓を伝える材料', PLUM)]
+    for i, (ctx, meaning, color) in enumerate(rows):
+        y = 262 + i * 108
+        f.path(f'M 350 370 C 450 370 480 {y+28} 560 {y+28}', color=color, width=2, arrow=True)
+        f.text(560, y - 2, ctx, 14, MUTED)
+        f.rect(560, y + 4, 420, 50, fill='#ffffff', stroke=color, width=2, rx=10)
+        f.text(770, y + 36, meaning, 17, color, anchor='middle', weight=700)
+    f.footer('出来事が書き換わるのではない。文脈と他の記憶との関係の中で再構成される。')
+    made.add(f.save('05-d-same-memory-three-meanings.svg'))
+
+    # ------------------------------------------------------------------ 05-f forgetting
+    f = Figure(5, '記憶の二つの層と、三つの働き', '保持するだけでなく、更新し、必要に応じて忘れることで環境に適応する', 540, 'f')
+    f.rect(120, 400, 960, 70, fill=SOFT, stroke=MUTED, width=1.5, rx=14)
+    f.text(600, 433, '生得的な情報 ── 進化が形成した神経系の構造や行動傾向', 16, INK, anchor='middle', weight=700)
+    f.text(600, 456, '生まれた時点で備えている', 13, MUTED, anchor='middle')
+    f.rect(120, 220, 960, 160, fill='#ffffff', stroke=BLUE, width=2, rx=14)
+    f.text(600, 252, '獲得的な記憶 ── 経験によって形成される（可塑性）', 16, BLUE, anchor='middle', weight=700)
+    for i, (lab, sub, color) in enumerate([('保持', '情報を残す', TEAL), ('更新', '新しい経験で意味を変える', AMBER), ('忘却', '役に立たない情報を手放す', PLUM)]):
+        x = 170 + i * 300
+        f.box(x, 280, 260, 76, lab, sub, color, 18)
+        if i < 2:
+            f.line(x + 264, 318, x + 296, 318, color=MUTED, width=1.5, arrow=True)
+    f.footer('すべてを永久に同じ強度で保持することは効率的とは限らない。')
+    made.add(f.save('05-f-forgetting.svg'))
+
+    # ------------------------------------------------------------------ 06-a car-motion
+    f = Figure(6, '運動の知覚には、直前の位置が要る', '一つの時刻の位置だけでは、方向も速さも決まらない', 540, 'a')
+    def car(x, y, color, op=1.0):
+        f.body.append(f'<g opacity="{op}"><rect x="{x-50}" y="{y-18}" width="100" height="30" rx="8" fill="{color}"/><rect x="{x-28}" y="{y-38}" width="52" height="24" rx="6" fill="{color}"/><circle cx="{x-28}" cy="{y+14}" r="9" fill="{INK}"/><circle cx="{x+28}" cy="{y+14}" r="9" fill="{INK}"/></g>')
+    f.panel(70, 200, 500, 290, '一つの時刻の位置')
+    f.line(110, 420, 530, 420, color=LINE, width=2)
+    car(320, 400, BLUE)
+    f.text(320, 300, '方向は？ 速さは？', 18, AMBER, anchor='middle', weight=700)
+    f.text(320, 460, '位置だけでは決まらない', 14, MUTED, anchor='middle')
+    f.panel(630, 200, 500, 290, '直前の位置との差')
+    f.line(670, 420, 1090, 420, color=LINE, width=2)
+    car(790, 400, BLUE, 0.3)
+    car(960, 400, BLUE)
+    f.text(790, 450, '直前', 13, MUTED, anchor='middle')
+    f.text(960, 450, 'いま', 13, MUTED, anchor='middle')
+    f.line(840, 340, 920, 340, color=AMBER, width=3, arrow=True)
+    f.text(880, 320, '方向と速さ', 16, AMBER, anchor='middle', weight=700)
+    f.footer('運動を知覚している現在には、何らかの形で直前の過去が含まれている。')
+    made.add(f.save('06-a-car-motion.svg'))
+
+    # ------------------------------------------------------------------ 06-b reunion-duration
+    f = Figure(6, '持続は、瞬間の足し算ではない', '時計の単位は均質で独立。会話の流れでは、前の経験が次に浸透して意味が変わる', 580, 'b')
+    f.text(80, 262, '時計の時間', 17, INK, weight=700)
+    f.line(280, 270, 1100, 270, color=INK, width=2)
+    for k in range(9):
+        x = 280 + k * 102.5
+        f.line(x, 260, x, 280, color=INK, width=2)
+    f.text(690, 304, '同じ長さの単位が、独立して並ぶ', 14, MUTED, anchor='middle')
+    f.text(80, 432, '再会した友人', 17, INK, weight=700)
+    f.text(80, 454, 'との会話', 17, INK, weight=700)
+    f.blob(400, 440, 150, AMBER, 0.4)
+    f.blob(690, 440, 170, TEAL, 0.4)
+    f.blob(980, 440, 150, BLUE, 0.4)
+    f.text(400, 436, 'ぎこちない会話', 16, INK, anchor='middle', weight=700)
+    f.text(690, 436, '昔の話で懐かしさ', 16, INK, anchor='middle', weight=700)
+    f.text(980, 436, '関係が新しい意味を持つ', 16, INK, anchor='middle', weight=700)
+    f.path('M 470 400 C 540 360 600 360 640 398', color=MUTED, width=1.6, arrow=True)
+    f.path('M 770 400 C 840 360 900 360 930 398', color=MUTED, width=1.6, arrow=True)
+    f.path('M 900 486 C 800 530 600 530 450 486', color=AMBER, width=1.6, arrow=True, dash=True)
+    f.text(690, 540, '後の経験が、先ほどの言葉の意味を変える', 14, AMBER, anchor='middle')
+    f.footer('')
+    made.add(f.save('06-b-reunion-duration.svg'))
+
+    # ------------------------------------------------------------------ 06-d melody-ending
+    f = Figure(6, 'メロディーの終わりは、保持と予感の構造が変わることで経験される', '進行中は次の音への予感がある。終結では予感が変わり、最後の音が全体の印象へ統合される', 580, 'd')
+    f.panel(70, 200, 500, 320, '進行中')
+    f.line(110, 400, 530, 400, color=LINE, width=2)
+    for i, x in enumerate([170, 250, 330]):
+        f.circ(x, 380 - (i % 2) * 20, 11, TEAL)
+        f.line(x, 380 - (i % 2) * 20, x, 340 - (i % 2) * 20, color=TEAL, width=2.5)
+    f.circ(430, 370, 11, TEAL, fill=False, dash=True, width=2.2)
+    f.text(430, 330, '次の音？', 14, TEAL, anchor='middle', weight=700)
+    f.text(430, 440, '予感がある', 14, MUTED, anchor='middle')
+    f.text(320, 490, '続くという期待の中で聴いている', 14, INK, anchor='middle')
+    f.panel(630, 200, 500, 320, '終結')
+    f.line(670, 400, 1090, 400, color=LINE, width=2)
+    for i, x in enumerate([730, 810, 890, 970]):
+        f.circ(x, 380 - (i % 2) * 20 + (20 if i == 3 else 0), 11, TEAL)
+        f.line(x, 380 - (i % 2) * 20 + (20 if i == 3 else 0), x, 340 - (i % 2) * 20 + (20 if i == 3 else 0), color=TEAL, width=2.5)
+    f.text(1040, 376, '×', 22, MUTED, anchor='middle')
+    f.text(1040, 440, '予感が消える', 14, MUTED, anchor='middle')
+    f.brace(720, 990, 420, down=True)
+    f.text(855, 452, '保持 → 全体の印象へ統合', 14, AMBER, anchor='middle', weight=700)
+    f.text(880, 490, '終結を示す音型で「ここで終わる」と予測される', 14, INK, anchor='middle')
+    f.footer('')
+    made.add(f.save('06-d-melody-ending.svg'))
+
+    # ------------------------------------------------------------------ 06-e aspect-imperfective
+    f = Figure(6, '時制とアスペクト', '「咲いた」は完了したものとして、「咲きつつある」はまだ出来上がっていないものとして表す', 620, 'e')
+    f.line(150, 500, 1050, 500, color=MUTED, width=2, arrow=True)
+    for x, t in [(250, '過去'), (600, '現在'), (950, '未来')]:
+        f.line(x, 494, x, 506, color=MUTED, width=1.5)
+        f.text(x, 530, t, 14, MUTED, anchor='middle')
+    f.text(1060, 505, '時制', 14, MUTED)
+    f.rect(150, 240, 400, 200, fill='#ffffff', stroke=AMBER, width=2.5, rx=14)
+    f.text(350, 276, '「花が咲いた」', 20, AMBER, anchor='middle', weight=700)
+    f.text(350, 300, '完了相：出来事は閉じている', 14, MUTED, anchor='middle')
+    for k in range(6):
+        a = k * math.pi / 3
+        f.body.append(f'<ellipse cx="{350 + 28 * math.cos(a):.1f}" cy="{380 + 28 * math.sin(a):.1f}" rx="16" ry="10" transform="rotate({k*60} {350 + 28 * math.cos(a):.1f} {380 + 28 * math.sin(a):.1f})" fill="{AMBER}" opacity="0.8"/>')
+    f.circ(350, 380, 10, '#f3d16a')
+    f.path('M 650 240 L 940 240 M 650 440 L 940 440 M 650 240 L 650 440', color=TEAL, width=2.5)
+    f.path('M 940 240 L 990 240 M 940 440 L 990 440', color=TEAL, width=2.5, dash=True)
+    f.text(820, 276, '「花が咲きつつある」', 20, TEAL, anchor='middle', weight=700)
+    f.text(820, 300, '未完了相：生じてはいるが、まだ出来上がっていない', 14, MUTED, anchor='middle')
+    f.body.append(f'<ellipse cx="760" cy="385" rx="12" ry="22" fill="{TEAL}" opacity="0.8"/>')
+    f.line(760, 405, 760, 430, color=TEAL, width=2)
+    f.line(800, 385, 840, 385, color=MUTED, width=1.5, arrow=True)
+    for k in range(3):
+        a = -math.pi / 2 + k * 0.7 - 0.7
+        f.body.append(f'<ellipse cx="{900 + 22 * math.cos(a):.1f}" cy="{390 + 22 * math.sin(a):.1f}" rx="13" ry="8" fill="{TEAL}" opacity="0.6"/>')
+    f.line(900, 400, 900, 430, color=TEAL, width=2)
+    f.text(1010, 350, 'アスペクト', 14, MUTED, anchor='middle')
+    f.footer('いつ起きたか（時制）とは別に、どのような進行状態にあるか（アスペクト）がある。')
+    made.add(f.save('06-e-aspect-imperfective.svg'))
+
+    # ------------------------------------------------------------------ 06-g layer-switching
+    f = Figure(6, '二つの時間階層の切り替え', '名前を思い出そうとして会話を止めるとき、処理資源を記憶探索へ回している', 600, 'g')
+    f.panel(70, 200, 440, 340, '感覚・運動ループ')
+    f.text(290, 260, '短い時間スケール', 14, MUTED, anchor='middle')
+    loop_nodes(f, 290, 400, 80, ['外界', '感覚', '行動'], TEAL, 110, 40, 14)
+    f.panel(690, 200, 440, 340, '記憶の探索')
+    f.text(910, 260, '長い時間スケール', 14, MUTED, anchor='middle')
+    for i in range(5):
+        y = 480 - i * 36
+        w = 220 - i * 18
+        f.rect(910 - w / 2, y, w, 28, fill=PLUM, stroke='none', width=0, rx=6, opacity=0.25 + i * 0.12)
+    f.text(910, 528, '蓄積された記憶の層をたどる', 14, PLUM, anchor='middle', weight=700)
+    f.rect(540, 360, 120, 60, fill='#ffffff', stroke=AMBER, width=2, rx=30)
+    f.circ(620, 390, 16, AMBER)
+    f.text(600, 340, '処理資源の配分', 14, AMBER, anchor='middle', weight=700)
+    f.line(560, 448, 650, 448, color=AMBER, width=2, arrow=True)
+    f.text(600, 476, '会話を止めて', 13, MUTED, anchor='middle')
+    f.text(600, 494, '思い出すとき', 13, MUTED, anchor='middle')
+    f.footer('外界との関係を断つのではなく、注意と処理の配分を変えている。')
+    made.add(f.save('06-g-layer-switching.svg'))
+
+    # ------------------------------------------------------------------ 07-a cell-boundary
+    f = Figure(7, '世界とつながりながら、境界を維持する', '膜が内と外を分け、内側では自己維持と環境適応を複数のシステムが担う', 600, 'a')
+    f.rect(300, 210, 600, 340, fill='#ffffff', stroke=BLUE, width=4, rx=120)
+    f.text(600, 246, '内部環境（膜で区別された領域）', 15, BLUE, anchor='middle', weight=700)
+    f.text(140, 300, '外界', 18, MUTED, weight=700)
+    f.line(150, 340, 300, 340, color=TEAL, width=2.2, arrow=True)
+    f.text(220, 328, '酸素・食物', 14, TEAL, anchor='middle')
+    f.line(300, 420, 150, 420, color=AMBER, width=2.2, arrow=True)
+    f.text(225, 446, '不要な物質', 14, AMBER, anchor='middle')
+    f.text(1000, 300, '環境の変化', 18, MUTED, anchor='end', weight=700)
+    f.line(1050, 340, 900, 340, color=PLUM, width=2.2, arrow=True)
+    f.text(975, 328, '温度・光・他者', 14, PLUM, anchor='middle')
+    f.box(360, 300, 220, 150, '自己維持', '免疫系・内分泌系', TEAL, 18)
+    f.text(470, 428, '内部状態を保つ', 13, MUTED, anchor='middle')
+    f.box(620, 300, 220, 150, '環境適応', '神経系', PLUM, 18)
+    f.text(730, 428, '外界の変化を捉える', 13, MUTED, anchor='middle')
+    f.line(585, 375, 615, 375, color=MUTED, width=2, arrow=True)
+    f.line(615, 395, 585, 395, color=MUTED, width=2, arrow=True)
+    f.text(600, 500, '分離してはいない。神経系は内部を調節し、ホルモンや免疫は脳の状態を変える', 14, INK, anchor='middle')
+    f.footer('生命とは、相互作用を続けながら、自己の境界と内部状態を維持する過程である。')
+    made.add(f.save('07-a-cell-boundary.svg'))
+
+    # ------------------------------------------------------------------ 07-d two-factor-emotion
+    f = Figure(7, '同じ身体の変化、異なる感情', '心拍の増加は、文脈の解釈によって恐怖にも期待にも疲労にもなる', 580, 'd')
+    f.text(600, 372, '♥', 46, '#c23b3b', anchor='middle')
+    f.text(600, 416, '心拍が上がる', 17, INK, anchor='middle', weight=700)
+    f.text(600, 438, '同じ身体の変化', 13, MUTED, anchor='middle')
+    ctx = [('危険な状況', AMBER), ('好きな人と会う直前', TEAL), ('激しい運動の直後', PLUM)]
+    emo = [('恐怖', AMBER), ('期待・緊張', TEAL), ('疲労', PLUM)]
+    for i, ((c, col), (e, col2)) in enumerate(zip(ctx, emo)):
+        y = 270 + i * 100
+        f.rect(90, y, 300, 54, fill='#ffffff', stroke=col, width=2, rx=10)
+        f.text(240, y + 34, c, 16, col, anchor='middle', weight=700)
+        f.path(f'M 395 {y+27} C 460 {y+27} 480 370 540 370', color=col, width=1.6, arrow=True)
+        f.path(f'M 660 370 C 720 370 740 {y+27} 810 {y+27}', color=col2, width=1.6, arrow=True)
+        f.rect(815, y, 280, 54, fill='#ffffff', stroke=col2, width=2, rx=10)
+        f.text(955, y + 34, e, 18, col2, anchor='middle', weight=700)
+    f.text(240, 244, '文脈', 15, INK, anchor='middle', weight=700)
+    f.text(955, 244, '経験される感情', 15, INK, anchor='middle', weight=700)
+    f.text(740, 500, '脳が原因を推定する', 14, MUTED, anchor='middle')
+    f.footer('信号をそのまま受け取るのではない。信号が何を意味するかの推定が、感情の形成に関係する。')
+    made.add(f.save('07-d-two-factor-emotion.svg'))
+
+    # ------------------------------------------------------------------ 07-e allostasis
+    f = Figure(7, '動く基準', '調節の設定値は固定ではなく、状況と将来の要求に応じて変わる', 580, 'e')
+    f.line(150, 460, 1080, 460, color=MUTED, width=2, arrow=True)
+    f.line(150, 460, 150, 230, color=MUTED, width=2, arrow=True)
+    f.text(140, 222, '体温の設定値', 14, MUTED, anchor='end')
+    segs = [('睡眠', 150, 330), ('覚醒', 330, 510), ('運動', 510, 690), ('感染（発熱）', 690, 900), ('回復', 900, 1060)]
+    for lab, x0, x1 in segs:
+        f.text((x0 + x1) / 2, 488, lab, 14, MUTED, anchor='middle')
+        f.line(x1, 455, x1, 465, color=MUTED, width=1)
+    f.line(150, 370, 1060, 370, color=LINE, width=1.5, dash=True)
+    f.text(1066, 374, '固定の基準？', 13, MUTED)
+    f.path('M 150 390 L 330 390 L 345 360 L 510 360 L 530 320 L 690 325 L 710 270 L 900 270 L 930 370 L 1060 370', color=AMBER, width=3)
+    f.text(240, 412, '低い', 13, AMBER, anchor='middle')
+    f.text(600, 300, '運動に先立って上がる', 13, AMBER, anchor='middle')
+    f.text(800, 252, '免疫反応で設定値が上がる', 13, AMBER, anchor='middle')
+    f.path('M 470 300 C 480 270 500 260 515 262', color=TEAL, width=2, arrow=True, dash=True)
+    f.text(440, 262, '先回りの調節', 13, TEAL, anchor='middle', weight=700)
+    f.text(440, 280, '（アロスタシス）', 12, TEAL, anchor='middle')
+    f.footer('現在の身体状態は、過去の変化の結果であり、未来の要求へ向けた調節の途中にある。')
+    made.add(f.save('07-e-allostasis.svg'))
+
+    # ------------------------------------------------------------------ 07-f gut-brain
+    f = Figure(7, '腸脳相関', '腸と脳は、神経・ホルモン・免疫の三つの経路で双方向に影響し合う', 600, 'f')
+    f.rect(90, 220, 380, 320, fill='#ffffff', stroke=AMBER, width=2.5, rx=18)
+    f.text(280, 256, '腸', 22, AMBER, anchor='middle', weight=700)
+    for i, lab in enumerate(['腸管神経系（独自の神経ネットワーク）', '多数の免疫細胞', '多様な微生物', 'ホルモンを分泌する細胞']):
+        f.rect(120, 280 + i * 60, 320, 44, fill=SOFT, stroke='none', width=0, rx=8)
+        f.text(280, 308 + i * 60, lab, 14, INK, anchor='middle')
+    f.rect(730, 220, 380, 320, fill='#ffffff', stroke=BLUE, width=2.5, rx=18)
+    f.text(920, 256, '脳', 22, BLUE, anchor='middle', weight=700)
+    for i, lab in enumerate(['活動状態', '感情', '注意・行動', 'ストレス反応']):
+        f.rect(760, 280 + i * 60, 320, 44, fill=SOFT, stroke='none', width=0, rx=8)
+        f.text(920, 308 + i * 60, lab, 14, INK, anchor='middle')
+    for i, (lab, color) in enumerate([('神経（迷走神経など）', TEAL), ('ホルモン', AMBER), ('免疫系', PLUM)]):
+        y = 320 + i * 80
+        f.line(480, y, 720, y, color=color, width=2.5, arrow=True)
+        f.line(720, y + 14, 480, y + 14, color=color, width=2.5, arrow=True)
+        f.text(600, y - 10, lab, 14, color, anchor='middle', weight=700)
+    f.footer('腸は思考する「脳」ではない。しかし、心を支える情報処理は脳内で完結していない。')
+    made.add(f.save('07-f-gut-brain.svg'))
+
+    # ------------------------------------------------------------------ 07-g salience-threshold
+    f = Figure(7, 'サリエンス・スレッシュホールド', '多数の身体信号のうち、閾値を超えた顕著なものだけが意識に上る', 560, 'g')
+    f.line(120, 440, 1080, 440, color=MUTED, width=2, arrow=True)
+    f.text(1086, 445, '時間', 13, MUTED)
+    for k in range(60):
+        x = 130 + k * 15.5
+        h = 8 + (k * 7) % 23
+        if k == 38:
+            continue
+        f.line(x, 440, x, 440 - h, color=BLUE, width=2, opacity=0.5)
+    f.line(719, 440, 719, 262, color=AMBER, width=4)
+    f.circ(719, 262, 7, AMBER)
+    f.text(719, 240, '激しい空腹・胃の痛み・動悸', 14, AMBER, anchor='middle', weight=700)
+    f.line(120, 330, 1080, 330, color=PLUM, width=2, dash=True)
+    f.text(1086, 334, '閾値', 14, PLUM)
+    f.line(1040, 330, 1040, 296, color=PLUM, width=1.5, arrow=True)
+    f.line(1040, 330, 1040, 364, color=PLUM, width=1.5, arrow=True)
+    f.text(1000, 300, '注意・予測・文脈で動く', 13, PLUM, anchor='end')
+    f.text(400, 470, '意識に上らない多数の信号', 14, MUTED, anchor='middle')
+    f.text(719, 470, '意識へ', 15, AMBER, anchor='middle', weight=700)
+    f.footer('意識は身体で発生するすべての情報を経験しているのではない。行動や自己維持に関係する情報が選択される。')
+    made.add(f.save('07-g-salience-threshold.svg'))
+
+    # ------------------------------------------------------------------ 08-a two-scales
+    f = Figure(8, '時間スケールの二つの意味', '現象が進行する速さの尺度と、個体がそれを統合し経験する時間幅の尺度は一致しない', 560, 'a')
+    X1 = log_axis(f, 300, 1050, 290, 1e-15, 10, [(1e-15, 'フェムト秒'), (1e-9, 'ナノ秒'), (1e-3, 'ミリ秒'), (1, '秒'), (10, '10秒')], '')
+    f.text(80, 296, '現象の進行速度', 16, INK, weight=700)
+    f.text(80, 318, '（物理的な尺度）', 13, MUTED)
+    X2 = log_axis(f, 300, 1050, 450, 1e-3, 100, [(1e-3, 'ミリ秒'), (1e-2, '10ms'), (0.1, '100ms'), (1, '秒'), (10, '10秒'), (100, '100秒')], '')
+    f.text(80, 456, '経験の統合幅', 16, INK, weight=700)
+    f.text(80, 478, '（情報処理の尺度）', 13, MUTED)
+    pairs = [('光の振動', 2e-15, '色の経験', 0.2, BLUE), ('神経活動', 2e-3, '運動の知覚', 0.5, TEAL), ('心拍', 1, '文脈の理解', 60, AMBER)]
+    for lab1, v1, lab2, v2, color in pairs:
+        f.circ(X1(v1), 290, 8, color)
+        f.text(X1(v1), 258, lab1, 14, color, anchor='middle', weight=700)
+        f.circ(X2(v2), 450, 8, color)
+        f.text(X2(v2), 420, lab2, 14, color, anchor='middle', weight=700)
+        f.line(X1(v1), 300, X2(v2), 440, color=color, width=1.4, dash=True)
+    f.footer('同じ現象が、二本の軸では別の位置に置かれる。両者の違いがマルチ時間スケールの出発点である。')
+    made.add(f.save('08-a-two-scales.svg'))
+
+    # ------------------------------------------------------------------ 08-d delay-bridge
+    f = Figure(8, '遅延は、時間スケールを接続する構造である', '短い尺度の入力と長い尺度の記憶を、保持という橋が同じ処理の中へ運ぶ', 560, 'd')
+    f.rect(90, 300, 330, 90, fill=TEAL, stroke='none', width=0, rx=14, opacity=0.8)
+    f.text(255, 338, '感覚入力', 18, '#ffffff', anchor='middle', weight=700)
+    f.text(255, 364, '短い時間尺度（ミリ秒〜秒）', 13, '#ffffff', anchor='middle')
+    f.rect(780, 300, 330, 90, fill=PLUM, stroke='none', width=0, rx=14, opacity=0.8)
+    f.text(945, 338, '記憶・行動計画', 18, '#ffffff', anchor='middle', weight=700)
+    f.text(945, 364, '長い時間尺度（分〜年）', 13, '#ffffff', anchor='middle')
+    f.path('M 420 345 C 500 260 700 260 780 345', color=AMBER, width=4)
+    f.path('M 420 345 C 500 430 700 430 780 345', color=AMBER, width=4)
+    f.text(600, 352, '保持 ・ 照合', 18, AMBER, anchor='middle', weight=700)
+    f.text(600, 376, '直前の情報を保持し、長期の記憶を呼び出す', 13, INK, anchor='middle')
+    f.brace(430, 770, 450, down=True)
+    f.text(600, 486, 'この橋の幅が「遅延」として現れる', 16, INK, anchor='middle', weight=700)
+    f.line(600, 300, 600, 240, color=MUTED, width=2, arrow=True)
+    f.text(600, 226, '行動の選択へ', 14, MUTED, anchor='middle')
+    f.footer('遅延は応答時間の増加ではなく、異なる尺度の情報を同じ処理で扱うための構造である。')
+    made.add(f.save('08-d-delay-bridge.svg'))
+
+    # ------------------------------------------------------------------ 08-e extended-memory
+    f = Figure(8, '拡張記憶', '短い尺度で成立した経験が、凝縮されて長い尺度の情報として保持される', 600, 'e')
+    steps = [('一瞬見た顔', '数分後に思い出せる', BLUE), ('数分間の会話', '数年後まで覚えている', TEAL), ('一つの経験', 'その後の人生の判断に影響する', PLUM)]
+    for i, (a, b, color) in enumerate(steps):
+        y = 500 - i * 100
+        x = 100 + i * 250
+        f.rect(x, y - 60, 170, 50, fill='#ffffff', stroke=color, width=2, rx=10)
+        f.text(x + 85, y - 28, a, 15, color, anchor='middle', weight=700)
+        f.line(x + 175, y - 35, x + 225, y - 35, color=color, width=2, arrow=True)
+        f.text(x + 200, y - 46, '凝縮', 12, MUTED, anchor='middle')
+        f.rect(x + 230, y - 60, 300, 50, fill=color, stroke='none', width=0, rx=10, opacity=0.8)
+        f.text(x + 380, y - 28, b, 14, '#ffffff', anchor='middle', weight=700)
+    f.line(120, 540, 1080, 540, color=MUTED, width=2, arrow=True)
+    for x, t in [(160, '一瞬'), (420, '数分'), (700, '数年'), (1000, '生涯')]:
+        f.line(x, 534, x, 546, color=MUTED, width=1.5)
+        f.text(x, 568, t, 14, MUTED, anchor='middle')
+    f.text(600, 236, '経験の一部が選択され、関係づけられ、意味を持つ情報として保持される', 15, INK, anchor='middle')
+    f.footer('')
+    made.add(f.save('08-e-extended-memory.svg'))
+
+    # ------------------------------------------------------------------ 08-g prospective-retrospective
+    f = Figure(8, '体験中の時間と、振り返りの時間', '没頭と退屈で評価が逆転する。二つの評価は別の仕組みで決まる', 560, 'g')
+    f.text(520, 250, '体験中', 17, INK, anchor='middle', weight=700)
+    f.text(520, 272, '注意が時間に向くほど長い', 12, MUTED, anchor='middle')
+    f.text(880, 250, '振り返り', 17, INK, anchor='middle', weight=700)
+    f.text(880, 272, '記憶の密度が高いほど長い', 12, MUTED, anchor='middle')
+    rows = [('没頭した活動', 0.3, 0.9, TEAL), ('退屈な待ち時間', 0.9, 0.3, AMBER)]
+    for i, (lab, p, r, color) in enumerate(rows):
+        y = 320 + i * 110
+        f.text(100, y + 28, lab, 17, INK, weight=700)
+        f.rect(360, y, 320 * p, 44, fill=color, stroke='none', width=0, rx=8, opacity=0.8)
+        f.text(360 + 320 * p + 12, y + 29, '短い' if p < 0.5 else '長い', 15, color, weight=700)
+        f.rect(720, y, 320 * r, 44, fill=color, stroke='none', width=0, rx=8, opacity=0.8)
+        f.text(720 + 320 * r + 12, y + 29, '短い' if r < 0.5 else '長い', 15, color, weight=700)
+    f.line(350, 300, 350, 500, color=LINE, width=1)
+    f.line(710, 300, 710, 500, color=LINE, width=1)
+    f.footer('主観的な時間の伸縮は、単一の内部時計の速さの変化だけでは説明できない。')
+    made.add(f.save('08-g-prospective-retrospective.svg'))
+
+    # ------------------------------------------------------------------ 08-h distributed-time
+    f = Figure(8, '時間経験は、一か所にない', '複数の脳領域が異なる働きを担い、身体の状態と行動・環境の循環がそれに影響する', 640, 'h')
+    f.body.append(f'<ellipse cx="560" cy="380" rx="300" ry="170" fill="#ffffff" stroke="{BLUE}" stroke-width="2.5"/>')
+    f.text(560, 236, '脳', 18, BLUE, anchor='middle', weight=700)
+    regions = [('前頭前皮質', '予測・計画', 440, 300), ('補足運動野', 'タイミング', 640, 300), ('基底核', '長さの推定', 380, 400), ('小脳', '運動の時間調整', 700, 410), ('海馬', '順序・想起', 540, 470)]
+    for lab, sub, x, y in regions:
+        f.rect(x - 80, y - 24, 160, 48, fill=SOFT, stroke='none', width=0, rx=10)
+        f.text(x, y - 3, lab, 14, INK, anchor='middle', weight=700)
+        f.text(x, y + 15, sub, 11, MUTED, anchor='middle')
+    f.text(560, 380, '中央時計はない', 13, MUTED, anchor='middle')
+    f.rect(70, 320, 160, 120, fill='#ffffff', stroke=PLUM, width=2, rx=12)
+    f.lines(150, 352, ['身体の状態', '心拍・呼吸', 'ホルモン・免疫', '睡眠'], 13, PLUM, anchor='middle', gap=22)
+    f.line(235, 380, 262, 380, color=PLUM, width=2, arrow=True)
+    f.rect(960, 320, 170, 120, fill='#ffffff', stroke=AMBER, width=2, rx=12)
+    f.lines(1045, 352, ['環境', '行動が環境を変え', '新しい入力が', '戻ってくる'], 13, AMBER, anchor='middle', gap=22)
+    f.path('M 858 350 C 900 330 930 330 955 350', color=AMBER, width=2, arrow=True)
+    f.path('M 955 410 C 930 430 900 430 858 410', color=AMBER, width=2, arrow=True)
+    f.text(600, 590, '時間経験を成立させる神経機構を理解するには、身体や環境との相互作用も含めて考える必要がある', 14, INK, anchor='middle')
+    f.footer('')
+    made.add(f.save('08-h-distributed-time.svg'))
 
     missing, extra = expected - made, made - expected
     if missing or extra:

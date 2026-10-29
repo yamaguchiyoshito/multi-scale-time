@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">観測する時間の幅を変えると、静止が運動になる</title>
+<desc id="desc">同じ星の見かけの移動。数秒では点、長時間の撮影では弧</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     02     図2-4</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">観測する時間の幅を変えると、静止が運動になる</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">同じ星の見かけの移動。数秒では点、長時間の撮影では弧</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="70.0" y="200.0" width="500.0" height="340.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="320.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">数秒の観察</text>
+<rect x="110.0" y="250.0" width="420.0" height="200.0" rx="12" fill="#1d2433" stroke="none" stroke-width="0"/>
+<circle cx="180.0" cy="300.0" r="3" fill="#ffffff"/>
+<circle cx="250.0" cy="360.0" r="2.5" fill="#ffffff"/>
+<circle cx="330.0" cy="290.0" r="3.5" fill="#ffffff"/>
+<circle cx="420.0" cy="330.0" r="2.5" fill="#ffffff"/>
+<circle cx="470.0" cy="400.0" r="3" fill="#ffffff"/>
+<circle cx="300.0" cy="420.0" r="2" fill="#ffffff"/>
+<text x="320.0" y="490.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">変化量が小さく、静止して見える</text>
+<rect x="630.0" y="200.0" width="500.0" height="340.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="880.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">長時間の撮影</text>
+<rect x="670.0" y="250.0" width="420.0" height="200.0" rx="12" fill="#1d2433" stroke="none" stroke-width="0"/>
+<path d="M 820 450 A 60 60 0 0 1 898 393" fill="none" stroke="#ffffff" stroke-width="1.6" opacity="0.9"/>
+<path d="M 785 450 A 95 95 0 0 1 908 360" fill="none" stroke="#ffffff" stroke-width="1.6" opacity="0.9"/>
+<path d="M 750 450 A 130 130 0 0 1 919 326" fill="none" stroke="#ffffff" stroke-width="1.6" opacity="0.9"/>
+<path d="M 715 450 A 165 165 0 0 1 930 293" fill="none" stroke="#ffffff" stroke-width="1.6" opacity="0.9"/>
+<text x="880.0" y="490.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">弧を描く運動として捉えられる</text>
+<rect x="300.0" y="506.0" width="40.0" height="10.0" rx="5" fill="#c7792b" stroke="none" stroke-width="0"/>
+<text x="320.0" y="532.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">観測時間：数秒</text>
+<rect x="690.0" y="506.0" width="380.0" height="10.0" rx="5" fill="#c7792b" stroke="none" stroke-width="0"/>
+<text x="880.0" y="532.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">観測時間：数時間</text>
+<text x="50.0" y="572.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">物理現象は同じ。変えたのは、変化を観測し統合する時間の幅である。</text>
+</g>
+</svg>

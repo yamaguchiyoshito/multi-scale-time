@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+<title id="title">遅延は意識の十分条件ではない</title>
+<desc id="desc">保持・照合・選択に伴う遅延は、意識のないシステムにもある</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="540" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     04     図4-6</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">遅延は意識の十分条件ではない</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">保持・照合・選択に伴う遅延は、意識のないシステムにもある</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="90.0" y="210.0" width="1020.0" height="250.0" rx="20" fill="none" stroke="#5d6873" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="600.0" y="244.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">処理に遅延がある（情報を保持し、照合し、候補から選ぶ）</text>
+<rect x="130.0" y="290.0" width="300.0" height="110.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="280.0" y="341.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">コンピュータの処理</text>
+<text x="280.0" y="371.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">主観的経験は結論できない</text>
+<rect x="460.0" y="290.0" width="300.0" height="110.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="610.0" y="341.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">意識に上らない神経処理</text>
+<text x="610.0" y="371.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">人間の中にも多数ある</text>
+<rect x="790.0" y="290.0" width="300.0" height="110.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="940.0" y="341.0" fill="#2b5f9e" font-size="17" text-anchor="middle" font-weight="700">意識的な認知</text>
+<text x="940.0" y="371.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">遅延を伴うが、それだけではない</text>
+<text x="600.0" y="500.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="400">遅延だけでは三つを区別できない。遅延は意識そのものではなく、意識が成立する時間的な条件を考えるための概念である。</text>
+</g>
+</svg>

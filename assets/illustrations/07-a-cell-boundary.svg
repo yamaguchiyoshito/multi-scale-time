@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">世界とつながりながら、境界を維持する</title>
+<desc id="desc">膜が内と外を分け、内側では自己維持と環境適応を複数のシステムが担う</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     07     図7-1</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">世界とつながりながら、境界を維持する</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">膜が内と外を分け、内側では自己維持と環境適応を複数のシステムが担う</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="300.0" y="210.0" width="600.0" height="340.0" rx="120" fill="#ffffff" stroke="#2b5f9e" stroke-width="4"/>
+<text x="600.0" y="246.0" fill="#2b5f9e" font-size="15" text-anchor="middle" font-weight="700">内部環境（膜で区別された領域）</text>
+<text x="140.0" y="300.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="700">外界</text>
+<line x1="150.0" y1="340.0" x2="300.0" y2="340.0" stroke="#2f8f83" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
+<text x="220.0" y="328.0" fill="#2f8f83" font-size="14" text-anchor="middle" font-weight="400">酸素・食物</text>
+<line x1="300.0" y1="420.0" x2="150.0" y2="420.0" stroke="#c7792b" stroke-width="2.2" marker-end="url(#arrow-amber)"/>
+<text x="225.0" y="446.0" fill="#c7792b" font-size="14" text-anchor="middle" font-weight="400">不要な物質</text>
+<text x="1000.0" y="300.0" fill="#5d6873" font-size="18" text-anchor="end" font-weight="700">環境の変化</text>
+<line x1="1050.0" y1="340.0" x2="900.0" y2="340.0" stroke="#8a4f9e" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="975.0" y="328.0" fill="#8a4f9e" font-size="14" text-anchor="middle" font-weight="400">温度・光・他者</text>
+<rect x="360.0" y="300.0" width="220.0" height="150.0" rx="14" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="470.0" y="371.0" fill="#2f8f83" font-size="18" text-anchor="middle" font-weight="700">自己維持</text>
+<text x="470.0" y="401.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">免疫系・内分泌系</text>
+<text x="470.0" y="428.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">内部状態を保つ</text>
+<rect x="620.0" y="300.0" width="220.0" height="150.0" rx="14" fill="#ffffff" stroke="#8a4f9e" stroke-width="2"/>
+<text x="730.0" y="371.0" fill="#8a4f9e" font-size="18" text-anchor="middle" font-weight="700">環境適応</text>
+<text x="730.0" y="401.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">神経系</text>
+<text x="730.0" y="428.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">外界の変化を捉える</text>
+<line x1="585.0" y1="375.0" x2="615.0" y2="375.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="615.0" y1="395.0" x2="585.0" y2="395.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="600.0" y="500.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">分離してはいない。神経系は内部を調節し、ホルモンや免疫は脳の状態を変える</text>
+<text x="50.0" y="572.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">生命とは、相互作用を続けながら、自己の境界と内部状態を維持する過程である。</text>
+</g>
+</svg>

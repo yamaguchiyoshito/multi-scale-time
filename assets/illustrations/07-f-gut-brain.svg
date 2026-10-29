@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">腸脳相関</title>
+<desc id="desc">腸と脳は、神経・ホルモン・免疫の三つの経路で双方向に影響し合う</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     07     図7-6</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">腸脳相関</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">腸と脳は、神経・ホルモン・免疫の三つの経路で双方向に影響し合う</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="90.0" y="220.0" width="380.0" height="320.0" rx="18" fill="#ffffff" stroke="#c7792b" stroke-width="2.5"/>
+<text x="280.0" y="256.0" fill="#c7792b" font-size="22" text-anchor="middle" font-weight="700">腸</text>
+<rect x="120.0" y="280.0" width="320.0" height="44.0" rx="8" fill="#ece9e0" stroke="none" stroke-width="0"/>
+<text x="280.0" y="308.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">腸管神経系（独自の神経ネットワーク）</text>
+<rect x="120.0" y="340.0" width="320.0" height="44.0" rx="8" fill="#ece9e0" stroke="none" stroke-width="0"/>
+<text x="280.0" y="368.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">多数の免疫細胞</text>
+<rect x="120.0" y="400.0" width="320.0" height="44.0" rx="8" fill="#ece9e0" stroke="none" stroke-width="0"/>
+<text x="280.0" y="428.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">多様な微生物</text>
+<rect x="120.0" y="460.0" width="320.0" height="44.0" rx="8" fill="#ece9e0" stroke="none" stroke-width="0"/>
+<text x="280.0" y="488.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">ホルモンを分泌する細胞</text>
+<rect x="730.0" y="220.0" width="380.0" height="320.0" rx="18" fill="#ffffff" stroke="#2b5f9e" stroke-width="2.5"/>
+<text x="920.0" y="256.0" fill="#2b5f9e" font-size="22" text-anchor="middle" font-weight="700">脳</text>
+<rect x="760.0" y="280.0" width="320.0" height="44.0" rx="8" fill="#ece9e0" stroke="none" stroke-width="0"/>
+<text x="920.0" y="308.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">活動状態</text>
+<rect x="760.0" y="340.0" width="320.0" height="44.0" rx="8" fill="#ece9e0" stroke="none" stroke-width="0"/>
+<text x="920.0" y="368.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">感情</text>
+<rect x="760.0" y="400.0" width="320.0" height="44.0" rx="8" fill="#ece9e0" stroke="none" stroke-width="0"/>
+<text x="920.0" y="428.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">注意・行動</text>
+<rect x="760.0" y="460.0" width="320.0" height="44.0" rx="8" fill="#ece9e0" stroke="none" stroke-width="0"/>
+<text x="920.0" y="488.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">ストレス反応</text>
+<line x1="480.0" y1="320.0" x2="720.0" y2="320.0" stroke="#2f8f83" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+<line x1="720.0" y1="334.0" x2="480.0" y2="334.0" stroke="#2f8f83" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+<text x="600.0" y="310.0" fill="#2f8f83" font-size="14" text-anchor="middle" font-weight="700">神経（迷走神経など）</text>
+<line x1="480.0" y1="400.0" x2="720.0" y2="400.0" stroke="#c7792b" stroke-width="2.5" marker-end="url(#arrow-amber)"/>
+<line x1="720.0" y1="414.0" x2="480.0" y2="414.0" stroke="#c7792b" stroke-width="2.5" marker-end="url(#arrow-amber)"/>
+<text x="600.0" y="390.0" fill="#c7792b" font-size="14" text-anchor="middle" font-weight="700">ホルモン</text>
+<line x1="480.0" y1="480.0" x2="720.0" y2="480.0" stroke="#8a4f9e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="720.0" y1="494.0" x2="480.0" y2="494.0" stroke="#8a4f9e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="600.0" y="470.0" fill="#8a4f9e" font-size="14" text-anchor="middle" font-weight="700">免疫系</text>
+<text x="50.0" y="572.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">腸は思考する「脳」ではない。しかし、心を支える情報処理は脳内で完結していない。</text>
+</g>
+</svg>

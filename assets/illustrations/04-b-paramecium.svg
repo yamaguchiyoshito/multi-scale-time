@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">ゾウリムシの回避反応</title>
+<desc id="desc">接触から後退までを、概念的な理解を仮定せずに電気生理学的な連鎖で説明できる</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="560" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     04     図4-2</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">ゾウリムシの回避反応</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">接触から後退までを、概念的な理解を仮定せずに電気生理学的な連鎖で説明できる</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<ellipse cx="260" cy="270" rx="90" ry="34" fill="#ffffff" stroke="#2f8f83" stroke-width="2.5"/>
+<line x1="350.0" y1="270.0" x2="364.0" y2="270.0" stroke="#2f8f83" stroke-width="1.2"/>
+<line x1="341.1" y1="284.8" x2="353.7" y2="289.1" stroke="#2f8f83" stroke-width="1.2"/>
+<line x1="316.1" y1="296.6" x2="324.8" y2="304.4" stroke="#2f8f83" stroke-width="1.2"/>
+<line x1="280.0" y1="303.1" x2="283.1" y2="312.9" stroke="#2f8f83" stroke-width="1.2"/>
+<line x1="240.0" y1="303.1" x2="236.9" y2="312.9" stroke="#2f8f83" stroke-width="1.2"/>
+<line x1="203.9" y1="296.6" x2="195.2" y2="304.4" stroke="#2f8f83" stroke-width="1.2"/>
+<line x1="178.9" y1="284.8" x2="166.3" y2="289.1" stroke="#2f8f83" stroke-width="1.2"/>
+<line x1="170.0" y1="270.0" x2="156.0" y2="270.0" stroke="#2f8f83" stroke-width="1.2"/>
+<line x1="178.9" y1="255.2" x2="166.3" y2="250.9" stroke="#2f8f83" stroke-width="1.2"/>
+<line x1="203.9" y1="243.4" x2="195.2" y2="235.6" stroke="#2f8f83" stroke-width="1.2"/>
+<line x1="240.0" y1="236.9" x2="236.9" y2="227.1" stroke="#2f8f83" stroke-width="1.2"/>
+<line x1="280.0" y1="236.9" x2="283.1" y2="227.1" stroke="#2f8f83" stroke-width="1.2"/>
+<line x1="316.1" y1="243.4" x2="324.8" y2="235.6" stroke="#2f8f83" stroke-width="1.2"/>
+<line x1="341.1" y1="255.2" x2="353.7" y2="250.9" stroke="#2f8f83" stroke-width="1.2"/>
+<rect x="380.0" y="230.0" width="24.0" height="80.0" rx="4" fill="#ece9e0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="392.0" y="330.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">障害物</text>
+<line x1="340.0" y1="270.0" x2="372.0" y2="270.0" stroke="#c7792b" stroke-width="2" marker-end="url(#arrow-amber)"/>
+<text x="260.0" y="232.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">ゾウリムシ</text>
+<rect x="80.0" y="390.0" width="196.0" height="70.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="178.0" y="421.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">接触刺激</text>
+<text x="178.0" y="451.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">障害物に触れる</text>
+<line x1="280.0" y1="425.0" x2="292.0" y2="425.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="296.0" y="390.0" width="196.0" height="70.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="394.0" y="421.0" fill="#2b5f9e" font-size="17" text-anchor="middle" font-weight="700">イオンチャネル</text>
+<text x="394.0" y="451.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">膜のチャネルが働く</text>
+<line x1="496.0" y1="425.0" x2="508.0" y2="425.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="512.0" y="390.0" width="196.0" height="70.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="610.0" y="421.0" fill="#2b5f9e" font-size="17" text-anchor="middle" font-weight="700">膜電位の変化</text>
+<text x="610.0" y="451.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">Ca²⁺ などの移動</text>
+<line x1="712.0" y1="425.0" x2="724.0" y2="425.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="728.0" y="390.0" width="196.0" height="70.0" rx="14" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="826.0" y="421.0" fill="#2f8f83" font-size="17" text-anchor="middle" font-weight="700">繊毛の切り替え</text>
+<text x="826.0" y="451.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">打つ向きが反転</text>
+<line x1="928.0" y1="425.0" x2="940.0" y2="425.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="944.0" y="390.0" width="196.0" height="70.0" rx="14" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="1042.0" y="421.0" fill="#2f8f83" font-size="17" text-anchor="middle" font-weight="700">後退</text>
+<text x="1042.0" y="451.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">進行方向を変える</text>
+<text x="50.0" y="532.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">脳も神経系もない。それでも刺激を検出し、行動を変える。主観的経験があるかは、この反応だけからは判断できない。</text>
+</g>
+</svg>
