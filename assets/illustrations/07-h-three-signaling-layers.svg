@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
 <title id="title">脳内の情報伝達の三つの層</title>
-<desc id="desc">高速なシナプス信号、広い範囲の神経修飾、細胞外環境の変化。時間尺度が異なる三つの層が神経系の状態を変える</desc>
+<desc id="desc">高速なシナプス信号、広い範囲の神経修飾、細胞外環境の変化。時間スケールが異なる三つの層が神経系の状態を変える</desc>
 <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker><radialGradient id="g07h-1"><stop offset="0" stop-color="#c7792b" stop-opacity="0.4"/><stop offset="0.55" stop-color="#c7792b" stop-opacity="0.18"/><stop offset="1" stop-color="#c7792b" stop-opacity="0"/></radialGradient></defs>
 <rect width="1200" height="620" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     07     図7-8</text>
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">脳内の情報伝達の三つの層</text>
-<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">高速なシナプス信号、広い範囲の神経修飾、細胞外環境の変化。時間尺度が異なる三つの層が神経系の状態を変える</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">高速なシナプス信号、広い範囲の神経修飾、細胞外環境の変化。時間スケールが異なる三つの層が神経系の状態を変える</text>
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
 <rect x="80.0" y="230.0" width="1040.0" height="96.0" rx="12" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
 <text x="110.0" y="266.0" fill="#2b5f9e" font-size="17" text-anchor="start" font-weight="700">シナプス信号</text>

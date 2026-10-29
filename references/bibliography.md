@@ -220,7 +220,7 @@ Springer。観察者自身をシステムの一部として扱うセカンドオ
 
 [Rhythms of the Brain](https://doi.org/10.1093/acprof:oso/9780195301069.001.0001)
 
-Oxford University Press。デルタからガンマまでの脳波帯域と、複数の時間尺度で相互作用する神経振動を概観した。
+Oxford University Press。デルタからガンマまでの脳波帯域と、複数の時間スケールで相互作用する神経振動を概観した。
 
 **今回の確認範囲：** 2026年10月29日に CrossRef で Oxford University Press 刊の書籍（2006年、DOI 10.1093/acprof:oso/9780195301069.001.0001）の書誌を確認。DOI は Oxford Academic の書籍ページへ解決する（機械的な取得では403だが自動アクセス対策によるもの）。本連載の周波数帯域の数値は一般的な分類に基づく。
 

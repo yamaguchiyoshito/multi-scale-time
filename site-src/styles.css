@@ -22,7 +22,7 @@ h2{font-size:22px;line-height:1.5;font-weight:700;margin:46px 0 14px;padding-bot
 h3{font-size:19px;line-height:1.5;font-weight:700;margin:40px 0 12px;padding:0;border:0}
 h4{font-size:16px;line-height:1.5;font-weight:700;margin:24px 0 8px}
 h2+h3,h3+h4{margin-top:16px}
-p{margin:0 0 1.05em}
+p{margin:0 0 0.9em}
 strong{font-weight:650}
 em{font-style:normal;color:var(--muted)}
 ul,ol{margin:0 0 1.1em;padding-left:1.6em}

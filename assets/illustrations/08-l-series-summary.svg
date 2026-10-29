@@ -30,7 +30,7 @@
 <line x1="520.0" y1="372.0" x2="520.0" y2="362.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="140.0" y="308.0" width="760.0" height="52.0" rx="12" fill="#ffffff" stroke="#c7792b" stroke-width="2"/>
 <text x="170.0" y="340.0" fill="#c7792b" font-size="18" text-anchor="start" font-weight="700">身体と環境の相互作用</text>
-<text x="880.0" y="340.0" fill="#5d6873" font-size="14" text-anchor="end" font-weight="400">異なる時間尺度の生体システムが相互に影響する</text>
+<text x="880.0" y="340.0" fill="#5d6873" font-size="14" text-anchor="end" font-weight="400">異なる時間スケールの生体システムが相互に影響する</text>
 <text x="930.0" y="340.0" fill="#232a33" font-size="15" text-anchor="start" font-weight="400">第7回</text>
 <line x1="520.0" y1="306.0" x2="520.0" y2="296.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="140.0" y="242.0" width="760.0" height="52.0" rx="12" fill="#ffffff" stroke="#8a4f9e" stroke-width="2"/>
