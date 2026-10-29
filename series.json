@@ -5,7 +5,7 @@
   "title": "時間はどのように生まれるのか",
   "subtitle": "マルチ時間スケールから考える時間・意識・心、全8回",
   "language": "ja",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "tagline": "私たちの中には、複数の時間が流れている。",
   "parts": [
     {
@@ -50,7 +50,8 @@
         "assets/illustrations/01-a-clock-and-experience.svg",
         "assets/illustrations/01-b-second-definition.svg",
         "assets/illustrations/01-c-common-time.svg",
-        "assets/illustrations/01-d-three-aspects.svg"
+        "assets/illustrations/01-d-three-aspects.svg",
+        "assets/illustrations/01-e-series-map.svg"
       ]
     },
     {
@@ -118,8 +119,9 @@
         "assets/illustrations/04-c-same-stimulus.svg",
         "assets/illustrations/04-d-three-timescales.svg",
         "assets/illustrations/04-e-budget-horizon.svg",
-        "assets/illustrations/04-f-delay-not-sufficient.svg",
-        "assets/illustrations/04-g-catching-ball.svg"
+        "assets/illustrations/04-f-language-time-range.svg",
+        "assets/illustrations/04-g-delay-not-sufficient.svg",
+        "assets/illustrations/04-h-catching-ball.svg"
       ]
     },
     {
@@ -164,11 +166,12 @@
       "figures": [
         "assets/illustrations/06-a-car-motion.svg",
         "assets/illustrations/06-b-reunion-duration.svg",
-        "assets/illustrations/06-c-melody-retention.svg",
-        "assets/illustrations/06-d-melody-ending.svg",
-        "assets/illustrations/06-e-aspect-imperfective.svg",
-        "assets/illustrations/06-f-thick-present.svg",
-        "assets/illustrations/06-g-layer-switching.svg"
+        "assets/illustrations/06-c-retention-vs-recollection.svg",
+        "assets/illustrations/06-d-melody-retention.svg",
+        "assets/illustrations/06-e-melody-ending.svg",
+        "assets/illustrations/06-f-aspect-imperfective.svg",
+        "assets/illustrations/06-g-thick-present.svg",
+        "assets/illustrations/06-h-layer-switching.svg"
       ]
     },
     {
@@ -232,7 +235,8 @@
         "assets/illustrations/08-f-present-composed.svg",
         "assets/illustrations/08-g-prospective-retrospective.svg",
         "assets/illustrations/08-h-distributed-time.svg",
-        "assets/illustrations/08-i-series-summary.svg"
+        "assets/illustrations/08-i-terminology-map.svg",
+        "assets/illustrations/08-j-series-summary.svg"
       ]
     }
   ]

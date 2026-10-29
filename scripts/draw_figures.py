@@ -521,7 +521,7 @@ def main() -> None:
     made.add(f.save('05-e-recursive-memory.svg'))
 
     # ------------------------------------------------------------------ 06-c
-    f = Figure(6, '「ミ」が鳴っている現在', '原初印象、保持、予感は並んでいるのではなく、一つの現在の中で結びついている', 560, 'c')
+    f = Figure(6, '「ミ」が鳴っている現在', '原初印象、保持、予感は並んでいるのではなく、一つの現在の中で結びついている', 560, 'd')
     f.line(150, 360, 1080, 360, color=MUTED, width=2, arrow=True)
     f.text(1086, 388, '時間', 14, MUTED)
     notes = [('ド', 330, '保持', '鳴り終わっても現在に残る', 0.45, False), ('ミ', 600, '原初印象', 'いま直接経験している', 1.0, False), ('ソ', 870, '予感', 'まだ鳴っていないが先取りされる', 1.0, True)]
@@ -540,10 +540,10 @@ def main() -> None:
     f.brace(250, 950, 450, down=True)
     f.text(600, 486, '一つの現在', 20, TEAL, anchor='middle', weight=700)
     f.footer('だから三つの音は、独立した刺激ではなくメロディーとして経験される。')
-    made.add(f.save('06-c-melody-retention.svg'))
+    made.add(f.save('06-d-melody-retention.svg'))
 
     # ------------------------------------------------------------------ 06-f
-    f = Figure(6, '時刻としての現在と、心理的現在', '一点としての現在と、保持と予感を含んで未来へ開いた厚みのある現在', 600, 'f')
+    f = Figure(6, '時刻としての現在と、心理的現在', '一点としての現在と、保持と予感を含んで未来へ開いた厚みのある現在', 600, 'g')
     f.text(80, 258, '時刻としての現在', 18, INK, weight=700)
     f.line(330, 270, 1080, 270, color=MUTED, width=2, arrow=True)
     f.circ(700, 270, 8, AMBER)
@@ -564,7 +564,7 @@ def main() -> None:
     f.brace(520, 920, 500, down=True)
     f.text(720, 536, '幅のある現在（代表値 約0.5〜3秒。課題や注意で変わる）', 15, INK, anchor='middle')
     f.footer('')
-    made.add(f.save('06-f-thick-present.svg'))
+    made.add(f.save('06-g-thick-present.svg'))
 
     # ------------------------------------------------------------------ 07-b
     f = Figure(7, '身体の中の、いくつもの時間尺度', '神経系から成長・発達まで、一つの身体の中で異なる速さの過程が同時に進む', 660, 'b')
@@ -687,7 +687,7 @@ def main() -> None:
     made.add(f.save('08-f-present-composed.svg'))
 
     # ------------------------------------------------------------------ 08-i
-    f = Figure(8, '全8回の論理の到達点', '時間知覚の制約から、マルチ時間スケールによる時間経験の成立へ', 680, 'i')
+    f = Figure(8, '全8回の論理の到達点', '時間知覚の制約から、マルチ時間スケールによる時間経験の成立へ', 680, 'j')
     rows = [('時間知覚の制約', '個体ごとに識別可能な時間スケールが異なる', '第1・2回', BLUE), ('情報の粗視化と再構成', '物理的変化が知覚可能な情報へ変換される', '第2・3回', BLUE), ('意識の時間的内部', '遅延が記憶の参照と行動選択を可能にする', '第4回', TEAL), ('記憶と予測による現在の構成', '過去の保持・現在の知覚・未来の予感が統合される', '第5・6回', TEAL), ('身体と環境の相互作用', '異なる時間尺度の生体システムが相互に影響する', '第7回', AMBER), ('マルチ時間スケールによる時間経験の成立', '複数の時間的過程が統合され、一つの「現在」が経験される', '第8回', PLUM)]
     for i, (title, desc, ch, color) in enumerate(rows):
         y = 572 - i * 66
@@ -698,7 +698,7 @@ def main() -> None:
         if i < 5:
             f.line(520, y - 2, 520, y - 12, color=MUTED, width=2, arrow=True)
     f.footer('時間の流れは単に知覚されるのではなく、生物の情報処理によって経験として構成される。')
-    made.add(f.save('08-i-series-summary.svg'))
+    made.add(f.save('08-j-series-summary.svg'))
 
     # ================================================================== 追加の30点（2026-10-29 増補）
 
@@ -898,7 +898,7 @@ def main() -> None:
     made.add(f.save('04-c-same-stimulus.svg'))
 
     # ------------------------------------------------------------------ 04-f delay-not-sufficient
-    f = Figure(4, '遅延は意識の十分条件ではない', '保持・照合・選択に伴う遅延は、意識のないシステムにもある', 540, 'f')
+    f = Figure(4, '遅延は意識の十分条件ではない', '保持・照合・選択に伴う遅延は、意識のないシステムにもある', 540, 'g')
     f.rect(90, 210, 1020, 250, fill='none', stroke=MUTED, width=2, rx=20, dash=True)
     f.text(600, 244, '処理に遅延がある（情報を保持し、照合し、候補から選ぶ）', 17, INK, anchor='middle', weight=700)
     items = [('コンピュータの処理', '主観的経験は結論できない', MUTED), ('意識に上らない神経処理', '人間の中にも多数ある', MUTED), ('意識的な認知', '遅延を伴うが、それだけではない', BLUE)]
@@ -907,10 +907,10 @@ def main() -> None:
         f.box(x, 290, 300, 110, lab, sub, color, 17)
     f.text(600, 500, '遅延だけでは三つを区別できない。遅延は意識そのものではなく、意識が成立する時間的な条件を考えるための概念である。', 15, INK, anchor='middle')
     f.footer('')
-    made.add(f.save('04-f-delay-not-sufficient.svg'))
+    made.add(f.save('04-g-delay-not-sufficient.svg'))
 
     # ------------------------------------------------------------------ 04-g catching-ball
-    f = Figure(4, '異なる時間尺度の情報が、一つの行動へ統合される', '飛んでくるボールを捕る。視覚、運動指令、自己受容感覚は更新の速さが違う', 580, 'g')
+    f = Figure(4, '異なる時間尺度の情報が、一つの行動へ統合される', '飛んでくるボールを捕る。視覚、運動指令、自己受容感覚は更新の速さが違う', 580, 'h')
     rows = [('視覚系', 'ボールの位置と運動', 12, TEAL), ('運動系', '身体を動かす指令', 20, AMBER), ('自己受容感覚', '姿勢と関節の状態', 8, PLUM)]
     for i, (lab, sub, n, color) in enumerate(rows):
         y = 270 + i * 90
@@ -925,7 +925,7 @@ def main() -> None:
     f.box(885, 320, 230, 80, 'ボールを捕る', '一つのまとまった行動', BLUE, 20)
     f.text(1000, 440, '調整には保持と統合の時間が要る', 14, MUTED, anchor='middle')
     f.footer('処理は完全には同期していない。ずれや待ち時間を含んで、統合された結果が形成される。')
-    made.add(f.save('04-g-catching-ball.svg'))
+    made.add(f.save('04-h-catching-ball.svg'))
 
     # ------------------------------------------------------------------ 05-b wood-grain-face
     f = Figure(5, '記憶イメージの投射', '木目模様に顔が見えるのは、過去に見た顔の特徴を曖昧な入力に重ねているから', 580, 'b')
@@ -1025,7 +1025,7 @@ def main() -> None:
     made.add(f.save('06-b-reunion-duration.svg'))
 
     # ------------------------------------------------------------------ 06-d melody-ending
-    f = Figure(6, 'メロディーの終わりは、保持と予感の構造が変わることで経験される', '進行中は次の音への予感がある。終結では予感が変わり、最後の音が全体の印象へ統合される', 580, 'd')
+    f = Figure(6, 'メロディーの終わりは、保持と予感の構造が変わることで経験される', '進行中は次の音への予感がある。終結では予感が変わり、最後の音が全体の印象へ統合される', 580, 'e')
     f.panel(70, 200, 500, 320, '進行中')
     f.line(110, 400, 530, 400, color=LINE, width=2)
     for i, x in enumerate([170, 250, 330]):
@@ -1046,10 +1046,10 @@ def main() -> None:
     f.text(855, 452, '保持 → 全体の印象へ統合', 14, AMBER, anchor='middle', weight=700)
     f.text(880, 490, '終結を示す音型で「ここで終わる」と予測される', 14, INK, anchor='middle')
     f.footer('')
-    made.add(f.save('06-d-melody-ending.svg'))
+    made.add(f.save('06-e-melody-ending.svg'))
 
     # ------------------------------------------------------------------ 06-e aspect-imperfective
-    f = Figure(6, '時制とアスペクト', '「咲いた」は完了したものとして、「咲きつつある」はまだ出来上がっていないものとして表す', 620, 'e')
+    f = Figure(6, '時制とアスペクト', '「咲いた」は完了したものとして、「咲きつつある」はまだ出来上がっていないものとして表す', 620, 'f')
     f.line(150, 500, 1050, 500, color=MUTED, width=2, arrow=True)
     for x, t in [(250, '過去'), (600, '現在'), (950, '未来')]:
         f.line(x, 494, x, 506, color=MUTED, width=1.5)
@@ -1075,10 +1075,10 @@ def main() -> None:
     f.line(900, 400, 900, 430, color=TEAL, width=2)
     f.text(1010, 350, 'アスペクト', 14, MUTED, anchor='middle')
     f.footer('いつ起きたか（時制）とは別に、どのような進行状態にあるか（アスペクト）がある。')
-    made.add(f.save('06-e-aspect-imperfective.svg'))
+    made.add(f.save('06-f-aspect-imperfective.svg'))
 
     # ------------------------------------------------------------------ 06-g layer-switching
-    f = Figure(6, '二つの時間階層の切り替え', '名前を思い出そうとして会話を止めるとき、処理資源を記憶探索へ回している', 600, 'g')
+    f = Figure(6, '二つの時間階層の切り替え', '名前を思い出そうとして会話を止めるとき、処理資源を記憶探索へ回している', 600, 'h')
     f.panel(70, 200, 440, 340, '感覚・運動ループ')
     f.text(290, 260, '短い時間スケール', 14, MUTED, anchor='middle')
     loop_nodes(f, 290, 400, 80, ['外界', '感覚', '行動'], TEAL, 110, 40, 14)
@@ -1096,7 +1096,7 @@ def main() -> None:
     f.text(600, 476, '会話を止めて', 13, MUTED, anchor='middle')
     f.text(600, 494, '思い出すとき', 13, MUTED, anchor='middle')
     f.footer('外界との関係を断つのではなく、注意と処理の配分を変えている。')
-    made.add(f.save('06-g-layer-switching.svg'))
+    made.add(f.save('06-h-layer-switching.svg'))
 
     # ------------------------------------------------------------------ 07-a cell-boundary
     f = Figure(7, '世界とつながりながら、境界を維持する', '膜が内と外を分け、内側では自己維持と環境適応を複数のシステムが担う', 600, 'a')
@@ -1301,6 +1301,96 @@ def main() -> None:
     f.text(600, 590, '時間経験を成立させる神経機構を理解するには、身体や環境との相互作用も含めて考える必要がある', 14, INK, anchor='middle')
     f.footer('')
     made.add(f.save('08-h-distributed-time.svg'))
+
+    # ================================================================== 第3回の増補（2026-10-29、4点）
+
+    # ------------------------------------------------------------------ 01-e series-map
+    f = Figure(1, '連載の見取り図', '「測る」から「経験する」へ。3部8回で、心の時間的構造から身体と統合へ進む', 640, 'e')
+    parts = [('第I部　時間を測る、時間を感じる', BLUE, [('第1回', '時計の時間と経験の時間'), ('第2回', '時間知覚の限界'), ('第3回', '脳による世界の再構成')]),
+             ('第II部　心の時間的構造', TEAL, [('第4回', '遅延と行動の選択'), ('第5回', '記憶が現在を構成する'), ('第6回', '厚みのある現在')]),
+             ('第III部　身体と統合', AMBER, [('第7回', '身体と環境の相互作用'), ('第8回', 'マルチ時間スケール')])]
+    for i, (title, color, rows) in enumerate(parts):
+        x = 70 + i * 375
+        f.rect(x, 210, 340, 300, fill='#ffffff', stroke=color, width=2.5, rx=18)
+        f.text(x + 170, 246, title, 17, color, anchor='middle', weight=700)
+        for j, (no, theme) in enumerate(rows):
+            y = 292 + j * 64
+            f.rect(x + 24, y, 292, 46, fill=SOFT if not (i == 2 and j == 1) else color, stroke='none', width=0, rx=10, opacity=1 if not (i == 2 and j == 1) else 0.85)
+            f.text(x + 40, y + 30, no, 14, color if not (i == 2 and j == 1) else '#ffffff', weight=700)
+            f.text(x + 112, y + 30, theme, 15, INK if not (i == 2 and j == 1) else '#ffffff')
+        if i < 2:
+            f.line(x + 346, 360, x + 372, 360, color=MUTED, width=2.2, arrow=True)
+    f.text(600, 560, '時間とは何か　→　生物はどのような仕組みで時間を経験するのか', 17, INK, anchor='middle', weight=700)
+    f.text(600, 590, '問いは物理学的なものから、生物学的・認知的なものへ移る', 14, MUTED, anchor='middle')
+    f.footer('')
+    made.add(f.save('01-e-series-map.svg'))
+
+    # ------------------------------------------------------------------ 04-f language-time-range
+    f = Figure(4, '言語が広げる、利用できる時間の範囲', '個体の経験は生涯の内側に限られるが、他者の記録と構想によって数百年前から数十年後まで届く', 580, 'f')
+    f.line(120, 440, 1080, 440, color=MUTED, width=2, arrow=True)
+    ticks = [(180, '数百年前'), (420, '数十年前'), (700, 'いま'), (980, '数十年後')]
+    for x, lab in ticks:
+        f.line(x, 434, x, 446, color=MUTED, width=1.5)
+        f.text(x, 470, lab, 14, MUTED, anchor='middle')
+    f.line(700, 250, 700, 434, color=AMBER, width=1.5, dash=True)
+    f.rect(420, 370, 280, 36, fill=TEAL, stroke='none', width=0, rx=18, opacity=0.85)
+    f.text(560, 394, '個体が直接経験した過去', 14, '#ffffff', anchor='middle', weight=700)
+    f.rect(180, 310, 520, 36, fill=BLUE, stroke='none', width=0, rx=18, opacity=0.8)
+    f.text(440, 334, '他者の記録から学ぶ過去（歴史）', 14, '#ffffff', anchor='middle', weight=700)
+    f.rect(700, 310, 280, 36, fill=AMBER, stroke='none', width=0, rx=18, opacity=0.8)
+    f.text(840, 334, '構想できる未来', 14, '#ffffff', anchor='middle', weight=700)
+    f.brace(180, 980, 290, down=False)
+    f.text(580, 262, '言語によって利用できる時間的情報の範囲', 16, INK, anchor='middle', weight=700)
+    f.text(580, 236, '記号化し、他者へ伝達し、記録から学ぶ', 13, MUTED, anchor='middle')
+    f.text(560, 420, '自分の生涯の内側', 12, TEAL, anchor='middle')
+    f.footer('人間は、現在に存在しない出来事を利用して、現在の行動を決定する生物である。')
+    made.add(f.save('04-f-language-time-range.svg'))
+
+    # ------------------------------------------------------------------ 06-c retention-vs-recollection
+    f = Figure(6, '保持と想起は、別の働きである', '想起は現在にない過去を呼び戻す。保持は直前の過去が現在の中に残っている', 580, 'c')
+    f.panel(70, 200, 500, 320, '想起')
+    f.line(110, 420, 530, 420, color=MUTED, width=2, arrow=True)
+    f.circ(170, 420, 9, PLUM)
+    f.text(170, 452, '昨日聴いた曲', 14, PLUM, anchor='middle', weight=700)
+    f.circ(470, 420, 9, INK)
+    f.text(470, 452, 'いま', 14, INK, anchor='middle', weight=700)
+    f.path('M 462 408 C 400 300 240 300 182 406', color=PLUM, width=2.2, arrow=True, dash=True)
+    f.text(320, 318, '意識的に呼び戻す', 15, PLUM, anchor='middle', weight=700)
+    f.text(320, 490, '現在の感覚入力としては存在しない過去', 13, MUTED, anchor='middle')
+    f.panel(630, 200, 500, 320, '保持')
+    f.line(670, 420, 1090, 420, color=MUTED, width=2, arrow=True)
+    f.rect(880, 360, 170, 90, fill=TEAL, stroke='none', width=0, rx=16, opacity=0.14)
+    f.text(965, 346, '現在の幅', 13, TEAL, anchor='middle')
+    f.circ(910, 420, 20, TEAL, opacity=0.45)
+    f.text(910, 427, 'ド', 15, INK, anchor='middle', weight=700)
+    f.circ(1010, 420, 20, TEAL)
+    f.text(1010, 427, 'ミ', 15, '#ffffff', anchor='middle', weight=700)
+    f.text(910, 468, '直前', 13, MUTED, anchor='middle')
+    f.text(1010, 468, 'いま鳴っている', 13, MUTED, anchor='middle')
+    f.text(880, 300, '思い出そうとしなくても残っている', 15, TEAL, anchor='middle', weight=700)
+    f.text(880, 490, '現在の経験の一部として持ち越されている', 13, MUTED, anchor='middle')
+    f.footer('フッサールの時間意識が扱うのは右の働きである。')
+    made.add(f.save('06-c-retention-vs-recollection.svg'))
+
+    # ------------------------------------------------------------------ 08-i terminology-map
+    f = Figure(8, '本連載の用語と、平井靖史のMTS解釈の対応', '実線は同じ名称をそのまま使うもの、破線は本連載による言い換え', 760, 'i')
+    f.text(330, 226, '平井靖史（MTS解釈）', 18, PLUM, anchor='middle', weight=700)
+    f.text(870, 226, '本連載', 18, BLUE, anchor='middle', weight=700)
+    rows = [('MTS（マルチ時間スケール）解釈', 'マルチ時間スケール', True), ('階層0・1・2・3', '階層0〜3', True), ('凝縮（凝縮説）', '時間的粗視化／凝縮説', True), ('現在という窓／幅のある現在', '心理的現在（幅のある現在）', True), ('未完了相', '未完了相としての現在', True), ('意識の遅延テーゼ', '遅延／意識の遅延テーゼ', True), ('スケールギャップ', '時間スケールギャップ', True), ('複数の時間スケールの積層', '多重時計原理', False), ('純粋記憶のMTS解釈', '拡張記憶', False), ('（対応する用語なし）', 'サリエンス・スレッシュホールド', False)]
+    for i, (left, right, same) in enumerate(rows):
+        y = 256 + i * 44
+        f.rect(110, y, 440, 34, fill='#ffffff', stroke=PLUM if left != '（対応する用語なし）' else LINE, width=1.5, rx=8)
+        f.text(330, y + 23, left, 14, INK if left != '（対応する用語なし）' else MUTED, anchor='middle')
+        f.rect(650, y, 440, 34, fill='#ffffff', stroke=BLUE, width=1.5, rx=8)
+        f.text(870, y + 23, right, 14, INK, anchor='middle')
+        if left != '（対応する用語なし）':
+            f.line(552, y + 17, 648, y + 17, color=MUTED, width=1.8, dash=not same)
+    f.line(110, 712, 150, 712, color=MUTED, width=1.8)
+    f.text(160, 717, '同じ名称', 13, MUTED)
+    f.line(260, 712, 300, 712, color=MUTED, width=1.8, dash=True)
+    f.text(310, 717, '本連載による言い換え', 13, MUTED)
+    f.footer('')
+    made.add(f.save('08-i-terminology-map.svg'))
 
     missing, extra = expected - made, made - expected
     if missing or extra:

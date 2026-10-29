@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc">
+<title id="title">言語が広げる、利用できる時間の範囲</title>
+<desc id="desc">個体の経験は生涯の内側に限られるが、他者の記録と構想によって数百年前から数十年後まで届く</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="580" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     04     図4-6</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">言語が広げる、利用できる時間の範囲</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">個体の経験は生涯の内側に限られるが、他者の記録と構想によって数百年前から数十年後まで届く</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<line x1="120.0" y1="440.0" x2="1080.0" y2="440.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="180.0" y1="434.0" x2="180.0" y2="446.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="180.0" y="470.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">数百年前</text>
+<line x1="420.0" y1="434.0" x2="420.0" y2="446.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="420.0" y="470.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">数十年前</text>
+<line x1="700.0" y1="434.0" x2="700.0" y2="446.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="700.0" y="470.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">いま</text>
+<line x1="980.0" y1="434.0" x2="980.0" y2="446.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="980.0" y="470.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">数十年後</text>
+<line x1="700.0" y1="250.0" x2="700.0" y2="434.0" stroke="#c7792b" stroke-width="1.5" stroke-dasharray="8 7"/>
+<rect x="420.0" y="370.0" width="280.0" height="36.0" rx="18" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.85"/>
+<text x="560.0" y="394.0" fill="#ffffff" font-size="14" text-anchor="middle" font-weight="700">個体が直接経験した過去</text>
+<rect x="180.0" y="310.0" width="520.0" height="36.0" rx="18" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="440.0" y="334.0" fill="#ffffff" font-size="14" text-anchor="middle" font-weight="700">他者の記録から学ぶ過去（歴史）</text>
+<rect x="700.0" y="310.0" width="280.0" height="36.0" rx="18" fill="#c7792b" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="840.0" y="334.0" fill="#ffffff" font-size="14" text-anchor="middle" font-weight="700">構想できる未来</text>
+<path d="M 180.0 300.0 Q 180.0 290.0 192.0 290.0 L 568.0 290.0 Q 580.0 290.0 580.0 280.0 Q 580.0 290.0 592.0 290.0 L 968.0 290.0 Q 980.0 290.0 980.0 300.0" fill="none" stroke="#5d6873" stroke-width="1.6"/>
+<text x="580.0" y="262.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">言語によって利用できる時間的情報の範囲</text>
+<text x="580.0" y="236.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">記号化し、他者へ伝達し、記録から学ぶ</text>
+<text x="560.0" y="420.0" fill="#2f8f83" font-size="12" text-anchor="middle" font-weight="400">自分の生涯の内側</text>
+<text x="50.0" y="552.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">人間は、現在に存在しない出来事を利用して、現在の行動を決定する生物である。</text>
+</g>
+</svg>

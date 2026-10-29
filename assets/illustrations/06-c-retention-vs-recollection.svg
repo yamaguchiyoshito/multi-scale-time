@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc">
+<title id="title">保持と想起は、別の働きである</title>
+<desc id="desc">想起は現在にない過去を呼び戻す。保持は直前の過去が現在の中に残っている</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="580" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     06     図6-3</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">保持と想起は、別の働きである</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">想起は現在にない過去を呼び戻す。保持は直前の過去が現在の中に残っている</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="70.0" y="200.0" width="500.0" height="320.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="320.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">想起</text>
+<line x1="110.0" y1="420.0" x2="530.0" y2="420.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<circle cx="170.0" cy="420.0" r="9" fill="#8a4f9e"/>
+<text x="170.0" y="452.0" fill="#8a4f9e" font-size="14" text-anchor="middle" font-weight="700">昨日聴いた曲</text>
+<circle cx="470.0" cy="420.0" r="9" fill="#232a33"/>
+<text x="470.0" y="452.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="700">いま</text>
+<path d="M 462 408 C 400 300 240 300 182 406" fill="none" stroke="#8a4f9e" stroke-width="2.2" marker-end="url(#arrow)" stroke-dasharray="8 7"/>
+<text x="320.0" y="318.0" fill="#8a4f9e" font-size="15" text-anchor="middle" font-weight="700">意識的に呼び戻す</text>
+<text x="320.0" y="490.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">現在の感覚入力としては存在しない過去</text>
+<rect x="630.0" y="200.0" width="500.0" height="320.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="880.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">保持</text>
+<line x1="670.0" y1="420.0" x2="1090.0" y2="420.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="880.0" y="360.0" width="170.0" height="90.0" rx="16" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.14"/>
+<text x="965.0" y="346.0" fill="#2f8f83" font-size="13" text-anchor="middle" font-weight="400">現在の幅</text>
+<circle cx="910.0" cy="420.0" r="20" fill="#2f8f83" opacity="0.45"/>
+<text x="910.0" y="427.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">ド</text>
+<circle cx="1010.0" cy="420.0" r="20" fill="#2f8f83"/>
+<text x="1010.0" y="427.0" fill="#ffffff" font-size="15" text-anchor="middle" font-weight="700">ミ</text>
+<text x="910.0" y="468.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">直前</text>
+<text x="1010.0" y="468.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">いま鳴っている</text>
+<text x="880.0" y="300.0" fill="#2f8f83" font-size="15" text-anchor="middle" font-weight="700">思い出そうとしなくても残っている</text>
+<text x="880.0" y="490.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">現在の経験の一部として持ち越されている</text>
+<text x="50.0" y="552.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">フッサールの時間意識が扱うのは右の働きである。</text>
+</g>
+</svg>
