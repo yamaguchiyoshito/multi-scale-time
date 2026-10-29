@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">直結する反応と、余白のある反応</title>
+<desc id="desc">刺激と反応の間に、記憶・予測・複数の候補が介在するかどうか</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     04     図4-1</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">直結する反応と、余白のある反応</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">刺激と反応の間に、記憶・予測・複数の候補が介在するかどうか</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<text x="80.0" y="236.0" fill="#232a33" font-size="18" text-anchor="start" font-weight="700">反射</text>
+<rect x="80.0" y="252.0" width="220.0" height="70.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="190.0" y="283.0" fill="#5d6873" font-size="20" text-anchor="middle" font-weight="700">刺激</text>
+<text x="190.0" y="313.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">熱い鍋に触れる</text>
+<line x1="305.0" y1="287.0" x2="820.0" y2="287.0" stroke="#c7792b" stroke-width="3" marker-end="url(#arrow-amber)"/>
+<text x="562.0" y="276.0" fill="#c7792b" font-size="15" text-anchor="middle" font-weight="700">定型的な反応</text>
+<rect x="830.0" y="252.0" width="290.0" height="70.0" rx="14" fill="#ffffff" stroke="#c7792b" stroke-width="2"/>
+<text x="975.0" y="283.0" fill="#c7792b" font-size="20" text-anchor="middle" font-weight="700">反応</text>
+<text x="975.0" y="313.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">手を引く</text>
+<text x="80.0" y="390.0" fill="#232a33" font-size="18" text-anchor="start" font-weight="700">余白</text>
+<rect x="80.0" y="406.0" width="220.0" height="70.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="190.0" y="437.0" fill="#5d6873" font-size="20" text-anchor="middle" font-weight="700">刺激</text>
+<text x="190.0" y="467.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">ひどい言葉を向けられる</text>
+<line x1="305.0" y1="441.0" x2="345.0" y2="441.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="350.0" y="372.0" width="440.0" height="150.0" rx="16" fill="none" stroke="#2b5f9e" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="570.0" y="398.0" fill="#2b5f9e" font-size="17" text-anchor="middle" font-weight="700">時間的余白</text>
+<rect x="372.0" y="416.0" width="124.0" height="40.0" rx="8" fill="#ffffff" stroke="#2b5f9e" stroke-width="1.5"/>
+<text x="434.0" y="442.0" fill="#2b5f9e" font-size="14" text-anchor="middle" font-weight="400">記憶の参照</text>
+<rect x="508.0" y="416.0" width="124.0" height="40.0" rx="8" fill="#ffffff" stroke="#2b5f9e" stroke-width="1.5"/>
+<text x="570.0" y="442.0" fill="#2b5f9e" font-size="14" text-anchor="middle" font-weight="400">未来の予測</text>
+<rect x="644.0" y="416.0" width="124.0" height="40.0" rx="8" fill="#ffffff" stroke="#2b5f9e" stroke-width="1.5"/>
+<text x="706.0" y="442.0" fill="#2b5f9e" font-size="14" text-anchor="middle" font-weight="400">行動候補 A／B／C</text>
+<text x="570.0" y="500.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">複数の可能性を評価し、一つを選ぶ</text>
+<line x1="795.0" y1="441.0" x2="825.0" y2="441.0" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
+<rect x="830.0" y="406.0" width="290.0" height="70.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="975.0" y="437.0" fill="#2b5f9e" font-size="20" text-anchor="middle" font-weight="700">反応</text>
+<text x="975.0" y="467.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">言い返す／黙る／考える</text>
+<text x="50.0" y="572.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">問題は時計で測った応答時間ではなく、入力と出力の間にどれだけの処理が介在するかである。</text>
+</g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">速すぎる変化と、遅すぎる変化</title>
+<desc id="desc">変化として経験できるのは、両端のあいだの限られた範囲である</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="560" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     02     図2-1</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">速すぎる変化と、遅すぎる変化</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">変化として経験できるのは、両端のあいだの限られた範囲である</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<line x1="150.0" y1="400.0" x2="1080.0" y2="400.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="150.0" y1="394.0" x2="150.0" y2="406.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="150.0" y="428.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">1ms</text>
+<line x1="262.5" y1="394.0" x2="262.5" y2="406.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="262.5" y="428.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">10ms</text>
+<line x1="375.0" y1="394.0" x2="375.0" y2="406.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="375.0" y="428.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">0.1秒</text>
+<line x1="487.5" y1="394.0" x2="487.5" y2="406.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="487.5" y="428.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">1秒</text>
+<line x1="600.0" y1="394.0" x2="600.0" y2="406.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="600.0" y="428.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">10秒</text>
+<line x1="712.5" y1="394.0" x2="712.5" y2="406.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="712.5" y="428.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">1分40秒</text>
+<line x1="825.0" y1="394.0" x2="825.0" y2="406.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="825.0" y="428.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">17分</text>
+<line x1="937.5" y1="394.0" x2="937.5" y2="406.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="937.5" y="428.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">約3時間</text>
+<line x1="1050.0" y1="394.0" x2="1050.0" y2="406.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="1050.0" y="428.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">約1日</text>
+<text x="590.0" y="462.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">変化一回あたりの時間</text>
+<rect x="316.2" y="300.0" width="371.4" height="80.0" rx="12" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.18"/>
+<text x="501.9" y="290.0" fill="#2f8f83" font-size="18" text-anchor="middle" font-weight="700">変化として経験できる範囲</text>
+<text x="501.9" y="346.0" fill="#2f8f83" font-size="15" text-anchor="middle" font-weight="400">数十ミリ秒 〜 数十秒（感覚と課題で異なる）</text>
+<rect x="160.0" y="212.0" width="140.0" height="26.0" rx="13" fill="#ffffff" stroke="#c7792b" stroke-width="2"/>
+<polyline points="170.0,232.0 170.0,218.0 180.0,218.0 180.0,232.0 190.0,232.0 190.0,218.0 200.0,218.0 200.0,232.0 210.0,232.0 210.0,218.0 220.0,218.0 220.0,232.0 230.0,232.0 230.0,218.0 240.0,218.0 240.0,232.0 250.0,232.0 250.0,218.0 260.0,218.0 260.0,232.0 270.0,232.0 270.0,218.0 280.0,218.0 280.0,232.0 290.0,232.0" fill="none" stroke="#c7792b" stroke-width="1.6"/>
+<text x="230.0" y="262.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">蛍光灯の点滅（周期10ms）</text>
+<line x1="262.5" y1="280.0" x2="262.5" y2="392.0" stroke="#c7792b" stroke-width="1.5" stroke-dasharray="8 7"/>
+<text x="262.5" y="462.0" fill="#c7792b" font-size="15" text-anchor="middle" font-weight="700">速すぎる → 連続した光に見える</text>
+<path d="M 920 236 C 960 206 1010 206 1050 236" fill="none" stroke="#8a4f9e" stroke-width="1.5" stroke-dasharray="8 7"/>
+<text x="933.0" y="230.3" fill="#8a4f9e" font-size="12" text-anchor="middle" font-weight="400">✦</text>
+<text x="985.0" y="211.3" fill="#8a4f9e" font-size="16" text-anchor="middle" font-weight="400">✦</text>
+<text x="1037.0" y="230.3" fill="#8a4f9e" font-size="12" text-anchor="middle" font-weight="400">✦</text>
+<text x="985.0" y="262.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">星の見かけの移動（1時間に約15°）</text>
+<line x1="887.6" y1="280.0" x2="887.6" y2="392.0" stroke="#8a4f9e" stroke-width="1.5" stroke-dasharray="8 7"/>
+<text x="887.6" y="462.0" fill="#8a4f9e" font-size="15" text-anchor="middle" font-weight="700">遅すぎる → 静止して見える</text>
+<text x="50.0" y="532.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">どちらも物理的には変化しているのに、変化の流れとして経験できない。</text>
+</g>
+</svg>

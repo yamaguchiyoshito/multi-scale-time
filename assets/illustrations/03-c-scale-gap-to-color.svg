@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">時間スケールギャップを越えて、色が成立する</title>
+<desc id="desc">光の振動から色の経験まで、時間尺度が上がるごとに情報の表現形式が変わる</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker><radialGradient id="g03c-1"><stop offset="0" stop-color="#8a4f9e" stop-opacity="0.5"/><stop offset="0.55" stop-color="#8a4f9e" stop-opacity="0.23"/><stop offset="1" stop-color="#8a4f9e" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="640" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     03     図3-3</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">時間スケールギャップを越えて、色が成立する</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">光の振動から色の経験まで、時間尺度が上がるごとに情報の表現形式が変わる</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="90.0" y="500.0" width="196.0" height="76.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="188.0" y="534.0" fill="#2b5f9e" font-size="18" text-anchor="middle" font-weight="700">光の振動</text>
+<text x="188.0" y="564.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">数百兆Hz</text>
+<line x1="290.0" y1="538.0" x2="302.0" y2="476.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="302.0" y="438.0" width="196.0" height="76.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="400.0" y="472.0" fill="#2b5f9e" font-size="18" text-anchor="middle" font-weight="700">視細胞の応答</text>
+<text x="400.0" y="502.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">ミリ秒</text>
+<line x1="502.0" y1="476.0" x2="514.0" y2="414.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="514.0" y="376.0" width="196.0" height="76.0" rx="14" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="612.0" y="410.0" fill="#2f8f83" font-size="18" text-anchor="middle" font-weight="700">神経回路の統合</text>
+<text x="612.0" y="440.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">数十ミリ秒</text>
+<line x1="714.0" y1="414.0" x2="726.0" y2="352.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="726.0" y="314.0" width="196.0" height="76.0" rx="14" fill="#ffffff" stroke="#c7792b" stroke-width="2"/>
+<text x="824.0" y="348.0" fill="#c7792b" font-size="18" text-anchor="middle" font-weight="700">内部モデルの推定</text>
+<text x="824.0" y="378.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">数百ミリ秒〜秒</text>
+<line x1="926.0" y1="352.0" x2="938.0" y2="290.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="938.0" y="252.0" width="196.0" height="76.0" rx="14" fill="#ffffff" stroke="#8a4f9e" stroke-width="2"/>
+<text x="1036.0" y="286.0" fill="#8a4f9e" font-size="18" text-anchor="middle" font-weight="700">「赤いバラ」の経験</text>
+<text x="1036.0" y="316.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">色を持った対象</text>
+<polyline points="100.0,592.0 100.8,589.5 101.5,587.3 102.2,585.8 103.0,585.0 103.8,585.2 104.5,586.3 105.2,588.2 106.0,590.5 106.8,593.1 107.5,595.5 108.2,597.4 109.0,598.7 109.8,599.0 110.5,598.4 111.2,596.9 112.0,594.8 112.8,592.4 113.5,589.8 114.2,587.6 115.0,585.9 115.8,585.1 116.5,585.2 117.2,586.1 118.0,587.9 118.8,590.2 119.5,592.7 120.2,595.2 121.0,597.2 121.8,598.5 122.5,599.0 123.2,598.5 124.0,597.2 124.8,595.2 125.5,592.7 126.2,590.2 127.0,587.9 127.8,586.1 128.5,585.2 129.2,585.1 130.0,585.9 130.8,587.6 131.5,589.8 132.2,592.4 133.0,594.8 133.8,596.9 134.5,598.4 135.2,599.0 136.0,598.7 136.8,597.4 137.5,595.5 138.2,593.1 139.0,590.5 139.8,588.2 140.5,586.3 141.2,585.2 142.0,585.0 142.8,585.8 143.5,587.3 144.2,589.5 145.0,592.0 145.8,594.5 146.5,596.7 147.2,598.2 148.0,599.0 148.8,598.8 149.5,597.7 150.2,595.8 151.0,593.5 151.8,590.9 152.5,588.5 153.2,586.6 154.0,585.3 154.8,585.0 155.5,585.6 156.2,587.1 157.0,589.2 157.8,591.6 158.5,594.2 159.2,596.4 160.0,598.1 160.8,598.9 161.5,598.8 162.2,597.9 163.0,596.1 163.8,593.8 164.5,591.3 165.2,588.8 166.0,586.8 166.8,585.5 167.5,585.0 168.2,585.5 169.0,586.8 169.8,588.8 170.5,591.3 171.2,593.8 172.0,596.1 172.8,597.9 173.5,598.8 174.2,598.9 175.0,598.1 175.8,596.4 176.5,594.2 177.2,591.6 178.0,589.2 178.8,587.1 179.5,585.6 180.2,585.0 181.0,585.3 181.8,586.6 182.5,588.5 183.2,590.9 184.0,593.5 184.8,595.8 185.5,597.7 186.2,598.8 187.0,599.0 187.8,598.2 188.5,596.7 189.2,594.5 190.0,592.0 190.8,589.5 191.5,587.3 192.2,585.8 193.0,585.0 193.8,585.2 194.5,586.3 195.2,588.2 196.0,590.5 196.8,593.1 197.5,595.5 198.2,597.4 199.0,598.7 199.8,599.0 200.5,598.4 201.2,596.9 202.0,594.8 202.8,592.4 203.5,589.8 204.2,587.6 205.0,585.9 205.8,585.1 206.5,585.2 207.2,586.1 208.0,587.9 208.8,590.2 209.5,592.7 210.2,595.2 211.0,597.2 211.8,598.5 212.5,599.0 213.2,598.5 214.0,597.2 214.8,595.2 215.5,592.7 216.2,590.2 217.0,587.9 217.8,586.1 218.5,585.2 219.2,585.1 220.0,585.9 220.8,587.6 221.5,589.8 222.2,592.4 223.0,594.8 223.8,596.9 224.5,598.4 225.2,599.0 226.0,598.7 226.8,597.4 227.5,595.5 228.2,593.1 229.0,590.5 229.8,588.2 230.5,586.3 231.2,585.2 232.0,585.0 232.8,585.8 233.5,587.3 234.2,589.5 235.0,592.0 235.8,594.5 236.5,596.7 237.2,598.2 238.0,599.0 238.8,598.8 239.5,597.7 240.2,595.8 241.0,593.5 241.8,590.9 242.5,588.5 243.2,586.6 244.0,585.3 244.8,585.0 245.5,585.6 246.2,587.1 247.0,589.2 247.8,591.6 248.5,594.2 249.2,596.4 250.0,598.1 250.8,598.9 251.5,598.8 252.2,597.9 253.0,596.1 253.8,593.8 254.5,591.3 255.2,588.8 256.0,586.8 256.8,585.5 257.5,585.0 258.2,585.5 259.0,586.8 259.8,588.8 260.5,591.3 261.2,593.8 262.0,596.1 262.8,597.9 263.5,598.8 264.2,598.9 265.0,598.1 265.8,596.4 266.5,594.2 267.2,591.6 268.0,589.2 268.8,587.1 269.5,585.6 270.2,585.0 271.0,585.3 271.8,586.6 272.5,588.5 273.2,590.9 274.0,593.5 274.8,595.8 275.5,597.7 276.2,598.8 277.0,599.0 277.8,598.2 278.5,596.7 279.2,594.5 280.0,592.0" fill="none" stroke="#2b5f9e" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="190.0" y="618.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">細かな変動</text>
+<circle cx="1040.0" cy="300.0" r="60" fill="url(#g03c-1)"/>
+<text x="1040.0" y="232.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">統合された質</text>
+<line x1="90.0" y1="600.0" x2="1130.0" y2="600.0" stroke="#d8d4c8" stroke-width="1"/>
+<text x="1130.0" y="624.0" fill="#5d6873" font-size="15" text-anchor="end" font-weight="400">時間尺度 →</text>
+<text x="600.0" y="212.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="400">失われる情報がある一方で、上位の尺度で安定した特徴が成立する</text>
+</g>
+</svg>

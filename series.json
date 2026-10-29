@@ -1,0 +1,188 @@
+{
+  "id": "multi-scale-time",
+  "code": "MULTI-SCALE TIME",
+  "index": "README.md",
+  "title": "時間はどのように生まれるのか",
+  "subtitle": "マルチ時間スケールから考える時間・意識・心、全8回",
+  "language": "ja",
+  "version": "1.0.0",
+  "tagline": "私たちの中には、複数の時間が流れている。",
+  "parts": [
+    {
+      "number": "I",
+      "title": "時間を測る、時間を感じる",
+      "chapters": [
+        1,
+        3
+      ]
+    },
+    {
+      "number": "II",
+      "title": "心の時間的構造",
+      "chapters": [
+        4,
+        6
+      ]
+    },
+    {
+      "number": "III",
+      "title": "身体と統合",
+      "chapters": [
+        7,
+        8
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "slug": "does-time-flow",
+      "title": "時間は、本当に流れているのか？",
+      "subtitle": "時計が測る時間と、私たちが経験する時間",
+      "summary": "時計が測っているものと、人間が経験しているものは異なるのではないか。客観的時間と主観的時間を区別し、連載の出発点を置く。",
+      "path": "chapters/01-does-time-flow.md",
+      "sources": [
+        "bipm-si",
+        "bergson-essai"
+      ],
+      "figures": [
+        "assets/illustrations/01-a-clock-and-experience.svg",
+        "assets/illustrations/01-b-three-aspects.svg"
+      ]
+    },
+    {
+      "number": 2,
+      "slug": "limits-of-time-perception",
+      "title": "私たちには見えない時間がある",
+      "subtitle": "瞬間と持続、そして時間知覚の限界",
+      "summary": "速すぎる変化も遅すぎる変化も経験できない。瞬間・持続・時間分解能・時間スケールギャップから、経験できる時間の範囲を考える。",
+      "path": "chapters/02-limits-of-time-perception.md",
+      "sources": [
+        "poppel-1997",
+        "bergson-essai"
+      ],
+      "figures": [
+        "assets/illustrations/02-a-too-fast-too-slow.svg",
+        "assets/illustrations/02-b-resolution-by-sense.svg",
+        "assets/illustrations/02-c-moment-and-duration.svg"
+      ]
+    },
+    {
+      "number": 3,
+      "slug": "brain-reconstructs-reality",
+      "title": "脳は現実を見ているのではなく、再構成している",
+      "subtitle": "時間的粗視化、生成モデル、そしてクオリアの成立",
+      "summary": "脳は感覚入力を待つだけではなく、生成モデルで世界を予測し、予測誤差で更新する。限られた入力から豊かな経験が生まれる仕組みを考える。",
+      "path": "chapters/03-brain-reconstructs-reality.md",
+      "sources": [
+        "helmholtz",
+        "clark-2013",
+        "bergson-ec"
+      ],
+      "figures": [
+        "assets/illustrations/03-a-generative-model-loop.svg",
+        "assets/illustrations/03-b-eye-movement.svg",
+        "assets/illustrations/03-c-scale-gap-to-color.svg"
+      ]
+    },
+    {
+      "number": 4,
+      "slug": "consciousness-and-delay",
+      "title": "意識は、反応の「遅延」から生まれたのか？",
+      "subtitle": "生命が獲得した時間的余白と、心の誕生",
+      "summary": "刺激と反応の間に生まれた時間的余白が、行動の選択可能性を支える。ベルクソンの思想から読み取れる意識の遅延テーゼを考える。",
+      "path": "chapters/04-consciousness-and-delay.md",
+      "sources": [
+        "jennings-1906",
+        "bergson-ec",
+        "bergson-mm"
+      ],
+      "figures": [
+        "assets/illustrations/04-a-reflex-vs-deliberation.svg",
+        "assets/illustrations/04-b-three-timescales.svg",
+        "assets/illustrations/04-c-budget-horizon.svg"
+      ]
+    },
+    {
+      "number": 5,
+      "slug": "mind-is-made-of-memory",
+      "title": "心は過去でできている",
+      "subtitle": "記憶は保存庫ではなく、現在の世界を構築する仕組みである",
+      "summary": "記憶は過去の倉庫ではない。多次元的ネットワーク、再編成、自己回帰を通じて、過去の蓄積が現在の知覚と心そのものを形づくる。",
+      "path": "chapters/05-mind-is-made-of-memory.md",
+      "sources": [
+        "bergson-mm",
+        "bartlett-1932"
+      ],
+      "figures": [
+        "assets/illustrations/05-a-warehouse-vs-construction.svg",
+        "assets/illustrations/05-b-sea-network.svg",
+        "assets/illustrations/05-c-recursive-memory.svg"
+      ]
+    },
+    {
+      "number": 6,
+      "slug": "the-thickness-of-now",
+      "title": "「現在」は、なぜ一瞬ではないのか？",
+      "subtitle": "ベルクソンの持続、フッサールの時間意識、そして未完了の現在",
+      "summary": "経験される現在には時間的な厚みがある。保持・原初印象・予感と未完了相から、現在を過去と未来が出会う未完了の過程として捉える。",
+      "path": "chapters/06-the-thickness-of-now.md",
+      "sources": [
+        "bergson-essai",
+        "husserl-zeit",
+        "comrie-1976",
+        "poppel-1997"
+      ],
+      "figures": [
+        "assets/illustrations/06-a-melody-retention.svg",
+        "assets/illustrations/06-b-thick-present.svg"
+      ]
+    },
+    {
+      "number": 7,
+      "slug": "embodied-time",
+      "title": "脳だけでは、心も時間も生まれない",
+      "subtitle": "身体と世界の相互作用が構築する、もう一つの時間",
+      "summary": "神経系・内分泌系・免疫系は異なる時間で働く。身体感覚、情動、腸脳相関、能動的推論、自己参照を通じて、時間経験を身体と環境の相互作用から捉える。",
+      "path": "chapters/07-embodied-time.md",
+      "sources": [
+        "craig-2002",
+        "schachter-singer-1962",
+        "dutton-aron-1974",
+        "mcewen-1998",
+        "mayer-2011",
+        "itti-koch-2001",
+        "iliff-2012",
+        "anastassiou-2011",
+        "friston-2010",
+        "von-foerster-2003"
+      ],
+      "figures": [
+        "assets/illustrations/07-a-body-timescales.svg",
+        "assets/illustrations/07-b-three-senses.svg",
+        "assets/illustrations/07-c-active-inference-loop.svg"
+      ]
+    },
+    {
+      "number": 8,
+      "slug": "multiple-times-within-us",
+      "title": "私たちの中には、複数の時間が流れている",
+      "subtitle": "マルチ時間スケールから考える、時間・意識・心の成立",
+      "summary": "神経活動から記憶・身体・進化まで、異なる時間スケールの過程が一つの生物の中で相互作用する。その統合として時間・意識・心を捉えるマルチ時間スケールの考え方を提示する。",
+      "path": "chapters/08-multiple-times-within-us.md",
+      "sources": [
+        "buzsaki-2006",
+        "takahashi-2017",
+        "bergson-mm",
+        "husserl-zeit",
+        "block-zakay-1997"
+      ],
+      "figures": [
+        "assets/illustrations/08-a-many-clocks.svg",
+        "assets/illustrations/08-b-condensation-hierarchy.svg",
+        "assets/illustrations/08-c-present-composed.svg",
+        "assets/illustrations/08-d-series-summary.svg"
+      ]
+    }
+  ]
+}

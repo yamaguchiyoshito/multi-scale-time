@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">目を動かしても、世界は動かない</title>
+<desc id="desc">網膜像は流れているのに、自分の運動を差し引いて安定した世界を推定している</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     03     図3-2</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">目を動かしても、世界は動かない</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">網膜像は流れているのに、自分の運動を差し引いて安定した世界を推定している</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="70.0" y="200.0" width="480.0" height="350.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="310.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">網膜に映るもの</text>
+<rect x="120.0" y="258.0" width="380.0" height="170.0" rx="10" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>
+<rect x="200.0" y="336.0" width="70.0" height="84.0" rx="4" fill="#ece9e0" stroke="#5d6873" stroke-width="1.5"/>
+<path d="M 190 336 L 235 298 L 280 336 Z" fill="#ece9e0" stroke="#5d6873" stroke-width="1.5"/>
+<circle cx="380.0" cy="318.0" r="26" fill="#2f8f83" opacity="0.7"/>
+<line x1="380.0" y1="344.0" x2="380.0" y2="420.0" stroke="#5d6873" stroke-width="4"/>
+<line x1="470.0" y1="452.0" x2="340.0" y2="452.0" stroke="#c7792b" stroke-width="2.5" marker-end="url(#arrow-amber)"/>
+<text x="405.0" y="478.0" fill="#c7792b" font-size="15" text-anchor="middle" font-weight="700">網膜像は左へ流れる</text>
+<path d="M 150 512 C 190 492 230 492 270 512" fill="none" stroke="#232a33" stroke-width="2.5"/>
+<circle cx="210.0" cy="508.0" r="7" fill="#232a33"/>
+<line x1="300.0" y1="510.0" x2="380.0" y2="510.0" stroke="#232a33" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="265.0" y="540.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">視線を右へ</text>
+<rect x="640.0" y="200.0" width="490.0" height="350.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="885.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">脳が行っていること</text>
+<rect x="670.0" y="256.0" width="430.0" height="44.0" rx="10" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="885.0" y="285.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">① 目を動かす運動指令</text>
+<line x1="885.0" y1="302.0" x2="885.0" y2="312.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="670.0" y="314.0" width="430.0" height="44.0" rx="10" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="885.0" y="343.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">② 網膜像の変化を予測</text>
+<line x1="885.0" y1="360.0" x2="885.0" y2="370.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="670.0" y="372.0" width="430.0" height="44.0" rx="10" fill="#ffffff" stroke="#c7792b" stroke-width="2"/>
+<text x="885.0" y="401.0" fill="#c7792b" font-size="16" text-anchor="middle" font-weight="700">③ 実際の入力と照合</text>
+<line x1="885.0" y1="418.0" x2="885.0" y2="428.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="670.0" y="430.0" width="430.0" height="44.0" rx="10" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="885.0" y="459.0" fill="#2f8f83" font-size="16" text-anchor="middle" font-weight="700">④ 自分の運動による変化と外界の変化を区別</text>
+<text x="885.0" y="520.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">→ 世界は安定したものとして経験される</text>
+<text x="50.0" y="572.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">安定しているのは網膜像ではなく、推定された世界である。</text>
+</g>
+</svg>

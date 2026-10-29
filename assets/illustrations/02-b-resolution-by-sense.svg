@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<title id="title">感覚と課題によって、時間尺度は異なる</title>
+<desc id="desc">聴覚の数ミリ秒から味覚・嗅覚の数秒まで、三桁近い幅がある</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="660" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">MULTI-SCALE TIME     02     図2-2</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">感覚と課題によって、時間尺度は異なる</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">聴覚の数ミリ秒から味覚・嗅覚の数秒まで、三桁近い幅がある</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<line x1="330.0" y1="548.0" x2="1110.0" y2="548.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="330.0" y1="542.0" x2="330.0" y2="554.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="330.0" y="576.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">1ms</text>
+<line x1="517.5" y1="542.0" x2="517.5" y2="554.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="517.5" y="576.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">10ms</text>
+<line x1="705.0" y1="542.0" x2="705.0" y2="554.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="705.0" y="576.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">100ms</text>
+<line x1="892.5" y1="542.0" x2="892.5" y2="554.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="892.5" y="576.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">1秒</text>
+<line x1="1080.0" y1="542.0" x2="1080.0" y2="554.0" stroke="#5d6873" stroke-width="1.5"/>
+<text x="1080.0" y="576.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">10秒</text>
+<rect x="386.4" y="206.0" width="74.6" height="24.0" rx="12.0" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.78"/>
+<text x="372.4" y="224.0" fill="#232a33" font-size="17" text-anchor="end" font-weight="400">聴覚：二つの音の識別</text>
+<rect x="508.9" y="250.0" width="16.3" height="24.0" rx="12.0" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.78"/>
+<text x="494.9" y="268.0" fill="#232a33" font-size="17" text-anchor="end" font-weight="400">聴覚：音の方向の検出</text>
+<rect x="538.9" y="294.0" width="166.1" height="24.0" rx="12.0" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.78"/>
+<text x="524.9" y="312.0" fill="#232a33" font-size="17" text-anchor="end" font-weight="400">視覚：点滅の認識</text>
+<rect x="552.4" y="338.0" width="14.0" height="24.0" rx="12.0" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.78"/>
+<text x="538.4" y="356.0" fill="#232a33" font-size="17" text-anchor="end" font-weight="400">映像：60FPSのフレーム間隔</text>
+<rect x="508.9" y="382.0" width="16.3" height="24.0" rx="12.0" fill="#c7792b" stroke="none" stroke-width="0" opacity="0.78"/>
+<text x="494.9" y="400.0" fill="#232a33" font-size="17" text-anchor="end" font-weight="400">触覚：振動の検出</text>
+<rect x="827.5" y="426.0" width="16.3" height="24.0" rx="12.0" fill="#c7792b" stroke="none" stroke-width="0" opacity="0.78"/>
+<text x="813.5" y="444.0" fill="#232a33" font-size="17" text-anchor="end" font-weight="400">痛みへの反応</text>
+<rect x="705.0" y="470.0" width="277.0" height="24.0" rx="12.0" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.78"/>
+<text x="691.0" y="488.0" fill="#232a33" font-size="17" text-anchor="end" font-weight="400">味覚・嗅覚</text>
+<line x1="330.0" y1="196.0" x2="330.0" y2="540.0" stroke="#d8d4c8" stroke-width="1"/>
+<text x="50.0" y="632.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">同一の測定方法による比較値ではなく、感覚・課題ごとの代表例である。</text>
+</g>
+</svg>
