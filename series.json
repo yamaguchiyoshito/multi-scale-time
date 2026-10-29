@@ -5,7 +5,7 @@
   "title": "時間はどのように生まれるのか",
   "subtitle": "マルチ時間スケールから考える時間・意識・心、全8回",
   "language": "ja",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "tagline": "私たちの中には、複数の時間が流れている。",
   "parts": [
     {
@@ -43,7 +43,8 @@
       "path": "chapters/01-does-time-flow.md",
       "sources": [
         "bipm-si",
-        "bergson-essai"
+        "bergson-essai",
+        "hirai-2022"
       ],
       "figures": [
         "assets/illustrations/01-a-clock-and-experience.svg",
@@ -61,7 +62,9 @@
       "path": "chapters/02-limits-of-time-perception.md",
       "sources": [
         "poppel-1997",
-        "bergson-essai"
+        "bergson-essai",
+        "hirai-2022",
+        "taniguchi-hirai-2021"
       ],
       "figures": [
         "assets/illustrations/02-a-too-fast-too-slow.svg",
@@ -82,7 +85,9 @@
       "sources": [
         "helmholtz",
         "clark-2013",
-        "bergson-ec"
+        "bergson-ec",
+        "hirai-2022",
+        "hirai-2019"
       ],
       "figures": [
         "assets/illustrations/03-a-generative-model-loop.svg",
@@ -103,7 +108,9 @@
       "sources": [
         "jennings-1906",
         "bergson-ec",
-        "bergson-mm"
+        "bergson-mm",
+        "hirai-2019",
+        "hirai-2022"
       ],
       "figures": [
         "assets/illustrations/04-a-reflex-vs-deliberation.svg",
@@ -124,7 +131,9 @@
       "path": "chapters/05-mind-is-made-of-memory.md",
       "sources": [
         "bergson-mm",
-        "bartlett-1932"
+        "bartlett-1932",
+        "hirai-2022",
+        "hirai-2025"
       ],
       "figures": [
         "assets/illustrations/05-a-warehouse-vs-construction.svg",
@@ -146,7 +155,11 @@
         "bergson-essai",
         "husserl-zeit",
         "comrie-1976",
-        "poppel-1997"
+        "poppel-1997",
+        "hirai-2022",
+        "hirai-2024",
+        "taniguchi-hirai-2021",
+        "hirai-2019-slud"
       ],
       "figures": [
         "assets/illustrations/06-a-car-motion.svg",
@@ -175,7 +188,8 @@
         "iliff-2012",
         "anastassiou-2011",
         "friston-2010",
-        "von-foerster-2003"
+        "von-foerster-2003",
+        "hirai-2022"
       ],
       "figures": [
         "assets/illustrations/07-a-cell-boundary.svg",
@@ -200,7 +214,14 @@
         "takahashi-2017",
         "bergson-mm",
         "husserl-zeit",
-        "block-zakay-1997"
+        "block-zakay-1997",
+        "hirai-2022",
+        "imono-2023",
+        "hirai-2019",
+        "taniguchi-hirai-2021",
+        "hirai-2026-ajp",
+        "hirai-2026-kodansha",
+        "hirai-2023-bloomsbury"
       ],
       "figures": [
         "assets/illustrations/08-a-two-scales.svg",

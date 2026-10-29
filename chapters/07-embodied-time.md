@@ -140,7 +140,7 @@
 
 私たちが一つの身体として存在しているのは、これらの異なる時間尺度の過程が相互に調整されているからである。
 
-ここで、第2回に扱った時間スケールギャップの問題が再び現れる。
+ここで、第2回に扱った時間スケールギャップの問題が再び現れる。[^hirai-2022]
 
 異なる時間尺度で動作するシステムは、どのように情報を交換し、互いの状態へ影響を与えているのだろうか。
 
@@ -694,6 +694,7 @@
 [^anastassiou-2011]: Costas A. Anastassiou, Rodrigo Perin, Henry Markram, Christof Koch（2011）. [Ephaptic coupling of cortical neurons](https://doi.org/10.1038/nn.2727)。Nature Neuroscience 14。シナプスを介さない細胞外電場による神経細胞間の相互作用。
 [^friston-2010]: Karl Friston（2010）. [The free-energy principle: a unified brain theory?](https://doi.org/10.1038/nrn2787)。Nature Reviews Neuroscience 11。自由エネルギー原理の概説。能動的推論の枠組みにつながる。
 [^von-foerster-2003]: Heinz von Foerster（2003）. [Understanding Understanding: Essays on Cybernetics and Cognition](https://doi.org/10.1007/b97451)。Springer。観察者をシステムの一部として扱うセカンドオーダー・サイバネティクスの論集。
+[^hirai-2022]: 平井靖史（2022）. [世界は時間でできている ── ベルクソン時間哲学入門](https://www.seidosha.co.jp/book/index.php?id=3708)。青土社。ベルクソンの時間哲学を「マルチ時間スケール（MTS）解釈」として再構成した入門書。本連載の骨格 ── 複数の時間スケールの積層、階層0〜3、時間的粗視化（凝縮）、幅のある現在、未完了相、意識の遅延テーゼ ── はこの本に由来する。
 
 <!-- NAV:BOTTOM -->
 ---
